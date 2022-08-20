@@ -1,14 +1,14 @@
 <template>
-  <div class="white">
+  <div class="">
     <div>
-      <div class="bgyellow">
-        <div class="w-90 m-auto">
+      <div class=" bg-pattern-img">
+        <div class="w-95 m-auto height-of-hero-page">
           <!-- intro page -->
           <div class="row py-4 fontneubold text-weight">
-            <div class="col-7 col-sm-7 col-lg-7 col-xl-7">
+            <div class="col-6 col-sm-6 col-lg-6 col-xl-6">
               <!-- fake div and h1 tag -->
-              <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
-              <h2 class="fontreg1 paragraph-height mx-5 fs-350 text-white-50">
+              <h2 class="fontreg1 fs-550 fake-tag-color ">&#8249;div&#8250;</h2>
+              <h2 class="fontreg1 paragraph-height mx-5 fs-350 fake-tag-color">
                 &#8249;h1&#8250;
               </h2>
               <h1 class="text-weight mx-5">
@@ -18,12 +18,12 @@
                 <br />
                 User experience
               </h1>
-              <h2 class="fontreg1 paragraph-height mx-5 fs-350 text-white-50">
+              <h2 class="fontreg1 paragraph-height mx-5 fs-350 fake-tag-color">
                 &#8249;h1 /&#8250;
               </h2>
               <!-- a little intro about what i do -->
               <div>
-                <h2 class="fontreg1 mx-5 fs-350 text-white-50">
+                <h2 class="fontreg1 mx-5 fs-350 fake-tag-color">
                   &#8249;p&#8250;
                 </h2>
 
@@ -43,7 +43,7 @@
                   scalable product is my forte
                 </p>
 
-                <h2 class="fontreg1 mx-5 fs-350 text-white-50">
+                <h2 class="fontreg1 mx-5 fs-350 fake-tag-color">
                   &#8249;p /&#8250;
                 </h2>
               </div>
@@ -51,26 +51,14 @@
               <!-- fake div and h1 tag -->
               <div class="c">
                 <br />
-                <h2 class="fontreg1 mt-0 fs-550 text-white-50">
+                <h2 class="fontreg1 mt-0 fs-550 fake-tag-color">
                   &#8249;div /&#8250;
                 </h2>
               </div>
             </div>
-            <!-- image of my page -->
-            <div class="col-5 col-sm-5 col-lg-5 col-xl-5">
-              <div class="position-relative">
-                <div class="image-intro ">
-                  <img
-                    src="../../src/assets/images/bgg.png"
-                    alt=""
-                    class="w-160"
-                  />
-                </div>
-              </div>
-            </div>
           </div>
 
-          <!-- lets talk button -->
+          <!-- lets talk button
           <div class="position-relative">
             <div class="intro-marg-button">
               <button
@@ -84,7 +72,7 @@
                 />
               </button>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- About and skills -->
@@ -106,7 +94,7 @@
 <script>
 import Contacts from "@/components/contacts.vue";
 import Works from "@/components/projects.vue";
-import About from "@/components/About.vue";
+import About from "@/components/about/About.vue";
 export default {
   components: {
     Contacts,
@@ -124,13 +112,17 @@ export default {
   
 } */
 /* hero image */
-.image-intro {
+/* .image-intro {
   position: absolute;
   top: -3rem;
   bottom: 0;
   left: 0rem;
   right:5rem;
-}
+} */
+/* intro image height */
+/* .height-of-hero-page {
+  height: 85vh !important;
+} */
 .text-weight {
   font-weight: 900 !important;
   font-size: 4.5rem;
@@ -163,5 +155,14 @@ div.c {
 /* contacts margin */
 .contacts-space {
   margin: 0 !important;
+}
+.bg-pattern-img {
+  background-image: url(@/assets/images/Shape.png);
+  background-color:#05d69a ;
+  color: #162120;
+}
+/* fake tag color */
+.fake-tag-color{
+  color: #162120;
 }
 </style>

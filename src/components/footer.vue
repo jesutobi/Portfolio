@@ -1,5 +1,5 @@
 <template>
-  <div class="fontreg w-90 m-auto">
+  <div class="fontreg footer-pos w-90 m-auto">
     <div class="border-top mt-3 w-100 border-2 border-dark">
       <div class="d-flex align-items-center justify-content-between">
         <!-- copyright -->
@@ -42,5 +42,6 @@ export default {};
 </script>
 
 <style scoped>
+
 
 </style>

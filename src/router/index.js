@@ -4,6 +4,9 @@ import Skills from "@/views/skills.vue";
 import Projects from "@/components/projects.vue";
 import Testimonials from "@/views/testimonials.vue";
 import Contacts from "@/components/contacts.vue";
+import ViewM from "@/components/about/resume";
+import Abt from "@/components/about/About.vue";
+
 // import About from "@/views/about.vue";
 
 const routes = [
@@ -12,7 +15,10 @@ const routes = [
   { path: "/projects", name: "Projects", component: Projects },
   { path: "/testimonials", name: "Testimonials", component: Testimonials },
   { path: "/contacts", name: "Contacts", component: Contacts },
-  // { path: "/about", name: "about", component: About },
+  { path: "/about/resume", name: "viewM", component: ViewM },
+  { path: "/about/About", name: "Abt", component: Abt },
+
+  // { path: "/about", name: "about", component: About },e
 ];
 
 const router = createRouter({

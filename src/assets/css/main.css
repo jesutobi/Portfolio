@@ -61,15 +61,19 @@
 :root {
   /* color variable */
   --clr-white: rgb(255, 255, 255);
-  --clr-white1: rgb(243, 241, 241);
-  --clr-white2: rgb(248, 248, 248);
+  --clr-white1: rgb(212, 207, 207);
+  --clr-white2: rgb(238, 238, 238);
   --clr-black: black;
   --clr-purp: rgba(214, 200, 0, 0.836);
+  --clr-green: rgb(5, 214, 154);
+  --clr-green2: #162120;
+  --clr-tuscany: rgb(195, 162, 158);
  
 
   /* font-sizes variable */
   --fs-900: 9.375rem;
   --fs-800: 6.25rem;
+  --fs-750: 4rem;
   --fs-700: 3.5rem;
   --fs-600: 2.5rem;
   --fs-580: 2.3rem;
@@ -177,6 +181,12 @@
 .yellow {
   color: var(--clr-purp) !important ;
 }
+.green {
+  color: var(--clr-green) !important ;
+}
+.green2 {
+  color: var(--clr-green2) !important ;
+}
 
 /*background color*/
 .bgwhite {
@@ -191,6 +201,12 @@
 .bgblack {
   background-color: var(--clr-black) !important ;
 }
+.bggreen {
+  background-color: var(--clr-green) !important ;
+}
+.bggreen2 {
+  background-color: var(--clr-green2) !important ;
+}
 .bgyellow {
 
 /* background-color: #63d471;
@@ -204,15 +220,15 @@ background-image: linear-gradient(315deg, #118686 0%, #380036 50%); */
 background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
 /* background-color: #29539b;
 background-image: linear-gradient(315deg, #223452 0%, #1e3b70 74%); */
-/* background-color: #310e68;
-background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%); */
+background-color: #310e68;
+background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
 /* background-color: #1b2845;
 background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%); */
-background-color: #1b2845;
-background-image: linear-gradient(315deg, #0d0d14 0%, #092447 74%);
-
-/* background-color: #306844;
-background-image: linear-gradient(314deg, #306844 0%, #2c4c3b 74%); */
+/* background-color: #1b2845;
+background-image: linear-gradient(315deg, #0d0d14 0%, #092447 74%); */
+/* 
+background-color:#f6eae8;
+background-image: linear-gradient(314deg, #f6eae8 0%, #f6eae8 74%); */
 
 }
 /* font - size */
@@ -266,6 +282,9 @@ background-image: linear-gradient(314deg, #306844 0%, #2c4c3b 74%); */
 }
 .fs-700 {
   font-size: var(--fs-700) !important;
+}
+.fs-750 {
+  font-size: var(--fs-750) !important;
 }
 .fs-800 {
   font-size: var(--fs-800) !important;
