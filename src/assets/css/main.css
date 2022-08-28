@@ -61,11 +61,13 @@
 :root {
   /* color variable */
   --clr-white: rgb(255, 255, 255);
-  --clr-white1: rgb(212, 207, 207);
+  --clr-white1: #acdbce3f;
   --clr-white2: rgb(238, 238, 238);
   --clr-black: black;
+
   --clr-purp: rgba(214, 200, 0, 0.836);
-  --clr-green: rgb(5, 214, 154);
+  --clr-green: #06D599;
+  --clr-green3: #273a38;
   --clr-green2: #162120;
   --clr-tuscany: rgb(195, 162, 158);
  
@@ -187,6 +189,9 @@
 .green2 {
   color: var(--clr-green2) !important ;
 }
+.green3 {
+  color: var(--clr-green3) !important ;
+}
 
 /*background color*/
 .bgwhite {
@@ -206,6 +211,9 @@
 }
 .bggreen2 {
   background-color: var(--clr-green2) !important ;
+}
+.bggreen3 {
+  background-color: var(--clr-green3) !important ;
 }
 .bgyellow {
 
@@ -536,3 +544,4 @@ background-image: linear-gradient(314deg, #f6eae8 0%, #f6eae8 74%); */
   max-width: 100% !important;
   margin: auto !important;
 }
+

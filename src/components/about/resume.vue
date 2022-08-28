@@ -1,5 +1,6 @@
 <template>
   <div class="fontneubold green2 w-95 m-auto" id="printMe">
+    <Preload />
     <!-- print button -->
     <div v-print="'#printMe'" class="text-end m-5">
       <span>Print Resume</span>
@@ -84,6 +85,7 @@
 
 <script>
 import print from "vue3-print-nb";
+import Preload from "@/components/pageloader.vue";
 
 import exp from "@/json/experience.json";
 import role from "@/json/skills.json";
@@ -96,6 +98,9 @@ export default {
   },
   directives: {
     print,
+  },
+  components: {
+    Preload
   },
 };
 </script>
