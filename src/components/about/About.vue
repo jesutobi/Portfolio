@@ -1,11 +1,10 @@
 <template>
   <div>
-    
     <div class="bg-color-second-div position-relative">
       <div>
         <h1 class="bgContactab fw-bold">About</h1>
       </div>
-      <div class="fontneubold white w-95 m-auto">
+      <div class="fontneubold white mob-width">
         <div class="row about-space position-relative">
           <!-- about -->
           <div class="col-6 col-xl-6 col-lg-6">
@@ -49,11 +48,7 @@
             </div>
             <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
             <!-- about -->
-            <router-link
-              to="/about/resume"
-              class="contact-button py-2"
-             
-            >
+            <router-link to="/about/resume" class="contact-button py-2">
               <div class="">
                 <span class="bg"></span>
                 <span class="base"></span>
@@ -74,11 +69,8 @@
 </template>
 
 <script>
-import Preload from "@/components/pageloader.vue";
 export default {
-  components: {
-    Preload,
-  },
+  components: {},
   data: () => {
     return {
       show: false,
@@ -102,7 +94,6 @@ export default {
     };
   },
   methods: {
- 
     typeText() {
       if (this.charIndex < this.typeArray[this.typeArrayIndex].length) {
         if (!this.typeStatus) this.typeStatus = true;
@@ -235,5 +226,17 @@ export default {
 }
 .about-text-font-size {
   font-size: 1.1rem !important;
+}
+.mob-width {
+  max-width: 95%;
+  margin: auto;
+}
+@media (min-width: 1410px) {
+  .mob-width {
+    max-width: 1250px !important;
+  }
+  .max2 {
+    max-width: 100% !important;
+  }
 }
 </style>

@@ -1,8 +1,7 @@
 <template>
   <div>
     <div  style="height: 100vh" class="scroll">
-      <!-- loader -->
-      <Preload />
+     
       <Nav />
       <div>
         <router-link to="/"></router-link>
@@ -15,7 +14,7 @@
 </template>
 
 <script>
-import Preload from "@/components/pageloader.vue";
+// import Preload from "@/components/pageloader.vue";
 import Nav from "@/components/navbar.vue";
 import Footer from "@/components/footer.vue";
 export default {
@@ -27,7 +26,7 @@ export default {
   components: {
     Nav,
     Footer,
-    Preload,
+    // Preload,
   },
 };
 </script>

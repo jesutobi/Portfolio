@@ -3,7 +3,7 @@
     <div>
       <!-- <h1 class="bgContact">Pro</h1> -->
     </div>
-    <div class="w-95 m-auto zi-of-content">
+    <div class="mob-width zi-of-content">
       <div class="row works-space">
         <div class="col-lg-3 col-xl-3 my-5">
           <!-- header -->
@@ -449,5 +449,17 @@ export default {
   z-index: 3000;
   left: 0;
   right: 0;
+}
+.mob-width {
+  max-width: 95%;
+  margin: auto;
+}
+@media (min-width: 1410px) {
+  .mob-width {
+    max-width: 1250px !important;
+  }
+  .max2 {
+    max-width: 100% !important;
+  }
 }
 </style>

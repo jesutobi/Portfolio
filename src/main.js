@@ -2,10 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import css from '../src/assets/css/main.css'
+import css from './assets/css/main.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
-
-// Vue.config.productionTip = false;
-
 createApp(App).use(store).use(router).mount("#app");

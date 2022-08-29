@@ -3,7 +3,7 @@
     <div class="fontneubold">
       <!-- container -->
       <div
-        class="d-flex w-95 pt-4 m-auto align-items-center justify-content-between"
+        class="d-flex mob-width pt-4  align-items-center justify-content-between"
       >
         <!-- logo -->
         <div>
@@ -26,7 +26,6 @@
           >
             {{ port.title }}
           </router-link>
-          <Toggle :mode="mode" @toggle="$emit('toggle')" />
         </div>
         <!-- <router-view></router-view> -->
       </div>
@@ -35,7 +34,6 @@
 </template>
 
 <script>
-import Toggle from "@/components/toggle";
 export default {
   data() {
     return {
@@ -47,10 +45,8 @@ export default {
       ],
     };
   },
-  props: ["mode"],
-  components: {
-    Toggle,
-  },
+
+  components: {},
 };
 </script>
 
@@ -80,5 +76,30 @@ export default {
   animation-duration: 2s;
   border-radius: 0.3rem;
   padding: 0rem 0rem;
+}
+.mob-width {
+  max-width: 95%;
+  margin: auto;
+}
+@media (min-width: 1410px) {
+  .mob-width {
+    max-width: 1250px !important;
+  }
+  .max2 {
+    max-width: 100% !important;
+  }
+}
+
+.mob-width {
+  max-width: 95%;
+  margin: auto;
+}
+@media (min-width: 1410px) {
+  .mob-width {
+    max-width: 1250px !important;
+  }
+  .max2 {
+    max-width: 100% !important;
+  }
 }
 </style>

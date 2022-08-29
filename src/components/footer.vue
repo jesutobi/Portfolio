@@ -1,5 +1,5 @@
 <template>
-  <div class="fontreg footer-pos w-90 m-auto">
+  <div class="fontreg footer-pos mob-width">
     <div class="border-top mt-3 w-100 border-2 border-dark">
       <div class="d-flex align-items-center justify-content-between">
         <!-- copyright -->
@@ -20,16 +20,24 @@
         <!-- socials -->
         <div class="d-flex align-items-center">
           <div>
-            <span><img src="@/assets/icon/instagram.png" alt="" class="mx-3" /></span>
+            <span
+              ><img src="@/assets/icon/instagram.png" alt="" class="mx-3"
+            /></span>
           </div>
           <div>
-            <span><img src="@/assets/icon/linkedin.png" alt="" class="mx-3"/></span>
+            <span
+              ><img src="@/assets/icon/linkedin.png" alt="" class="mx-3"
+            /></span>
           </div>
           <div>
-            <span><img src="@/assets/icon/twitter.png" alt="" class="mx-3"/></span>
+            <span
+              ><img src="@/assets/icon/twitter.png" alt="" class="mx-3"
+            /></span>
           </div>
           <div>
-            <span><img src="@/assets/icon/github.png" alt="" class="mx-3"/></span>
+            <span
+              ><img src="@/assets/icon/github.png" alt="" class="mx-3"
+            /></span>
           </div>
         </div>
       </div>
@@ -42,6 +50,16 @@ export default {};
 </script>
 
 <style scoped>
-
-
+.mob-width {
+  max-width: 95%;
+  margin: auto;
+}
+@media (min-width: 1410px) {
+  .mob-width {
+    max-width: 1250px !important;
+  }
+  .max2 {
+    max-width: 100% !important;
+  }
+}
 </style>

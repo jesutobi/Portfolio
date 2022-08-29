@@ -2,7 +2,7 @@
   <div>
     <div class="contact-bg fontneubold bggreen3 position-relative">
       <!-- <Preload /> -->
-      <div class="w-95 m-auto">
+      <div class="mob-width">
         <!-- fake div and h1 tag -->
 
         <div class="">
@@ -104,11 +104,8 @@
 </template>
 
 <script>
-import Preload from "@/components/pageloader.vue";
 export default {
-  components: {
-    Preload,
-  },
+  components: {},
   data: () => {
     return {
       typeValue: "",
@@ -303,5 +300,17 @@ input:focus {
 textarea:focus {
   outline: none !important;
   color: white !important;
+}
+.mob-width {
+  max-width: 95%;
+  margin: auto;
+}
+@media (min-width: 1410px) {
+  .mob-width {
+    max-width: 1250px !important;
+  }
+  .max2 {
+    max-width: 100% !important;
+  }
 }
 </style>

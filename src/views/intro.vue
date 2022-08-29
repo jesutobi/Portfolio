@@ -2,11 +2,11 @@
   <div class="">
     <div>
       <div class="bg-pattern-img">
-        <div class="w-95 m-auto height-of-hero-page">
+        <div class="mob-width height-of-hero-page">
           <!-- intro page -->
           <div class="row py-4 fontneubold text-weight">
             <div
-              class="col-6 col-sm-6 col-lg-6 col-xl-6 animate__animated animate__bounceInLeft "
+              class="col-6 col-sm-6 col-lg-6 col-xl-6 animate__animated animate__bounceInLeft"
             >
               <!-- fake div and h1 tag -->
               <h2 class="fontreg1 fs-550 fake-tag-color">&#8249;div&#8250;</h2>
@@ -313,5 +313,17 @@ div.c {
   bottom: 0;
   left: 6rem;
   right: 0;
+}
+.mob-width {
+  max-width: 95%;
+  margin: auto;
+}
+@media (min-width: 1410px) {
+  .mob-width {
+    max-width: 1250px !important;
+  }
+  .max2 {
+    max-width: 100% !important;
+  }
 }
 </style>
