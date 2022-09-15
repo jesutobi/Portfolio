@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="contact-bg fontneubold bggreen3 position-relative">
+    <div class="contact-bg fontneubold bggreen3">
       <!-- <Preload /> -->
       <div class="mob-width">
         <!-- fake div and h1 tag -->
@@ -15,11 +15,11 @@
           </h1>
         </div>
 
-        <div class="">
+        <div class="overbg position-relative">
           <form
             action="https://www.actionforms.io/e/r/jesutobi"
             method="post"
-            class="overbg"
+            class=""
           >
             <!-- name -->
             <div class="d-flex align-items-center justify-content-center">
@@ -93,9 +93,9 @@
             <img src="@/assets/icon/mail.png" alt="">
           </div> -->
           <!-- </div> -->
-        </div>
-        <div>
-          <h1 class="bgContact">Contac</h1>
+          <div class="bgContactheight">
+            <h1 class="bgContact">Contac</h1>
+          </div>
         </div>
       </div>
       <!-- fp -->
@@ -163,19 +163,22 @@ export default {
 
 <style scoped>
 /*put form over background text */
-/* .overbg{
-  z-index: ;
-} */
+.overbg {
+  z-index: 30000;
+}
 /* background text */
 .bgContact {
-  font-size: 25rem !important;
+  font-size: 24rem !important;
   color: rgba(105, 105, 105, 0.199) !important;
   position: absolute;
-  z-index: 0 !important;
-  /* top: 7rem; */
-  left: 0;
-  bottom: -6.5rem;
+  z-index: -1 !important;
+  top: 0;
+  /* left: 0; */
+  bottom: 0rem;
 }
+/* .bgContactheight{
+  height:10vh !important;
+} */
 /* projects button */
 .contact-button {
   text-decoration: none;
@@ -274,7 +277,7 @@ export default {
   background-size: contain;
   background-repeat: no-repeat;
   color: white;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 4rem 0rem;
 }
 /* project header */

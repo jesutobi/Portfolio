@@ -30,7 +30,7 @@
         <div class="col-lg-3 col-xl-3 position-relative">
           <!-- project card -->
           <div
-            class="bord-button2 mt-5 second-position"
+            class="bord-button2 projectanima mt-5 second-position"
             @click="removeFirstCard"
           >
             <div class="d-flex justify-content-between mt-2">
@@ -72,14 +72,14 @@
         <!-- third project -->
         <div class="col-lg-3 col-xl-3 position-relative">
           <!-- project card -->
-          <div class="bord-button2 mt-5 third-position">
+          <div class="bord-button2 projectanima mt-5 third-position">
             <div class="d-flex justify-content-between mt-2">
               <div class="">
-                <span class="fs-450">Project A</span>
+                <!-- <span class="fs-450">Project A</span>
+                <br /> -->
+                <span class="fs-500">House Finder</span>
                 <br />
-                <span class="fs-450"> Ecommerce platform </span>
-                <br />
-                <span class="fs-150"> a website</span>
+                <span class="fs-150"> Real Estate </span>
               </div>
               <!-- open icon -->
               <div>
@@ -97,10 +97,10 @@
             >
               <!-- <span class="bgwhite"></span> -->
               <div
-                class="d-flex justify-content-center align-items-center py-3"
+                class="d-flex justify-content-center logo-marg align-items-center py-3"
               >
                 <img
-                  src="@/assets/icon/facebook.png"
+                  src="@/assets/icon/housefinderLogo.fa8ea49c.png"
                   alt=""
                   style="width: 180px"
                 />
@@ -111,14 +111,18 @@
         <!-- fourth project -->
         <div class="col-lg-3 col-xl-3 position-relative">
           <!-- project card -->
-          <div class="bord-button2 mt-5 forth-position">
+          <div
+            class="bord-button2 projectanima mt-5 forth-position"
+            @click="removeFirstCard"
+          >
             <div class="d-flex justify-content-between mt-2">
               <div class="">
-                <span class="fs-450">Project A</span>
+                <span class="fs-500">
+                  Buildings and <br />
+                  More Limited
+                </span>
                 <br />
-                <span class="fs-450"> Ecommerce platform </span>
-                <br />
-                <span class="fs-150"> a website</span>
+                <span class="fs-150"> An Ecommerce website</span>
               </div>
               <!-- open icon -->
               <div>
@@ -133,40 +137,35 @@
             <!-- image of project -->
             <div
               style="width: 280px; height: 200px"
-              class="bgwhite2 border rounded"
+              class="bgwhite border rounded"
             >
               <!-- <span class="bgwhite"></span> -->
               <div
-                class="d-flex justify-content-center align-items-center py-3"
+                class="d-flex justify-content-center logo-marg align-items-center py-3"
               >
-                <img
-                  src="@/assets/icon/facebook.png"
-                  alt=""
-                  style="width: 180px"
-                />
+                <img src="@/assets/icon/Baml.png" alt="" style="width: 180px" />
               </div>
             </div>
             <!-- view more -->
-            <nuxt-link to="">
+            <router-link to="/viewMore">
               <div class="position-relative">
                 <div class="view-marg-button w-100">
                   <a href="#" class="contact-button py-2">
                     <div class="">
                       <span class="bg"></span>
                       <span class="base"></span>
-                      <span class="text fw-bold"> Lets Build </span>
+                      <span class="text fw-bold"> View more </span>
                     </div>
                   </a>
                 </div>
               </div>
-            </nuxt-link>
+            </router-link>
+            <router-view></router-view>
           </div>
         </div>
       </div>
     </div>
-    <div>
-      <h1 class="bgContact2">Proje</h1>
-    </div>
+
     <div class="" v-if="showfirst">
       <span
         @click="removeFirst"
@@ -191,26 +190,36 @@
               alt=""
             />
           </swiper-slide>
-          <swiper-slide class="bggreen text-center">
-            <h1>Buildings and More</h1>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
-            animi modi labore. Suscipit doloremque, asperiores facilis, quo,
-            aliquam nesciunt voluptates excepturi quae enim fugit deserunt ipsam
-            voluptatum aperiam reprehenderit? Atque esse ipsa saepe maiores,
-            temporibus voluptates! Architecto asperiores eveniet odio explicabo
-            molestias quis accusantium accusamus, nostrum dolorum blanditiis
-            laudantium, voluptatibus nesciunt reiciendis, sint possimus quisquam
-            non iste pariatur. Perspiciatis minima excepturi aliquam nesciunt,
-            expedita nihil ex optio voluptates, quod maxime, saepe rerum ab
-            ipsum placeat officia! Praesentium hic id doloribus molestias ab
-            officia pariatur labore, eum vero cupiditate totam itaque
-            consequatur veritatis consequuntur quod dolorem deserunt quibusdam
-            quos odio cumque?</swiper-slide
-          >
+          <swiper-slide class="bggreen2 text-center">
+            <h1 class="py-3 green">Buildings and More</h1>
+            <p class="p-3 project-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
+              animi modi labore. Suscipit doloremque, asperiores facilis, quo,
+              aliquam nesciunt voluptates excepturi quae enim fugit deserunt
+              ipsam voluptatum aperiam reprehenderit? Atque esse ipsa saepe
+              maiores, temporibus voluptates! Architecto asperiores eveniet odio
+              explicabo molestias quis accusantium accusamus, nostrum dolorum
+              blanditiis laudantium, voluptatibus nesciunt reiciendis, sint
+              possimus quisquam non iste pariatur. Perspiciatis minima excepturi
+              aliquam nesciunt, expedita nihil ex optio voluptates, quod maxime,
+              saepe rerum ab ipsum placeat officia! Praesentium hic id doloribus
+              molestias ab officia pariatur labore, eum vero cupiditate totam
+              itaque consequatur veritatis consequuntur quod dolorem deserunt
+              quibusdam quos odio cumque?
+            </p>
+            <p>
+              <a class="text-reset" href="https://buildingsandmore.ng/"
+                >visit site</a
+              >
+            </p>
+          </swiper-slide>
 
           ...
         </swiper>
       </div>
+    </div>
+    <div>
+      <h1 class="bgContact2">Proje</h1>
     </div>
   </div>
 </template>
@@ -299,6 +308,18 @@ export default {
 </script>
 
 <style scoped>
+/* projects animation */
+.projectanima:hover {
+  animation: pulse;
+  animation-duration: 2s;
+}
+/* about project */
+.project-text {
+  text-align: justify !important;
+}
+.logo-marg {
+  margin: 4rem 0rem !important;
+}
 /* z index of contact */
 .zi-of-content {
   z-index: -5000 !important;
@@ -386,17 +407,17 @@ export default {
 .second-position {
   position: absolute;
   top: 3.3rem;
-  z-index: 5000 !important;
+  z-index: 1 !important;
 }
 .third-position {
   position: absolute;
   top: 0.2rem;
-  z-index: 5000 !important;
+  z-index: 1 !important;
 }
 .forth-position {
   position: absolute;
   top: -2.7rem;
-  z-index: 5000 !important;
+  z-index: 1 !important;
 }
 /* projects space */
 .works-space {

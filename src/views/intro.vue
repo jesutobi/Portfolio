@@ -59,18 +59,20 @@
             </div>
             <!-- lets build -->
           </div>
-          <a href="#" class="contact-button py-2">
-            <div class="">
-              <span class="bg"></span>
-              <span class="base"></span>
-              <span class="text fw-bold"> Lets Build </span>
-            </div>
-          </a>
+          <router-link to="/contacts">
+            <a href="#" class="contact-button py-2">
+              <div class="">
+                <span class="bg"></span>
+                <span class="base"></span>
+                <span class="text fw-bold"> Lets Build </span>
+              </div>
+            </a>
+          </router-link>
         </div>
       </div>
       <!-- About and skills -->
-      <div>
-        <About />
+      <div class="">
+        <About  />
       </div>
       <!-- work component -->
       <div>
@@ -259,9 +261,9 @@ h1 {
   right:5rem;
 } */
 /* intro image height */
-/* .height-of-hero-page {
-  height: 85vh !important;
-} */
+//  .height-of-hero-page {
+//   height: 85vh !important;
+// }
 .text-weight {
   font-weight: 900 !important;
   font-size: 4.5rem;

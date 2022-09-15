@@ -209,7 +209,7 @@ export default {
     #162120 50%,
     #162120 100%
   );
-  height: 100vh !important;
+  /* height: 100vh !important; */
 }
 /* position of my image in about section */
 .my-position-image {
