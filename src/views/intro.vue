@@ -4,39 +4,51 @@
       <div class="bg-pattern-img">
         <div class="mob-width height-of-hero-page">
           <!-- intro page -->
-          <div class="row py-4 fontneubold text-weight">
+          <div class="row mobile-hero-width py-4 fontneubold text-weight">
             <div
-              class="col-6 col-sm-6 col-lg-6 col-xl-6 animate__animated animate__bounceInLeft"
+              class="col-6 col-sm-6 mobile-hero-width col-lg-6 col-xl-6 animate__animated animate__bounceInLeft"
             >
               <!-- fake div and h1 tag -->
               <h2 class="fontreg1 fs-550 fake-tag-color">&#8249;div&#8250;</h2>
-              <h2 class="fontreg1 paragraph-height mx-5 fs-350 fake-tag-color">
+              <h2
+                class="fontreg1 paragraph-height reduce_fake_margin mx-5 fs-350 fake-tag-color"
+              >
                 &#8249;h1&#8250;
               </h2>
-              <h1 class="text-weight intro-spacing mx-5">
+              <h1
+                class="text-weight reduce-hero-font-size disable-margin intro-spacing mx-5"
+              >
                 {{ typeValue }}
                 <span class="cursor" :class="{ typing: typeStatus }"
                   >&nbsp;</span
                 >
               </h1>
-              <h2 class="fontreg1 paragraph-height mx-5 fs-350 fake-tag-color">
+              <h2
+                class="fontreg1 reduce_fake_margin paragraph-height mx-5 fs-350 fake-tag-color"
+              >
                 &#8249;h1 /&#8250;
               </h2>
               <!-- a little intro about what i do -->
               <div>
-                <h2 class="fontreg1 mx-5 fs-350 fake-tag-color">
+                <h2
+                  class="fontreg1 mx-5 reduce_fake_margin fs-350 fake-tag-color"
+                >
                   &#8249;p&#8250;
                 </h2>
 
-                <p class="fs-350 brief-text fontreg mx-5">
+                <p
+                  class="fs-350 reduce-mini-intro-text-hero brief-text disable-margin mobile-hero-width fontreg mx-5"
+                >
                   <img
                     src="../../src/assets/icon/minus-horizontal-straight-line.png"
                     alt=""
                   />
-                  Hello there , i am a Front-end developer
+                  Hello there , <br />
+                  i am a Front-end developer.
                   <img
                     src="../../src/assets/icon/minus-horizontal-straight-line.png"
                     alt=""
+                    class="not-on-mobile"
                   />
                   <br />
                   Creating a long lasting impression on the mind of a user and a
@@ -44,14 +56,16 @@
                   scalable product is my forte
                 </p>
 
-                <h2 class="fontreg1 mx-5 fs-350 fake-tag-color">
+                <h2
+                  class="fontreg1 reduce_fake_marginp mx-5 fs-350 fake-tag-color"
+                >
                   &#8249;p /&#8250;
                 </h2>
               </div>
 
               <!-- fake div and h1 tag -->
-              <div class="c">
-                <br />
+              <div class="c ">
+                <br class="not-on-mobile"/>
                 <h2 class="fontreg1 mt-0 fs-550 fake-tag-color">
                   &#8249;div /&#8250;
                 </h2>
@@ -59,20 +73,22 @@
             </div>
             <!-- lets build -->
           </div>
-          <router-link to="/contacts">
-            <a href="#" class="contact-button py-2">
-              <div class="">
-                <span class="bg"></span>
-                <span class="base"></span>
-                <span class="text fw-bold"> Lets Build </span>
-              </div>
-            </a>
-          </router-link>
+          <div class="pb-3 px-2" role="button">
+            <router-link to="/contacts">
+              <a href="#" class="contact-button mob-contact-button py-2">
+                <div class="">
+                  <span class="bg"></span>
+                  <span class="base"></span>
+                  <span class="text fw-bold"> Lets Build </span>
+                </div>
+              </a>
+            </router-link>
+          </div>
         </div>
       </div>
       <!-- About and skills -->
       <div class="">
-        <About  />
+        <About />
       </div>
       <!-- work component -->
       <div>
@@ -172,6 +188,26 @@ h1 {
   }
   span.cursor.typing {
     animation: none;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 6rem;
+    font-weight: normal;
+    span.typed-text {
+      color: #d2b94b;
+    }
+    span.cursor {
+      display: inline-block;
+      margin-left: 3px;
+      width: 4px;
+      height: 5vh !important;
+      background-color: #162120;
+      animation: cursorBlink 1s infinite;
+    }
+    span.cursor.typing {
+      animation: none;
+    }
   }
 }
 @keyframes cursorBlink {
@@ -327,5 +363,105 @@ div.c {
   .max2 {
     max-width: 100% !important;
   }
+}
+@media (max-width: 576px) {
+  .mobile-hero-width {
+    width: 100% !important;
+  }
+  .reduce-hero-font-size {
+    font-size: 3rem !important;
+    padding: 0.5rem 1.4rem;
+  }
+  .disable-margin {
+    margin: unset !important;
+  }
+  // hero cursor
+  cursor {
+    display: inline-block;
+    margin-left: 3px;
+    width: 4px;
+    height: 2vh !important;
+    background-color: #162120;
+    animation: cursorBlink 1s infinite;
+  }
+  .intro-spacing {
+    word-spacing: 0.5rem !important;
+    line-height: 4rem !important;
+  }
+  // reduce fake text margin
+  .reduce_fake_margin {
+    margin: unset !important;
+    padding: 1rem;
+  }
+  .reduce_fake_marginp {
+    margin: unset !important;
+    padding: 1rem 1rem 0rem 1rem;
+  }
+  .reduce-mini-intro-text-hero {
+    padding: 0rem 1rem !important;
+  }
+  .not-on-mobile {
+    display: none !important;
+  }
+  // lets build button
+  .contact-button {
+    text-decoration: none;
+    width: 100%;
+    /* max-width: 200px; */
+    height: 50px;
+    display: block;
+    // padding: 1rem;
+    // line-height: 50px;
+    /* letter-spacing: 3px; */
+    position: relative;
+    text-align: center;
+    color: #08fdd8;
+    /* margin-top: 50px; */
+  }
+  .contact-button div {
+    position: unset !important;
+
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .contact-button span.bg {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: -5px;
+    // top: 0;
+    transition: all 0.3s ease-in-out;
+    background-color: #162120;
+    transform: skewX(-19deg);
+  }
+  .contact-button:hover span.bg {
+    width: 110%;
+  }
+  .contact-button span.base {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border: 2px solid #162120;
+    box-sizing: border-box;
+  }
+  .contact-button span.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0.45rem !important;
+    color: #162120;
+    left: 0;
+    font-size: 1.1rem !important;
+  }
+  .contact-button:hover span.text {
+    color: white;
+  }
+  // close div in hero section
+  .mob-close-div {
+    margin: unset important;
+    padding: unset important;
+  }
+  
 }
 </style>

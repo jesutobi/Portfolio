@@ -2,12 +2,14 @@
   <div>
     <div class="bg-color-second-div position-relative">
       <div>
-        <h1 class="bgContactab fw-bold">About</h1>
+        <h1 class="bgContactab fw-bold">
+          Ab<span class="not-on-mobile"> out</span>
+        </h1>
       </div>
       <div class="fontneubold white mob-width">
-        <div class="row about-space position-relative">
+        <div class="row mob-abt-grid about-space position-relative">
           <!-- about -->
-          <div class="col-6 col-xl-6 col-lg-6">
+          <div class="col-xl-6 col-lg-6">
             <!-- fake div and h1 tag -->
             <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
 
@@ -15,39 +17,51 @@
               <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
                 &#8249;h1&#8250;
               </h2>
-              <h1 class="about-head-font-size">
-                {{ typeValue }}
-                <span class="cursor" :class="{ typing: typeStatus }"
-                  >&nbsp;</span
-                >
+              <h1 class="about-head-font-size reduce-title-font-size">
+                About me
               </h1>
               <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
                 &#8249;h1 /&#8250;
               </h2>
+            </div>
+            <!-- image -->
+            <div class="p-2 notindesktop">
+              <img src="@/assets/images/fig.png" alt="" class="w-100" />
             </div>
 
             <div>
               <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
                 &#8249;p&#8250;
               </h2>
-              <Article class="about-text-font-size">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-                vero, autem velit impedit cum optio hic eius vel alias animi
-                aliquid minima facilis magni doloribus quae. Unde numquam autem
-                non sapiente placeat modi perferendis hic itaque voluptatum
-                laudantium tempore libero vero quaerat explicabo necessitatibus,
-                corrupti harum, soluta, velit voluptates sint.
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                cupiditate ipsam at. Distinctio dolorum excepturi neque
-                necessitatibus omnis tenetur possimus?
-              </Article>
+              <div class="about-text-font-size">
+                <p class="">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+                  vero, autem velit impedit cum optio hic eius vel alias animi
+                  aliquid minima facilis magni doloribus quae. Unde numquam
+                  autem
+
+                  <br />
+
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+                  vero, autem velit impedit cum optio hic eius vel alias animi
+                  aliquid minima facilis magni doloribus quae. Unde numquam
+                  autem
+
+                  <br />
+
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+                  vero, autem velit impedit cum optio hic eius vel alias animi
+                  aliquid minima facilis magni doloribus quae. Unde numquam
+                  autem
+                </p>
+              </div>
               <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
                 &#8249;/p&#8250;
               </h2>
             </div>
             <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
             <!-- about -->
+            <div class="pb-3 px-2" role="button">
             <router-link to="/about/resume" class="contact-button py-2">
               <div class="">
                 <span class="bg"></span>
@@ -56,9 +70,10 @@
               </div>
             </router-link>
             <router-view></router-view>
+            </div>
           </div>
-          <div class="col-6 col-xl-6 col-lg-6">
-            <div class="my-position-image">
+          <div class="col-xl-6 col-lg-6">
+            <div class="not-on-mobile">
               <img src="@/assets/images/fig.png" alt="" class="w-85" />
             </div>
           </div>
@@ -78,7 +93,7 @@ export default {
       typeStatus: false,
       typeArray: [
         "About me",
-        "Software Engineer",
+        "Software dev",
         "<html>",
         "{css}",
         "(js)",
@@ -237,6 +252,78 @@ export default {
   }
   .max2 {
     max-width: 100% !important;
+  }
+}
+@media (max-width: 576px) {
+    .not-on-mobile {
+    display: none !important;
+  }
+  .contact-button div {
+  position: relative;
+  top: 0rem !important;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.contact-button {
+  text-decoration: none;
+  width: 100%;
+  /* max-width: 200px; */
+  height: 70px;
+  display: block;
+  line-height: 50px;
+  /* letter-spacing: 3px; */
+  position: relative;
+  text-align: center;
+  color: #08fdd8;
+  padding: ;
+  /* margin-top: 50px; */
+}
+  /* title */
+  .reduce-title-font-size {
+    font-size: 3rem !important;
+    padding: 0.5rem 1.4rem;
+  }
+  /* background text */
+  .bgContactab {
+    font-size: 15rem !important;
+    color: rgba(105, 105, 105, 0.199) !important;
+    position: absolute;
+    z-index: 0;
+    top: -4rem;
+
+    left: 0;
+  }
+  
+  .bg-color-second-div {
+    background: linear-gradient(
+      to right,
+      #273a38 0%,
+      #273a38 70%,
+      #273a38 0%,
+      #273a38 70%
+    ) !important;
+    /* height: 100vh !important; */
+  }
+  /* padding */
+  .about-space {
+    padding: 1rem 0rem !important;
+  }
+  .about-text-font-size {
+    padding: 0rem 1.4rem !important;
+    text-indent: 4px !important;
+    text-align: justify !important;
+  }
+  /* mobile about grid */
+  /* .mob-abt-grid{
+    display: block !important;
+  } */
+}
+@media(min-width:768px){
+.notindesktop {
+    display: none !important;
   }
 }
 </style>

@@ -5,7 +5,7 @@
     </div>
     <div class="mob-width zi-of-content">
       <div class="row works-space">
-        <div class="col-lg-3 col-xl-3 my-5">
+        <div class="col-lg-3 col-xl-3 my-5 cont-space">
           <!-- header -->
           <!-- fake div and h1 tag -->
           <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
@@ -14,8 +14,8 @@
             &#8249;h1&#8250;
           </h2>
           <h1 class="project-head-font-size">
-            {{ typeValue }}
-            <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
+            Recent Projects
+            
           </h1>
           <!-- fake div and h1 tag -->
           <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
@@ -474,6 +474,20 @@ export default {
 .mob-width {
   max-width: 95%;
   margin: auto;
+}
+@media (max-width:768px){
+  /* projects space */
+.works-space {
+  padding: 0rem 0rem !important;
+}
+/* project header */
+.project-head-font-size {
+   font-size: 3rem !important;
+    padding: 0rem 2rem !important;
+}
+.cont-space{
+  margin:1rem 0rem !important;
+}
 }
 @media (min-width: 1410px) {
   .mob-width {
