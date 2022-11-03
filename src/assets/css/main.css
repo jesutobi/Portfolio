@@ -16,7 +16,7 @@
   font-family: "Neue Haas Grotesk Display reg";
   src: url("../fonts/NeueHaasDisplay-Mediu.woff") format("woff");
   font-style: normal;
-  font-weight: lighter;
+  font-weight: lighter !important;
 }
 
 @font-face {

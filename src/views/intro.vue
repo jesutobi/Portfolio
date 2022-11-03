@@ -66,16 +66,16 @@
               <!-- fake div and h1 tag -->
               <div class="c ">
                 <br class="not-on-mobile"/>
-                <h2 class="fontreg1 mt-0 fs-550 fake-tag-color">
+                <h2 class="fontreg1  mt-0 fs-550 fake-tag-color">
                   &#8249;div /&#8250;
                 </h2>
               </div>
             </div>
             <!-- lets build -->
           </div>
-          <div class="pb-3 px-2" role="button">
+          <div class="pb-3 px-2 " role="button">
             <router-link to="/contacts">
-              <a href="#" class="contact-button mob-contact-button py-2">
+              <a href="#" class="contact-button  mob-contact-button py-2">
                 <div class="">
                   <span class="bg"></span>
                   <span class="base"></span>
@@ -227,6 +227,7 @@ h1 {
 // intro words spacing
 .intro-spacing {
   word-spacing: 1rem !important;
+
 }
 .contact-button {
   text-decoration: none;
@@ -328,7 +329,7 @@ div.c {
 }
 /* brief intro */
 .brief-text {
-  font-weight: 100 !important;
+  font-weight:  lighter !important;
 }
 /* contacts margin */
 .contacts-space {
@@ -365,11 +366,14 @@ div.c {
   }
 }
 @media (max-width: 576px) {
+  .lastfakediv{
+    margin: unset !important;
+  }
   .mobile-hero-width {
     width: 100% !important;
   }
   .reduce-hero-font-size {
-    font-size: 3rem !important;
+    font-size: 2.5rem !important;
     padding: 0.5rem 1.4rem;
   }
   .disable-margin {
@@ -386,12 +390,12 @@ div.c {
   }
   .intro-spacing {
     word-spacing: 0.5rem !important;
-    line-height: 4rem !important;
+    line-height: 3.4rem !important;
   }
   // reduce fake text margin
   .reduce_fake_margin {
     margin: unset !important;
-    padding: 1rem;
+    padding: 0.1rem;
   }
   .reduce_fake_marginp {
     margin: unset !important;
@@ -420,6 +424,8 @@ div.c {
   }
   .contact-button div {
     position: unset !important;
+    padding:unset !important;
+    margin:unset !important;
 
     overflow: hidden;
     transition: all 0.3s ease-in-out;

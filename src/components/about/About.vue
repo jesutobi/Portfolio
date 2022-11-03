@@ -2,8 +2,7 @@
   <div>
     <div class="bg-color-second-div position-relative">
       <div>
-        <h1 class="bgContactab fw-bold">
-          Ab<span class="not-on-mobile"> out</span>
+        <h1 class="bgContactab fw-bold"><span>Ab</span><span class="not-on-mobile"> out</span>
         </h1>
       </div>
       <div class="fontneubold white mob-width">
@@ -39,16 +38,12 @@
                   vero, autem velit impedit cum optio hic eius vel alias animi
                   aliquid minima facilis magni doloribus quae. Unde numquam
                   autem
-
                   <br />
-
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
                   vero, autem velit impedit cum optio hic eius vel alias animi
                   aliquid minima facilis magni doloribus quae. Unde numquam
                   autem
-
                   <br />
-
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
                   vero, autem velit impedit cum optio hic eius vel alias animi
                   aliquid minima facilis magni doloribus quae. Unde numquam
@@ -283,8 +278,8 @@ export default {
 }
   /* title */
   .reduce-title-font-size {
-    font-size: 3rem !important;
-    padding: 0.5rem 1.4rem;
+    font-size: 2.5rem !important;
+    padding: 0rem 1.4rem;
   }
   /* background text */
   .bgContactab {

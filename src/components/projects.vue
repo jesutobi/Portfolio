@@ -4,7 +4,7 @@
       <!-- <h1 class="bgContact">Pro</h1> -->
     </div>
     <div class="mob-width zi-of-content">
-      <div class="row works-space ">
+      <div class="row works-space">
         <div class="col-lg-3 col-xl-3 my-5 cont-space">
           <!-- header -->
           <!-- fake div and h1 tag -->
@@ -164,15 +164,54 @@
       <!-- slider for mobile -->
       <div class="not-on-desktop w-85 m-auto pt-2">
         <swiper
-          :navigation="true"
           :modules="modules"
           class="mySwiper"
-          
-          :slides-per-view="1"
-          :space-between="10"
+          :slides-per-view="1.1"
+          :space-between="25"
           @swiper="onSwiper"
           @slideChange="onSlideChange"
         >
+          <swiper-slide class="">
+            <div class="">
+              <!-- project card -->
+              <div class="bord-button2 projectanima" @click="removeFirstCard">
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="">
+                    <span class="fs-450">Project A</span>
+                    <br />
+                    <span class="fs-450"> Ecommerce platform </span>
+                    <br />
+                    <span class="fs-150"> a website</span>
+                  </div>
+                  <!-- open icon -->
+                  <div>
+                    <span
+                      ><img
+                        src="@/assets/icon/down-arrow.png"
+                        alt=""
+                        class="bggreen rounded-circle p-2"
+                    /></span>
+                  </div>
+                </div>
+                <!-- image of project -->
+                <div
+                  style="width: 280px; height: 200px"
+                  class="bgwhite2 border rounded"
+                >
+                  <!-- <span class="bgwhite"></span> -->
+                  <div
+                    class="d-flex justify-content-center align-items-center py-3"
+                  >
+                    <img
+                      src="@/assets/icon/facebook.png"
+                      alt=""
+                      style="width: 180px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
           <swiper-slide>
             <div class="">
               <!-- project card -->
@@ -215,7 +254,7 @@
             </div>
           </swiper-slide>
           <swiper-slide>
-            <div class="col-lg-3 col-xl-3">
+            <div class="">
               <!-- project card -->
               <div class="bord-button2 projectanima" @click="removeFirstCard">
                 <div class="d-flex justify-content-between mt-2">
@@ -255,47 +294,21 @@
               </div>
             </div>
           </swiper-slide>
-          <swiper-slide>
-            <div class="col-lg-3 col-xl-3">
-              <!-- project card -->
-              <div class="bord-button2 projectanima" @click="removeFirstCard">
-                <div class="d-flex justify-content-between mt-2">
+          <!-- view more -->
+          <router-link to="/viewMore">
+            <div class="">
+              <div class=" w-100">
+                <a href="#" class="contact-button py-2">
                   <div class="">
-                    <span class="fs-450">Project A</span>
-                    <br />
-                    <span class="fs-450"> Ecommerce platform </span>
-                    <br />
-                    <span class="fs-150"> a website</span>
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text fw-bold"> View more </span>
                   </div>
-                  <!-- open icon -->
-                  <div>
-                    <span
-                      ><img
-                        src="@/assets/icon/down-arrow.png"
-                        alt=""
-                        class="bggreen rounded-circle p-2"
-                    /></span>
-                  </div>
-                </div>
-                <!-- image of project -->
-                <div
-                  style="width: 280px; height: 200px"
-                  class="bgwhite2 border rounded"
-                >
-                  <!-- <span class="bgwhite"></span> -->
-                  <div
-                    class="d-flex justify-content-center align-items-center py-3"
-                  >
-                    <img
-                      src="@/assets/icon/facebook.png"
-                      alt=""
-                      style="width: 180px"
-                    />
-                  </div>
-                </div>
+                </a>
               </div>
             </div>
-          </swiper-slide>
+          </router-link>
+          <router-view></router-view>
 
           ...
         </swiper>
@@ -528,15 +541,7 @@ export default {
 .works-space {
   padding: 7.5rem 0rem !important;
 }
-/* view more button */
-.view-marg-button {
-  margin: 2rem 0rem 3.5rem 3.5rem !important ;
-  position: absolute;
-  top: 1.48rem;
-  bottom: 0;
-  left: 0rem;
-  right: 0;
-}
+
 .bord-button {
   border: 2px solid var(--clr-green) !important;
 }
@@ -587,17 +592,27 @@ export default {
   }
   /* project header */
   .project-head-font-size {
-    font-size: 3rem !important;
+    font-size: 2.5rem !important;
     padding: 0rem 2rem !important;
   }
   .cont-space {
     margin: 1rem 0rem !important;
   }
+  .contact-button div {
+  position: relative;
+  top: 0rem !important;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
 }
 @media (max-width: 576px) {
   .not-on-mobile {
     display: none !important;
   }
+
 }
 @media (min-width: 768px) {
   .not-on-desktop {
