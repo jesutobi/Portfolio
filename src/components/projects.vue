@@ -4,7 +4,7 @@
       <!-- <h1 class="bgContact">Pro</h1> -->
     </div>
     <div class="mob-width zi-of-content">
-      <div class="row works-space">
+      <div class="row works-space ">
         <div class="col-lg-3 col-xl-3 my-5 cont-space">
           <!-- header -->
           <!-- fake div and h1 tag -->
@@ -13,10 +13,7 @@
           <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
             &#8249;h1&#8250;
           </h2>
-          <h1 class="project-head-font-size">
-            Recent Projects
-            
-          </h1>
+          <h1 class="project-head-font-size">Recent Projects</h1>
           <!-- fake div and h1 tag -->
           <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
             &#8249;/h1&#8250;
@@ -27,7 +24,7 @@
         </div>
 
         <!-- second project -->
-        <div class="col-lg-3 col-xl-3 position-relative">
+        <div class="col-lg-3 col-xl-3 not-on-mobile position-relative">
           <!-- project card -->
           <div
             class="bord-button2 projectanima mt-5 second-position"
@@ -70,7 +67,7 @@
           </div>
         </div>
         <!-- third project -->
-        <div class="col-lg-3 col-xl-3 position-relative">
+        <div class="col-lg-3 col-xl-3 not-on-mobile position-relative">
           <!-- project card -->
           <div class="bord-button2 projectanima mt-5 third-position">
             <div class="d-flex justify-content-between mt-2">
@@ -109,7 +106,7 @@
           </div>
         </div>
         <!-- fourth project -->
-        <div class="col-lg-3 col-xl-3 position-relative">
+        <div class="col-lg-3 col-xl-3 not-on-mobile position-relative">
           <!-- project card -->
           <div
             class="bord-button2 projectanima mt-5 forth-position"
@@ -163,6 +160,145 @@
             <router-view></router-view>
           </div>
         </div>
+      </div>
+      <!-- slider for mobile -->
+      <div class="not-on-desktop w-85 m-auto pt-2">
+        <swiper
+          :navigation="true"
+          :modules="modules"
+          class="mySwiper"
+          
+          :slides-per-view="1"
+          :space-between="10"
+          @swiper="onSwiper"
+          @slideChange="onSlideChange"
+        >
+          <swiper-slide>
+            <div class="">
+              <!-- project card -->
+              <div class="bord-button2 projectanima" @click="removeFirstCard">
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="">
+                    <span class="fs-450">Project A</span>
+                    <br />
+                    <span class="fs-450"> Ecommerce platform </span>
+                    <br />
+                    <span class="fs-150"> a website</span>
+                  </div>
+                  <!-- open icon -->
+                  <div>
+                    <span
+                      ><img
+                        src="@/assets/icon/down-arrow.png"
+                        alt=""
+                        class="bggreen rounded-circle p-2"
+                    /></span>
+                  </div>
+                </div>
+                <!-- image of project -->
+                <div
+                  style="width: 280px; height: 200px"
+                  class="bgwhite2 border rounded"
+                >
+                  <!-- <span class="bgwhite"></span> -->
+                  <div
+                    class="d-flex justify-content-center align-items-center py-3"
+                  >
+                    <img
+                      src="@/assets/icon/facebook.png"
+                      alt=""
+                      style="width: 180px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="col-lg-3 col-xl-3">
+              <!-- project card -->
+              <div class="bord-button2 projectanima" @click="removeFirstCard">
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="">
+                    <span class="fs-450">Project A</span>
+                    <br />
+                    <span class="fs-450"> Ecommerce platform </span>
+                    <br />
+                    <span class="fs-150"> a website</span>
+                  </div>
+                  <!-- open icon -->
+                  <div>
+                    <span
+                      ><img
+                        src="@/assets/icon/down-arrow.png"
+                        alt=""
+                        class="bggreen rounded-circle p-2"
+                    /></span>
+                  </div>
+                </div>
+                <!-- image of project -->
+                <div
+                  style="width: 280px; height: 200px"
+                  class="bgwhite2 border rounded"
+                >
+                  <!-- <span class="bgwhite"></span> -->
+                  <div
+                    class="d-flex justify-content-center align-items-center py-3"
+                  >
+                    <img
+                      src="@/assets/icon/facebook.png"
+                      alt=""
+                      style="width: 180px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="col-lg-3 col-xl-3">
+              <!-- project card -->
+              <div class="bord-button2 projectanima" @click="removeFirstCard">
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="">
+                    <span class="fs-450">Project A</span>
+                    <br />
+                    <span class="fs-450"> Ecommerce platform </span>
+                    <br />
+                    <span class="fs-150"> a website</span>
+                  </div>
+                  <!-- open icon -->
+                  <div>
+                    <span
+                      ><img
+                        src="@/assets/icon/down-arrow.png"
+                        alt=""
+                        class="bggreen rounded-circle p-2"
+                    /></span>
+                  </div>
+                </div>
+                <!-- image of project -->
+                <div
+                  style="width: 280px; height: 200px"
+                  class="bgwhite2 border rounded"
+                >
+                  <!-- <span class="bgwhite"></span> -->
+                  <div
+                    class="d-flex justify-content-center align-items-center py-3"
+                  >
+                    <img
+                      src="@/assets/icon/facebook.png"
+                      alt=""
+                      style="width: 180px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+
+          ...
+        </swiper>
       </div>
     </div>
 
@@ -229,26 +365,27 @@ import "animate.css";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 import "swiper/css/navigation";
-// import "./style.css";
+
 import { Navigation } from "swiper";
-// import "hooper/dist/hooper.css";
+import { defineComponent } from "vue";
+import { Carousel, Slide } from "vue3-carousel";
+
+import "vue3-carousel/dist/carousel.css";
+
 export default {
   data() {
     return {
       showfirst: false,
-      typeValue: "",
-      typeStatus: false,
-      typeArray: ["Recent Projects"],
-      typingSpeed: 200,
-      erasingSpeed: 100,
-      newTextDelay: 2000,
-      typeArrayIndex: 0,
+
       charIndex: 0,
     };
   },
   components: {
     Swiper,
     SwiperSlide,
+    Carousel,
+    Slide,
+    // Navigationn,
   },
   methods: {
     removeFirstCard() {
@@ -257,40 +394,8 @@ export default {
     removeFirst() {
       this.showfirst = false;
     },
-    typeText() {
-      if (this.charIndex < this.typeArray[this.typeArrayIndex].length) {
-        if (!this.typeStatus) this.typeStatus = true;
-        this.typeValue += this.typeArray[this.typeArrayIndex].charAt(
-          this.charIndex
-        );
-        this.charIndex += 1;
-        setTimeout(this.typeText, this.typingSpeed);
-      } else {
-        this.typeStatus = false;
-        setTimeout(this.eraseText, this.newTextDelay);
-      }
-    },
-    // eraseText() {
-    //   if (this.charIndex > 0) {
-    //     if (!this.typeStatus) this.typeStatus = true;
-    //     this.typeValue = this.typeArray[this.typeArrayIndex].substring(
-    //       0,
-    //       this.charIndex - 1
-    //     );
-    //     this.charIndex -= 1;
-    //     setTimeout(this.eraseText, this.erasingSpeed);
-    //   } else {
-    //     this.typeStatus = false;
-    //     this.typeArrayIndex += 1;
-    //     if (this.typeArrayIndex >= this.typeArray.length)
-    //       this.typeArrayIndex = 0;
-    //     setTimeout(this.typeText, this.typingSpeed + 1000);
-    //   }
-    // },
   },
-  created() {
-    setTimeout(this.typeText, this.newTextDelay + 200);
-  },
+
   setup() {
     const onSwiper = (swiper) => {
       console.log(swiper);
@@ -475,19 +580,29 @@ export default {
   max-width: 95%;
   margin: auto;
 }
-@media (max-width:768px){
+@media (max-width: 768px) {
   /* projects space */
-.works-space {
-  padding: 0rem 0rem !important;
-}
-/* project header */
-.project-head-font-size {
-   font-size: 3rem !important;
+  .works-space {
+    padding: 0rem 0rem !important;
+  }
+  /* project header */
+  .project-head-font-size {
+    font-size: 3rem !important;
     padding: 0rem 2rem !important;
+  }
+  .cont-space {
+    margin: 1rem 0rem !important;
+  }
 }
-.cont-space{
-  margin:1rem 0rem !important;
+@media (max-width: 576px) {
+  .not-on-mobile {
+    display: none !important;
+  }
 }
+@media (min-width: 768px) {
+  .not-on-desktop {
+    display: none !important;
+  }
 }
 @media (min-width: 1410px) {
   .mob-width {
