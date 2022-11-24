@@ -16,7 +16,7 @@
           </router-link>
         </div>
         <!-- buttons -->
-        <div class="d-flex not-on-mobile justify-content-between">
+        <div class="d-flex not-on-mobile font1 fw-bold justify-content-between">
           <!-- nav -->
           <router-link
             class="text-reset anima-nav text-decoration-none px-3"
@@ -29,7 +29,7 @@
         </div>
         <!-- mobile side menu display -->
         <div
-          class="notindesktop onmobile cancel"
+          class="notindesktop  onmobile cancel"
           :style="{ transform: `rotate(${deg}deg)` }"
           v-if="menuicon"
           @click="menu"
@@ -72,7 +72,7 @@
         <div v-if="mobmenu" class="bggreen w-100 px-3 displaymenu">
           <div @click="cancel">
             <ul class="white p-0">
-              <div class="py-3 text-center">
+              <div class="py-3 font1 fw-bold text-center">
                 <router-link
                   class="text-reset   font text-decoration-none"
                   :to="port.to"

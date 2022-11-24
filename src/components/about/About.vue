@@ -5,7 +5,7 @@
         <h1 class="bgContactab fw-bold"><span>Ab</span><span class="not-on-mobile"> out</span>
         </h1>
       </div>
-      <div class="fontneubold white mob-width">
+      <div class="font1 white mob-width">
         <div class="row mob-abt-grid about-space position-relative">
           <!-- about -->
           <div class="col-xl-6 col-lg-6">
@@ -16,7 +16,7 @@
               <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
                 &#8249;h1&#8250;
               </h2>
-              <h1 class="about-head-font-size reduce-title-font-size">
+              <h1 class="about-head-font-size px-4 fw-bold reduce-title-font-size">
                 About me
               </h1>
               <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
@@ -28,22 +28,24 @@
               <img src="@/assets/images/fig.png" alt="" class="w-100" />
             </div>
 
-            <div>
+            <div class="font1">
               <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
                 &#8249;p&#8250;
               </h2>
-              <div class="about-text-font-size">
-                <p class="">
+              <div class="about-text-font-size px-4">
+                <p class="fs-300">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
                   vero, autem velit impedit cum optio hic eius vel alias animi
                   aliquid minima facilis magni doloribus quae. Unde numquam
                   autem
-                  <br />
+                </p>
+                <p class="fs-300">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
                   vero, autem velit impedit cum optio hic eius vel alias animi
                   aliquid minima facilis magni doloribus quae. Unde numquam
                   autem
-                  <br />
+                </p>
+                <p class="fs-300">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
                   vero, autem velit impedit cum optio hic eius vel alias animi
                   aliquid minima facilis magni doloribus quae. Unde numquam
@@ -68,7 +70,7 @@
             </div>
           </div>
           <div class="col-xl-6 col-lg-6">
-            <div class="not-on-mobile">
+            <div class="not-on-mobile pt-4">
               <img src="@/assets/images/fig.png" alt="" class="w-85" />
             </div>
           </div>
@@ -169,7 +171,7 @@ export default {
 }
 .contact-button div {
   position: relative;
-  top: 0rem !important;
+  top: -2rem !important;
   left: 5rem;
   width: 50%;
   height: 100%;
@@ -209,7 +211,7 @@ export default {
   color: #162120;
 }
 .about-space {
-  padding: 5rem 0rem !important;
+  padding: 3.5rem 0rem !important;
 }
 .bg-color-second-div {
   background: linear-gradient(

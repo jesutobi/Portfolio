@@ -1,5 +1,5 @@
 <template>
-  <div class="fontneubold project-bg position-relative">
+  <div class="font1 project-bg position-relative">
     <div>
       <!-- <h1 class="bgContact">Pro</h1> -->
     </div>
@@ -13,7 +13,7 @@
           <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
             &#8249;h1&#8250;
           </h2>
-          <h1 class="project-head-font-size">Recent Projects</h1>
+          <h1 class="project-head-font-size fw-bold">Recent Projects</h1>
           <!-- fake div and h1 tag -->
           <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
             &#8249;/h1&#8250;
@@ -32,9 +32,9 @@
           >
             <div class="d-flex justify-content-between mt-2">
               <div class="">
-                <span class="fs-450">Project A</span>
+                <span class="fs-450 fw-bold">Project A</span>
                 <br />
-                <span class="fs-450"> Ecommerce platform </span>
+                <span class="fs-450 fw-bold"> Ecommerce platform </span>
                 <br />
                 <span class="fs-150"> a website</span>
               </div>
@@ -51,7 +51,7 @@
             <!-- image of project -->
             <div
               style="width: 280px; height: 200px"
-              class="bgwhite2 border rounded"
+              class="bgwhite border rounded"
             >
               <!-- <span class="bgwhite"></span> -->
               <div
@@ -74,7 +74,7 @@
               <div class="">
                 <!-- <span class="fs-450">Project A</span>
                 <br /> -->
-                <span class="fs-500">House Finder</span>
+                <span class="fs-450 fw-bold">House Finder</span>
                 <br />
                 <span class="fs-150"> Real Estate </span>
               </div>
@@ -90,7 +90,7 @@
             </div>
             <div
               style="width: 280px; height: 200px"
-              class="bgwhite2 border rounded"
+              class="bgwhite border rounded"
             >
               <!-- <span class="bgwhite"></span> -->
               <div
@@ -114,7 +114,7 @@
           >
             <div class="d-flex justify-content-between mt-2">
               <div class="">
-                <span class="fs-500">
+                <span class="fs-450 fw-bold">
                   Buildings and <br />
                   More Limited
                 </span>
@@ -145,7 +145,7 @@
             </div>
             <!-- view more -->
             <router-link to="/viewMore">
-              <div class="position-relative">
+              <div class="position-relative not-on-mobile">
                 <div class="view-marg-button w-100">
                   <a href="#" class="contact-button py-2">
                     <div class="">
@@ -177,50 +177,9 @@
               <div class="bord-button2 projectanima" @click="removeFirstCard">
                 <div class="d-flex justify-content-between mt-2">
                   <div class="">
-                    <span class="fs-450">Project A</span>
+                    <span class="fs-400 fw-bold">Project A</span>
                     <br />
-                    <span class="fs-450"> Ecommerce platform </span>
-                    <br />
-                    <span class="fs-150"> a website</span>
-                  </div>
-                  <!-- open icon -->
-                  <div>
-                    <span
-                      ><img
-                        src="@/assets/icon/down-arrow.png"
-                        alt=""
-                        class="bggreen rounded-circle p-2"
-                    /></span>
-                  </div>
-                </div>
-                <!-- image of project -->
-                <div
-                  style="width: 280px; height: 200px"
-                  class="bgwhite2 border rounded"
-                >
-                  <!-- <span class="bgwhite"></span> -->
-                  <div
-                    class="d-flex justify-content-center align-items-center py-3"
-                  >
-                    <img
-                      src="@/assets/icon/facebook.png"
-                      alt=""
-                      style="width: 180px"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="">
-              <!-- project card -->
-              <div class="bord-button2 projectanima" @click="removeFirstCard">
-                <div class="d-flex justify-content-between mt-2">
-                  <div class="">
-                    <span class="fs-450">Project A</span>
-                    <br />
-                    <span class="fs-450"> Ecommerce platform </span>
+                    <span class="fs-400 fw-bold"> Ecommerce platform </span>
                     <br />
                     <span class="fs-150"> a website</span>
                   </div>
@@ -259,9 +218,50 @@
               <div class="bord-button2 projectanima" @click="removeFirstCard">
                 <div class="d-flex justify-content-between mt-2">
                   <div class="">
-                    <span class="fs-450">Project A</span>
+                    <span class="fs-400 fw-bold">Project A</span>
                     <br />
-                    <span class="fs-450"> Ecommerce platform </span>
+                    <span class="fs-400 fw-bold"> Ecommerce platform </span>
+                    <br />
+                    <span class="fs-150"> a website</span>
+                  </div>
+                  <!-- open icon -->
+                  <div>
+                    <span
+                      ><img
+                        src="@/assets/icon/down-arrow.png"
+                        alt=""
+                        class="bggreen rounded-circle p-2"
+                    /></span>
+                  </div>
+                </div>
+                <!-- image of project -->
+                <div
+                  style="width: 280px; height: 200px"
+                  class="bgwhite2 border rounded"
+                >
+                  <!-- <span class="bgwhite"></span> -->
+                  <div
+                    class="d-flex justify-content-center align-items-center py-3"
+                  >
+                    <img
+                      src="@/assets/icon/facebook.png"
+                      alt=""
+                      style="width: 180px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="">
+              <!-- project card -->
+              <div class="bord-button2 projectanima" @click="removeFirstCard">
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="">
+                    <span class="fs-400 fw-bold">Project A</span>
+                    <br />
+                    <span class="fs-400 fw-bold"> Ecommerce platform </span>
                     <br />
                     <span class="fs-150"> a website</span>
                   </div>
@@ -296,7 +296,7 @@
           </swiper-slide>
           <!-- view more -->
           <router-link to="/viewMore">
-            <div class="">
+            <div class="not-on-desktop ">
               <div class=" w-100">
                 <a href="#" class="contact-button py-2">
                   <div class="">
@@ -368,7 +368,7 @@
       </div>
     </div>
     <div>
-      <h1 class="bgContact2">Proje</h1>
+      <h1 class="bgContact2 fontneubold">Proje</h1>
     </div>
   </div>
 </template>
@@ -477,8 +477,8 @@ export default {
 }
 .contact-button div {
   position: relative;
-  top: 0rem !important;
-  left: -3.5rem;
+  top: 2rem !important;
+  left: 0rem;
   width: 100%;
   height: 100%;
   overflow: hidden;

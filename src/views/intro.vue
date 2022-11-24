@@ -2,11 +2,11 @@
   <div class="">
     <div>
       <div class="bg-pattern-img">
-        <div class="mob-width height-of-hero-page">
+        <div class="mob-width font1 height-of-hero-page">
           <!-- intro page -->
-          <div class="row mobile-hero-width py-4 fontneubold text-weight">
+          <div class="row mobile-hero-width py-2  text-weight">
             <div
-              class="col-6 col-sm-6 mobile-hero-width col-lg-6 col-xl-6 animate__animated animate__bounceInLeft"
+              class="col-7 col-sm-7 mobile-hero-width col-lg-7 col-xl-7 animate__animated animate__bounceInLeft"
             >
               <!-- fake div and h1 tag -->
               <h2 class="fontreg1 fs-550 fake-tag-color">&#8249;div&#8250;</h2>
@@ -16,7 +16,7 @@
                 &#8249;h1&#8250;
               </h2>
               <h1
-                class="text-weight reduce-hero-font-size disable-margin intro-spacing mx-5"
+                class="text-weight fw-bold reduce-hero-font-size disable-margin intro-spacing mx-5"
               >
                 {{ typeValue }}
                 <span class="cursor" :class="{ typing: typeStatus }"
@@ -37,7 +37,7 @@
                 </h2>
 
                 <p
-                  class="fs-350 reduce-mini-intro-text-hero brief-text disable-margin mobile-hero-width fontreg mx-5"
+                  class="fs-350 reduce-mini-intro-text-hero brief-text disable-margin mobile-hero-width font1 mx-5"
                 >
                   <img
                     src="../../src/assets/icon/minus-horizontal-straight-line.png"
@@ -244,7 +244,7 @@ h1 {
 }
 .contact-button div {
   position: relative;
-  top: -6rem !important;
+  top: -6.5rem !important;
   left: 5rem;
   width: 50%;
   height: 100%;

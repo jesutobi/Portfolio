@@ -1,23 +1,23 @@
 <template>
   <div>
-    <div class="contact-bg fontneubold bggreen3">
+    <div class="contact-bg font1 bggreen3">
       <!-- <Preload /> -->
       <div class="mob-width">
         <!-- fake div and h1 tag -->
 
-        <div class="mob-off-set-space">
-          <h1 class="contact-head-font-size reduce-title-font-size text-center">
+        <div class="mob-off-set-space fw-bold">
+          <h1 class="contact-head-font-size fw-bold reduce-title-font-size text-center">
             I am just a message away <span class="not-on-mobile">,</span>
           </h1>
           <h1
-            class="contact-head-font-size not-on-mobile reduce-title-font-size text-center"
+            class="contact-head-font-size fw-bold not-on-mobile reduce-title-font-size text-center"
           >
             {{ typeValue }}
             <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
           </h1>
         </div>
 
-        <div class="overbg position-relative">
+        <div class="overbg position-relative font1">
           <form
             action="https://www.actionforms.io/e/r/jesutobi"
             method="post"
@@ -124,7 +124,7 @@
                 <input
                   type="text"
                   placeholder="Enter your name"
-                  class="border-bottom py-3 px-5 input-width remove-input-defaults w-80 reduce-placeholder-font fs-450 border-0 w-90 border-2 border-light"
+                  class="border-bottom py-3 px-5 input-width remove-input-defaults w-80 reduce-placeholder-font fs-400 border-0 w-90 border-2 border-light"
                   name="name"
                   required
                 />
@@ -171,7 +171,7 @@
                 <input
                   type="email"
                   placeholder="Enter your email address"
-                  class="border-bottom w-100 fs-450 remove-input-defaults reduce-placeholder-font px-5 py-3 border-0 w-70 border-2 border-light"
+                  class="border-bottom w-100 fs-400 remove-input-defaults reduce-placeholder-font px-5 py-3 border-0 w-70 border-2 border-light"
                   name="email"
                   required
                 />
@@ -276,19 +276,19 @@
                 type="text"
                 name="message"
                 placeholder="What do you have in mind"
-                class="border-bottom py-3 fs-450 overflow-auto reduce-placeholder-font remove-input-defaults px-5 border-0 w-100 border-2 border-light"
+                class="border-bottom py-3 fs-400 overflow-auto reduce-placeholder-font remove-input-defaults px-5 border-0 w-100 border-2 border-light"
               />
             </div>
             <!-- lets talk button -->
-            <div class="">
-              <div type="submit" class="d-flex justify-content-center">
-                <a href="#" class="contact-button py-2">
+            <div  class="">
+              <div  class="d-flex justify-content-center">
+                <button type="submit" class="contact-button py-2">
                   <div class="">
                     <span class="bg"></span>
                     <span class="base"></span>
                     <span class="text fw-bold"> Lets Build </span>
                   </div>
-                </a>
+                </button>
               </div>
             </div>
           </form>
@@ -302,8 +302,8 @@
             <img src="@/assets/icon/mail.png" alt="">
           </div> -->
           <!-- </div> -->
-          <div class="bgContactheight">
-            <h1 class="bgContact"> <span>Co</span><span class="not-on-mobile">ntac</span></h1>
+          <div class="bgContactheight ">
+            <h1 class="bgContact fontneubold"> <span>Co</span><span class="not-on-mobile">ntac</span></h1>
           </div>
         </div>
       </div>
@@ -374,6 +374,10 @@ export default {
 /*put form over background text */
 .overbg {
   z-index: 30000;
+}
+button{
+  background-color: transparent;
+  border: none;
 }
 /* background text */
 .bgContact {
