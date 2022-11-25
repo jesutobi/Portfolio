@@ -149,6 +149,9 @@ export default {};
 </script>
 
 <style scoped>
+.footer-pos{
+  z-index: 1000000;
+}
 .mob-width {
   max-width: 95%;
   margin: auto;

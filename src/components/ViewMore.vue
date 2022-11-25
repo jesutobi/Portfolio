@@ -18,9 +18,11 @@
       <div>
         <!-- intro text -->
         <u>
-        <div class="py-5 fontbold titleunderline my-5">
-          <h1 class="projectsheroFont text-center fw-bold">Selected Projects <br /></h1>
-        </div>
+          <div class="py-5 fontbold titleunderline my-5">
+            <h1 class="projectsheroFont text-center fw-bold">
+              Selected Projects
+            </h1>
+          </div>
         </u>
         <!-- projects -->
         <div>
@@ -107,9 +109,17 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width: 768px) {
+  .area {
+    width: 100%;
+    height: 200vh !important;
+  }
+  .projectsheroFont {
+    font-size: 2px !important;
+  }
+}
 /* title underline and animation */
 .titleunderline {
-  
   padding: 1rem 0rem !important;
   width: 100px;
   animation: animaborder 5s linear 2s;
@@ -280,9 +290,10 @@ export default {
 }
 .context {
   position: absolute;
-  z-index: 900000;
+  /* z-index: 900000; */
   top: 0rem;
   left: 0rem;
   right: 0rem;
+  bottom: 50rem !important;
 }
 </style>
