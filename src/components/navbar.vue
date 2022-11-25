@@ -182,7 +182,7 @@ export default {
   }
 }
 /* things to not show on mobile */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   /* .positionstick {
     position: unset !important;
   } */
@@ -221,7 +221,7 @@ export default {
     animation-duration: 2s;
   }
 }
-@media (min-width: 577px) {
+@media (min-width: 769px) {
   .notindesktop {
     display: none !important;
   }

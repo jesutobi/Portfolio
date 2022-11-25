@@ -1,7 +1,10 @@
 <template>
-  <div class="font1 bgwhite3 green2 my-4 mob-width" id="printMe">
+  <div class="font1 bgwhite3 green2 my-4" id="printMe">
     <!-- print button -->
-    <div class="d-flex animate__animated animate__pulse animate__slow	2s animate__infinite	infinite justify-content-end align-items-center">
+    <div
+      role="button"
+      class="d-flex mob-print-style animate__animated animate__pulse animate__slow 2s animate__infinite infinite justify-content-end align-items-center"
+    >
       <div class="px-2">
         <svg
           version="1.1"
@@ -32,19 +35,13 @@
           </g>
         </svg>
       </div>
-      <div v-print="'#printMe'" class="w-10 float-end">
+      <div v-print="'#printMe'" class="w-15 float-end">
         <span class="anima-nav my-2 fw-bold">Print Resume</span>
       </div>
     </div>
-    <br />
-    <div>
-      <div class="row p-5">
-        <!-- <div >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati hic
-        quam atque dicta culpa sunt sed, praesentium voluptates asperiores ea!
-      </div>
-      <button >Print</button> -->
-        <!-- small about -->
+    <!-- <br /> -->
+    <div class="mobile-hero-style p-5 w-100">
+      <div class="row mobile-text-style">
         <div class="col-lg-5 col-md-5 col-xl-5 col-xxl-5">
           <h1 class="text-end fs-750">Jesutobi</h1>
 
@@ -52,9 +49,7 @@
 
           <h1 class="text-start fs-750">Jesutobi</h1>
         </div>
-        <div
-          class="text-start project-text col-lg-7 col-md-7 col-xl-7 col-xxl-7"
-        >
+        <div class="project-text col-lg-7 col-md-7 col-xl-7 col-xxl-7">
           <span>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
             dolores reprehenderit, doloremque tempore similique illo
@@ -75,7 +70,7 @@
 
         <hr class="mt-5" />
       </div>
-      <div class="row px-5 py-1">
+      <div class="row py-1">
         <!-- small about -->
         <div class="col-lg-2 col-md-2 col-xl-2 col-xxl-2">
           <!-- contact -->
@@ -100,10 +95,10 @@
           </div>
         </div>
         <div class="col-lg-10 col-md-10 col-xl-10 col-xxl-10">
-          <div>
+          <div class="mobile-text-style">
             <!-- head -->
             <h5 class="fw-bold">Experience</h5>
-            <p class="w-70">
+            <p class="w-70 mobile-text-style">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
               eius tenetur repellendus ducimus distinctio suscipit consequatur
               nobis, odio itaque aut magni. Corporis unde eum harum impedit
@@ -112,12 +107,20 @@
           </div>
           <div class="mt-4" v-for="jobb in experience" :key="jobb">
             <!-- head -->
-            <div class="d-flex justify-content-between">
-              <h5 class="fw-bold green3">{{ jobb.job }}</h5>
-              <span class="fw-bold grey">{{ jobb.jobdate }}</span>
+            <div class="d-flex justify-content-between change-display mobile-text-style">
+              <div>
+                <h5 class="fw-bold green3 job-donetext-style">
+                  {{ jobb.job }}
+                </h5>
+              </div>
+              <div>
+                <span class="fw-bold grey fs-200 mobile-text-style">{{
+                  jobb.jobdate
+                }}</span>
+              </div>
             </div>
 
-            <p class="w-70">
+            <p class="w-70 mobile-text-style">
               {{ jobb.jobDesc }}
             </p>
           </div>
@@ -162,7 +165,6 @@ export default {
 .anima-print {
   animation: bounce; /* referring directly to the animation's @keyframe declaration */
   animation-duration: infinite;
-
 }
 
 .mob-width {
@@ -175,6 +177,38 @@ export default {
   }
   .max2 {
     max-width: 100% !important;
+  }
+}
+@media (max-width: 768px) {
+  .mobile-text-style {
+    width: 100% !important;
+  }
+
+  /* print button */
+
+  /* hero */
+  .mobile-hero-style {
+    padding: 0.7rem !important;
+    width: 100% !important;
+  }
+  h1 {
+    text-align: center !important;
+  }
+  .project-text {
+    text-align: center !important;
+  }
+}
+@media (max-width: 576px) {
+  .mob-print-style {
+    /* padding: 0rem 7rem !important; */
+    width: 80% !important;
+  }
+  /* job text style */
+  .job-donetext-style {
+    font-size: 1.1rem !important;
+  }
+  .change-display{
+    display: block !important;
   }
 }
 </style>

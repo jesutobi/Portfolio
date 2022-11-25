@@ -4,8 +4,8 @@
       <div class="py-2 w-100 border-2 border-dark">
         <div class="d-flex align-items-center justify-content-between">
           <!-- copyright -->
-          <div>
-            <span class="reduce-font not-on-mobile font1 fs-200 fw-bold"
+          <div class="not-on-mobile">
+            <span class="reduce-font  font1 fs-200 fw-bold"
               >Designed(ideas from dribble &#38; hashnode) <br />
               and built by
             </span>
