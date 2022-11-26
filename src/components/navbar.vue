@@ -29,7 +29,7 @@
         </div>
         <!-- mobile side menu display -->
         <div
-          class="notindesktop  onmobile cancel"
+          class="notindesktop onmobile cancel"
           :style="{ transform: `rotate(${deg}deg)` }"
           v-if="menuicon"
           @click="menu"
@@ -74,12 +74,15 @@
             <ul class="white p-0">
               <div class="py-3 font1 fw-bold text-center">
                 <router-link
-                  class="text-reset   font text-decoration-none"
+                  class="text-reset font text-decoration-none"
                   :to="port.to"
                   v-for="port in portfolios"
                   :key="port.id"
                 >
-                  <li style="list-style-type: none" class=" anima-nav-mob py-3 green3">
+                  <li
+                    style="list-style-type: none"
+                    class="anima-nav-mob py-3 green3"
+                  >
                     {{ port.title }}
                   </li>
                 </router-link>
@@ -102,8 +105,8 @@ export default {
       deg2: 180,
       portfolios: [
         { title: "Resume", to: "/about/resume" },
-        { title: "Projects", to: "/projects" },
-        { title: "Testimonials", to: "/testimonials" },
+        { title: "Projects", to: "/viewMore" },
+        // { title: "Testimonials", to: "/testimonials" },
         { title: "Contacts", to: "/contacts" },
       ],
     };

@@ -172,132 +172,56 @@
           @slideChange="onSlideChange"
         >
           <swiper-slide class="">
-            <div class="">
-              <!-- project card -->
-              <div class="bord-button2 projectanima" @click="removeFirstCard">
-                <div class="d-flex justify-content-between mt-2">
-                  <div class="">
-                    <span class="fs-400 fw-bold">Project A</span>
-                    <br />
-                    <span class="fs-400 fw-bold"> Ecommerce platform </span>
-                    <br />
-                    <span class="fs-150"> a website</span>
+            <a
+              href="https://buildingsandmore.ng/"
+              class="text-decoration-none text-reset"
+            >
+              <div class="">
+                <!-- project card -->
+                <div class="bord-button2 projectanima" @click="removeFirstCard">
+                  <div class="d-flex justify-content-between mt-2">
+                    <div class="">
+                      <span class="fs-400 fw-bold"
+                        >Buildings and More Limited</span
+                      >
+                      <br />
+                      <span class="fs-200 fw-bold"> Ecommerce platform </span>
+                    </div>
+                    <!-- open icon -->
+                    <div class="">
+                      <span
+                        ><img
+                          src="@/assets/icon/down-arrow.png"
+                          alt=""
+                          class="bggreen rounded-circle p-2"
+                      /></span>
+                    </div>
                   </div>
-                  <!-- open icon -->
-                  <div>
-                    <span
-                      ><img
-                        src="@/assets/icon/down-arrow.png"
-                        alt=""
-                        class="bggreen rounded-circle p-2"
-                    /></span>
-                  </div>
-                </div>
-                <!-- image of project -->
-                <div
-                  style="width: 280px; height: 200px"
-                  class="bgwhite2 border rounded"
-                >
-                  <!-- <span class="bgwhite"></span> -->
+                  <!-- image of project -->
                   <div
-                    class="d-flex justify-content-center align-items-center py-3"
+                    style="width: 280px; height: 200px"
+                    class="bgwhite border rounded"
                   >
-                    <img
-                      src="@/assets/icon/facebook.png"
-                      alt=""
-                      style="width: 180px"
-                    />
+                    <!-- <span class="bgwhite"></span> -->
+                    <div
+                      class="d-flex bgwhite justify-content-center align-items-center toppro"
+                    >
+                      <img
+                        src="@/assets/icon/Baml.png"
+                        alt=""
+                        style="width: 180px"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </a>
           </swiper-slide>
-          <swiper-slide>
-            <div class="">
-              <!-- project card -->
-              <div class="bord-button2 projectanima" @click="removeFirstCard">
-                <div class="d-flex justify-content-between mt-2">
-                  <div class="">
-                    <span class="fs-400 fw-bold">Project A</span>
-                    <br />
-                    <span class="fs-400 fw-bold"> Ecommerce platform </span>
-                    <br />
-                    <span class="fs-150"> a website</span>
-                  </div>
-                  <!-- open icon -->
-                  <div>
-                    <span
-                      ><img
-                        src="@/assets/icon/down-arrow.png"
-                        alt=""
-                        class="bggreen rounded-circle p-2"
-                    /></span>
-                  </div>
-                </div>
-                <!-- image of project -->
-                <div
-                  style="width: 280px; height: 200px"
-                  class="bgwhite2 border rounded"
-                >
-                  <!-- <span class="bgwhite"></span> -->
-                  <div
-                    class="d-flex justify-content-center align-items-center py-3"
-                  >
-                    <img
-                      src="@/assets/icon/facebook.png"
-                      alt=""
-                      style="width: 180px"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="">
-              <!-- project card -->
-              <div class="bord-button2 projectanima" @click="removeFirstCard">
-                <div class="d-flex justify-content-between mt-2">
-                  <div class="">
-                    <span class="fs-400 fw-bold">Project A</span>
-                    <br />
-                    <span class="fs-400 fw-bold"> Ecommerce platform </span>
-                    <br />
-                    <span class="fs-150"> a website</span>
-                  </div>
-                  <!-- open icon -->
-                  <div>
-                    <span
-                      ><img
-                        src="@/assets/icon/down-arrow.png"
-                        alt=""
-                        class="bggreen rounded-circle p-2"
-                    /></span>
-                  </div>
-                </div>
-                <!-- image of project -->
-                <div
-                  style="width: 280px; height: 200px"
-                  class="bgwhite2 border rounded"
-                >
-                  <!-- <span class="bgwhite"></span> -->
-                  <div
-                    class="d-flex justify-content-center align-items-center py-3"
-                  >
-                    <img
-                      src="@/assets/icon/facebook.png"
-                      alt=""
-                      style="width: 180px"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </swiper-slide>
+
           <!-- view more -->
           <router-link to="/viewMore">
-            <div class="not-on-desktop ">
-              <div class=" w-100">
+            <div class="not-on-desktop toppromob">
+              <div class="w-100">
                 <a href="#" class="contact-button py-2">
                   <div class="">
                     <span class="bg"></span>
@@ -315,7 +239,7 @@
       </div>
     </div>
 
-    <div class="" v-if="showfirst">
+    <!-- <div class="" v-if="showfirst">
       <span
         @click="removeFirst"
         class="cancelstyle d-flex justify-content-end mx-5 my-3"
@@ -366,7 +290,7 @@
           ...
         </swiper>
       </div>
-    </div>
+    </div> -->
     <div>
       <h1 class="bgContact2 fontneubold">Proje</h1>
     </div>
@@ -427,6 +351,9 @@ export default {
 
 <style scoped>
 /* projects animation */
+.toppro{
+  padding: 5rem 0rem 0rem 0rem ;
+}
 .projectanima:hover {
   animation: pulse;
   animation-duration: 2s;
@@ -599,20 +526,22 @@ export default {
     margin: 1rem 0rem !important;
   }
   .contact-button div {
-  position: relative;
-  top: 0rem !important;
-  left: 0rem;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-}
+    position: relative;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
 }
 @media (max-width: 576px) {
   .not-on-mobile {
     display: none !important;
   }
-
+  .toppromob{
+    padding: 3rem 0rem 0rem 0rem ;
+  }
 }
 @media (min-width: 768px) {
   .not-on-desktop {

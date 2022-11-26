@@ -2,7 +2,8 @@
   <div>
     <div class="bg-color-second-div position-relative">
       <div>
-        <h1 class="bgContactab fw-bold"><span>Ab</span><span class="not-on-mobile"> out</span>
+        <h1 class="bgContactab fw-bold">
+          <span>Ab</span><span class="not-on-mobile"> out</span>
         </h1>
       </div>
       <div class="font1 white mob-width">
@@ -16,7 +17,9 @@
               <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
                 &#8249;h1&#8250;
               </h2>
-              <h1 class="about-head-font-size px-4 fw-bold reduce-title-font-size">
+              <h1
+                class="about-head-font-size px-4 fw-bold reduce-title-font-size"
+              >
                 About me
               </h1>
               <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
@@ -34,22 +37,20 @@
               </h2>
               <div class="about-text-font-size px-4">
                 <p class="fs-300">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-                  vero, autem velit impedit cum optio hic eius vel alias animi
-                  aliquid minima facilis magni doloribus quae. Unde numquam
-                  autem
+                  Over the years i have Engineered and Designed several software
+                  products which has helped to solve problems in their various
+                  industries. Industries like Education,Transportation, Real
+                  Estate , Ecommerce.
                 </p>
                 <p class="fs-300">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-                  vero, autem velit impedit cum optio hic eius vel alias animi
-                  aliquid minima facilis magni doloribus quae. Unde numquam
-                  autem
+                  I worked and handled the revamping of Buildings and more web
+                  application where i was reponsible for rebuilding the
+                  front-end of the web product into a scalable app , ensuring it
+                  was search engine optimized, with several other qualities.
                 </p>
                 <p class="fs-300">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-                  vero, autem velit impedit cum optio hic eius vel alias animi
-                  aliquid minima facilis magni doloribus quae. Unde numquam
-                  autem
+                  I have handled several development contracts.One in particular
+                  was a Transportation Web application.....
                 </p>
               </div>
               <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
@@ -59,14 +60,14 @@
             <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
             <!-- about -->
             <div class="pb-3 px-2" role="button">
-            <router-link to="/about/resume" class="contact-button py-2">
-              <div class="">
-                <span class="bg"></span>
-                <span class="base"></span>
-                <span class="text fw-bold"> Read More </span>
-              </div>
-            </router-link>
-            <router-view></router-view>
+              <router-link to="/about/resume" class="contact-button py-2">
+                <div class="">
+                  <span class="bg"></span>
+                  <span class="base"></span>
+                  <span class="text fw-bold"> Read More </span>
+                </div>
+              </router-link>
+              <router-view></router-view>
             </div>
           </div>
           <div class="col-xl-6 col-lg-6">
@@ -252,32 +253,32 @@ export default {
   }
 }
 @media (max-width: 576px) {
-    .not-on-mobile {
+  .not-on-mobile {
     display: none !important;
   }
   .contact-button div {
-  position: relative;
-  top: 0rem !important;
-  left: 0rem;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-}
-.contact-button {
-  text-decoration: none;
-  width: 100%;
-  /* max-width: 200px; */
-  height: 70px;
-  display: block;
-  line-height: 50px;
-  /* letter-spacing: 3px; */
-  position: relative;
-  text-align: center;
-  color: #08fdd8;
-  padding: ;
-  /* margin-top: 50px; */
-}
+    position: relative;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .contact-button {
+    text-decoration: none;
+    width: 100%;
+    /* max-width: 200px; */
+    height: 70px;
+    display: block;
+    line-height: 50px;
+    /* letter-spacing: 3px; */
+    position: relative;
+    text-align: center;
+    color: #08fdd8;
+    padding: ;
+    /* margin-top: 50px; */
+  }
   /* title */
   .reduce-title-font-size {
     font-size: 2.5rem !important;
@@ -293,7 +294,7 @@ export default {
 
     left: 0;
   }
-  
+
   .bg-color-second-div {
     background: linear-gradient(
       to right,
@@ -318,8 +319,8 @@ export default {
     display: block !important;
   } */
 }
-@media(min-width:768px){
-.notindesktop {
+@media (min-width: 768px) {
+  .notindesktop {
     display: none !important;
   }
 }

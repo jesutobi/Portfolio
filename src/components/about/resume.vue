@@ -42,7 +42,7 @@
     <!-- <br /> -->
     <div class="mobile-hero-style p-5 w-100">
       <div class="row mobile-text-style">
-        <div class="col-lg-5 col-md-5 col-xl-5 col-xxl-5">
+        <div class="col-lg-5 col-md-5 col-xl-5 desk-herospace col-xxl-5">
           <h1 class="text-end fs-750">Jesutobi</h1>
 
           <h1 class="text-center fs-750">Joseph</h1>
@@ -50,22 +50,30 @@
           <h1 class="text-start fs-750">Jesutobi</h1>
         </div>
         <div class="project-text col-lg-7 col-md-7 col-xl-7 col-xxl-7">
-          <span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            dolores reprehenderit, doloremque tempore similique illo
-            repellendus. Eveniet veniam dolorem nam eligendi aut, voluptate sit
-            corporis explicabo aliquam sapiente molestiae incidunt autem
-            consequuntur architecto obcaecati iste sunt recusandae. Sequi quos
-            pariatur accusantium. Ad sequi ipsum quas et dolor iusto cupiditate
-            perspiciatis nesciunt quidem, temporibus sint? Repellendus
-            voluptates quos labore voluptate, iste facilis magnam suscipit qui
-            aliquam accusantium voluptatem quam et veritatis expedita
-            perferendis corporis dolore distinctio ipsam obcaecati
-            necessitatibus. Voluptates minima, cum officiis aut tempore
-            accusantium quos molestias rerum. Harum ex, dolorum similique
-            provident repellendus reprehenderit. Non temporibus vitae dolore
-            vero.
-          </span>
+          <p class="fs-300">
+            Over the years i have Engineered and Designed several software
+            products which has helped to solve problems in their various
+            industries. Industries like Education,Transportation, Real Estate ,
+            Ecommerce.
+          </p>
+          <p class="fs-300">
+            I worked and handled the revamping of Buildings and more web
+            application where i was reponsible for rebuilding the front-end of
+            the web product into a scalable app , ensuring it was search engine
+            optimized, with several other qualities.
+          </p>
+          <p class="fs-300">
+            I have handled several development contracts.One in particular was a
+            Transportation Web application(Bitsin),which was built to handle
+            visa application, flight and hotel bookings. i was responsible for
+            building the front-end, consuming API's ad using tools,
+            libraries,that helped achieve the desired goal.
+          </p>
+          <p class="fs-300">
+            I am Equipped with several tools that makes me capable in handling
+            Design and Engineering projects proficiently, which enable me meet
+            up targets, deadlines and achieve desired goals.
+          </p>
         </div>
 
         <hr class="mt-5" />
@@ -99,15 +107,14 @@
             <!-- head -->
             <h5 class="fw-bold">Experience</h5>
             <p class="w-70 mobile-text-style">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
-              eius tenetur repellendus ducimus distinctio suscipit consequatur
-              nobis, odio itaque aut magni. Corporis unde eum harum impedit
-              dolore perspiciatis eius architecto?
+              
             </p>
           </div>
           <div class="mt-4" v-for="jobb in experience" :key="jobb">
             <!-- head -->
-            <div class="d-flex justify-content-between change-display mobile-text-style">
+            <div
+              class="d-flex justify-content-between change-display mobile-text-style"
+            >
               <div>
                 <h5 class="fw-bold green3 job-donetext-style">
                   {{ jobb.job }}
@@ -207,8 +214,13 @@ export default {
   .job-donetext-style {
     font-size: 1.1rem !important;
   }
-  .change-display{
+  .change-display {
     display: block !important;
+  }
+}
+@media (min-width: 992px) {
+  .desk-herospace {
+    padding: 3rem 0rem 0rem 0rem !important;
   }
 }
 </style>

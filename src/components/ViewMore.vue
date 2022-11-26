@@ -53,14 +53,37 @@
                   <div class="p-1 fw-bold">
                     <span>{{ singleproject.title }}</span>
                   </div>
-                  <div class="green p-1 fw-bold">
-                    <a
-                      class="text-reset text-decoration-none fs-170"
-                      :href="singleproject.url"
-                      >{{ singleproject.propurl }}</a
-                    >
+                  <div
+                    class="d-flex align-items-center fs-170 green p-1 fw-bold justify-content-between"
+                  >
+                    <div class="">
+                      <a
+                        class="text-reset text-decoration-none fs-170"
+                        :href="singleproject.url"
+                        >{{ singleproject.propurl }}</a
+                      >
+                    </div>
+                    <div @click="showPreview" role="button">
+                      <div>
+                        <span class="">preview</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
+                <!-- <div v-if="preview"  class="project-style">
+                  <span
+                    @click="removepreview"
+                    class="cancelstyle d-flex justify-content-end mx-5 my-3"
+                    ><img src="@/assets/icon/cancel.png" alt=""
+                  /></span>
+                  <div>
+                    <img
+                      :src="require(`@/assets/images/${singleproject.modal}`)"
+                      alt=""
+                      style="width: 200px"
+                    />
+                  </div>
+                </div> -->
               </div>
               <!-- minimodal -->
 
@@ -98,17 +121,43 @@ export default {
     return {
       projects: moreProjects,
       minidisplay: false,
+      preview: false,
     };
   },
   methods: {
     showminidisplay() {
       this.minidisplay = true;
     },
+    removepreview() {
+      this.minidisplay = false;
+    },
+    showPreview() {
+      this.preview = true;
+    },
   },
 };
 </script>
 
 <style scoped>
+/* product preview modal */
+/* remove modal button */
+.cancelstyle {
+  position: fixed;
+  top: 0;
+  z-index: 3000;
+  left: 0;
+  right: 0;
+}
+.project-style {
+  position: fixed !important;
+
+  z-index: 3 !important;
+  top: 3rem !important;
+  left: 0rem;
+  right: 0rem;
+  box-shadow: 0rem 1rem 5rem 30rem rgba(0, 0, 0, 0.774);
+}
+
 @media (max-width: 768px) {
   .area {
     width: 100%;
@@ -175,7 +224,7 @@ export default {
 /* sfgsffffffffffffffffffffffffffffff */
 .area {
   width: 100%;
-  height: 100vh;
+  height: 150vh;
 }
 
 .circles {

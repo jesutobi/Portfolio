@@ -4,7 +4,7 @@
       <div class="bg-pattern-img">
         <div class="mob-width font1 height-of-hero-page">
           <!-- intro page -->
-          <div class="row mobile-hero-width py-2  text-weight">
+          <div class="row mobile-hero-width py-2 text-weight">
             <div
               class="col-7 col-sm-7 mobile-hero-width col-lg-7 col-xl-7 animate__animated animate__bounceInLeft"
             >
@@ -64,26 +64,27 @@
               </div>
 
               <!-- fake div and h1 tag -->
-              <div class="c ">
-                <br class="not-on-mobile"/>
-                <h2 class="fontreg1  mt-0 fs-550 fake-tag-color">
+              <div class="c">
+                <br class="not-on-mobile" />
+                <h2 class="fontreg1 mt-0 fs-550 fake-tag-color">
                   &#8249;div /&#8250;
                 </h2>
               </div>
             </div>
             <!-- lets build -->
           </div>
-          <div class="pb-3 px-2 " role="button">
-            <router-link to="/contacts">
-              <a href="#" class="contact-button  mob-contact-button py-2">
+          <router-link to="/contacts">
+            <div class="pb-3 px-2" role="button">
+              <a href="#" class="contact-button mob-contact-button py-2">
                 <div class="">
                   <span class="bg"></span>
                   <span class="base"></span>
                   <span class="text fw-bold"> Lets Build </span>
                 </div>
               </a>
-            </router-link>
-          </div>
+            </div>
+          </router-link>
+          <router-view></router-view>
         </div>
       </div>
       <!-- About and skills -->
@@ -227,7 +228,6 @@ h1 {
 // intro words spacing
 .intro-spacing {
   word-spacing: 1rem !important;
-
 }
 .contact-button {
   text-decoration: none;
@@ -329,7 +329,7 @@ div.c {
 }
 /* brief intro */
 .brief-text {
-  font-weight:  lighter !important;
+  font-weight: lighter !important;
 }
 /* contacts margin */
 .contacts-space {
@@ -366,7 +366,7 @@ div.c {
   }
 }
 @media (max-width: 576px) {
-  .lastfakediv{
+  .lastfakediv {
     margin: unset !important;
   }
   .mobile-hero-width {
@@ -424,8 +424,8 @@ div.c {
   }
   .contact-button div {
     position: unset !important;
-    padding:unset !important;
-    margin:unset !important;
+    padding: unset !important;
+    margin: unset !important;
 
     overflow: hidden;
     transition: all 0.3s ease-in-out;
@@ -468,6 +468,5 @@ div.c {
     margin: unset important;
     padding: unset important;
   }
-  
 }
 </style>
