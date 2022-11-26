@@ -120,7 +120,7 @@ export default {
       typeValue: "",
       typeStatus: false,
       typeArray: ["Jesutobi Builds seamless User experience"],
-      typingSpeed: 200,
+      typingSpeed: 80,
       erasingSpeed: 100,
       newTextDelay: 2000,
       typeArrayIndex: 0,
