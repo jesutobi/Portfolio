@@ -1,23 +1,29 @@
 [
   {
     "job": "Buildings and More - Frontend Engineer",
-    "jobDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima eius tenetur repellendus ducimus distinctio suscipit consequatur nobis, odio itaque aut magni. Corporis unde eum harum impedit dolore perspiciatis eius architecto?",
+    "jobDesc": "i worked in a team and single-handedly handled the front-end of this app .The previous state of the app was monolithic which was difficult to scale , which lead to its revamping. Rebuilt the frontend from the initial monolithic state using  Nuxt , Bootstrap , VueBootstrap, css ",
+    "list1": "Communicated effectively with project managers and the team",
+    "list2": "Completed deliverables on time and delivered  accordingly",
     "jobdate": "Februray 2022 - Present"
   },
   {
     "job": "Bitsin - Frontend Engineer(contractor)",
-    "jobDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima eius tenetur repellendus ducimus distinctio suscipit consequatur nobis, odio itaque aut magni. Corporis unde eum harum impedit dolore perspiciatis eius architecto?",
+    "jobDesc": "This is a visa, hotel, and flight booking app, that was built with Nuxt , Bootstrap , VueBootstrap, css. i worked as the only frontend developer in this company,and handled some of its page designs ",
+    "list1": "",
+    "list2": "",
     "jobdate": "October 2022 - November 2022"
   },
   {
-    "job": "House-finder - Frontend Engineer / Content creator /Digital Marketer",
-    "jobDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima eius tenetur repellendus ducimus distinctio suscipit consequatur nobis, odio itaque aut magni. Corporis unde eum harum impedit dolore perspiciatis eius architecto?",
+    "job": "House-finder - Frontend Engineer ",
+    "jobDesc": "This web application  was built with Vue and Nuxt, Bootstrap , Sass",
+    "list1": "i worked on the responsiveness of the site across all screens",
+    "list2": "Communicated with the team efficiently",
+    "list3": "Completed deliverables on time and delivered  accordingly",
     "jobdate": "May 2020 - Present"
   },
   {
     "job": "Raadaa - Frontend Engineer",
-    "jobDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima eius tenetur repellendus ducimus distinctio suscipit consequatur nobis, odio itaque aut magni. Corporis unde eum harum impedit dolore perspiciatis eius architecto?",
+    "jobDesc": "",
     "jobdate": "August 2021 - February 2022"
   }
-
 ]

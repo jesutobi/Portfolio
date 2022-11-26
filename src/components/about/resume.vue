@@ -106,9 +106,7 @@
           <div class="mobile-text-style">
             <!-- head -->
             <h5 class="fw-bold">Experience</h5>
-            <p class="w-70 mobile-text-style">
-              
-            </p>
+            <p class="w-70 mobile-text-style"></p>
           </div>
           <div class="mt-4" v-for="jobb in experience" :key="jobb">
             <!-- head -->
@@ -130,6 +128,13 @@
             <p class="w-70 mobile-text-style">
               {{ jobb.jobDesc }}
             </p>
+            <div>
+              <ul>
+                <li>{{ jobb.list1 }}</li>
+                <li>{{ jobb.list2 }}</li>
+                <li>{{ jobb.list3 }}</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
