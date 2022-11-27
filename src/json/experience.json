@@ -1,29 +1,29 @@
 [
   {
     "job": "Buildings and More - Frontend Engineer",
-    "jobDesc": "i worked in a team and single-handedly handled the front-end of this app .The previous state of the app was monolithic which was difficult to scale , which lead to its revamping. Rebuilt the frontend from the initial monolithic state using  Nuxt , Bootstrap , VueBootstrap, css ",
+    "jobDesc": "i worked in a team and single-handedly handled the front-end of this app .The previous state of the app was monolithic which was difficult to scale , which lead to its revamping. Rebuilt the frontend from the initial monolithic state using  Nuxt js , Bootstrap , VueBootstrap, css ",
     "list1": "Communicated effectively with project managers and the team",
     "list2": "Completed deliverables on time and delivered  accordingly",
     "jobdate": "Februray 2022 - Present"
   },
   {
-    "job": "Bitsin - Frontend Engineer(contractor)",
-    "jobDesc": "This is a visa, hotel, and flight booking app, that was built with Nuxt , Bootstrap , VueBootstrap, css. i worked as the only frontend developer in this company,and handled some of its page designs ",
-    "list1": "",
-    "list2": "",
+    "job": "Bitsin - Frontend Engineer(contract)",
+    "jobDesc": "This is a  hotel, and flight booking engine, that was built with Nuxt js , Bootstrap , VueBootstrap, css. i worked as the only frontend developer in this company,and handled some of its page designs ",
+    "list1": "Implemented pixel perfect designs",
+    "list2": "Consumed Api's from third party source",
     "jobdate": "October 2022 - November 2022"
   },
   {
     "job": "House-finder - Frontend Engineer ",
-    "jobDesc": "This web application  was built with Vue and Nuxt, Bootstrap , Sass",
+    "jobDesc": "This web application  was built with Vue js and Nuxt js, Bootstrap , Sass",
     "list1": "i worked on the responsiveness of the site across all screens",
     "list2": "Communicated with the team efficiently",
     "list3": "Completed deliverables on time and delivered  accordingly",
-    "jobdate": "May 2020 - Present"
+    "jobdate": "October 2021 - January 2022"
   },
   {
     "job": "Raadaa - Frontend Engineer",
-    "jobDesc": "",
-    "jobdate": "August 2021 - February 2022"
+    "jobDesc": "This web application was built with Vue js ,apart from being part of the team that built the website of this company, i also tutored students on the core principles of Javascript, Css .",
+    "jobdate": "November 2020 - February 2022"
   }
 ]

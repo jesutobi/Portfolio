@@ -57,17 +57,17 @@
             Ecommerce.
           </p>
           <p class="fs-300">
-            I worked and handled the revamping of Buildings and more web
-            application where i was reponsible for rebuilding the front-end of
-            the web product into a scalable app , ensuring it was search engine
-            optimized, with several other qualities.
+            I worked and handled the revamping of web application (Buildings and
+            more)where i was reponsible for rebuilding the front-end of the web
+            product into a scalable applicaton , ensuring it was search engine
+            optimized using Nuxt js, with other several other qualities like
+            lazy loading images that improves the speed of the site.
           </p>
           <p class="fs-300">
-            I have handled several development contracts.One in particular was a
-            Transportation Web application(Bitsin),which was built to handle
-            visa application, flight and hotel bookings. i was responsible for
-            building the front-end, consuming API's ad using tools,
-            libraries,that helped achieve the desired goal.
+            I also built a Hotel and Flight booking engine (Bitsin),which was
+            built to also handle visa application. i was
+            responsible for building the front-end, consuming API's using postman and using
+            tools (figma,Adobe e.t.c), libraries,that helped achieve the desired goal.
           </p>
           <p class="fs-300">
             I am Equipped with several tools that makes me capable in handling

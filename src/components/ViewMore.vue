@@ -31,7 +31,7 @@
             <div
               v-for="(singleproject, index) in projects"
               :key="index"
-              class="col-lg-3 position-relative col-md-3 col-lg-3 py-3 col-xl-3 col-xxl-3"
+              class="position-relative col-sm-6 col-md-4 col-lg-4 py-3 col-xl-3 col-xxl-3"
             >
               <div class="hov">
                 <div
@@ -63,30 +63,19 @@
                         >{{ singleproject.propurl }}</a
                       >
                     </div>
-                    <div @click="showPreview" role="button">
+                    <div
+                      @click="showPreview(singleproject)"
+                      role="button"
+                      class="removemobpreview"
+                    >
                       <div>
                         <span class="">preview</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!-- <div v-if="preview"  class="project-style">
-                  <span
-                    @click="removepreview"
-                    class="cancelstyle d-flex justify-content-end mx-5 my-3"
-                    ><img src="@/assets/icon/cancel.png" alt=""
-                  /></span>
-                  <div>
-                    <img
-                      :src="require(`@/assets/images/${singleproject.modal}`)"
-                      alt=""
-                      style="width: 200px"
-                    />
-                  </div>
-                </div> -->
               </div>
               <!-- minimodal -->
-
               <div
                 class="shadow-sm animate__headShake mini-display-radius fs-200 bggreen3 white p-2"
               >
@@ -107,6 +96,30 @@
                 </div>
               </div>
             </div>
+            <div
+              v-if="preview"
+              class="project-style d-flex align-items-center justify-content-center"
+            >
+              <div class="">
+                <div>
+                  <span
+                    @click="removepreview"
+                    class="cancelstyle d-flex justify-content-end mx-5 my-3"
+                    ><img
+                      src="@/assets/icon/cancel.png"
+                      alt=""
+                      style="width: 20px"
+                  /></span>
+                  <div class="w-80 modal-image-shadow">
+                    <img
+                      :src="require(`@/assets/images/${previewImage.modal}`)"
+                      alt=""
+                      class="w-100 modal-image-shadow"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -122,6 +135,7 @@ export default {
       projects: moreProjects,
       minidisplay: false,
       preview: false,
+      previewImage: "",
     };
   },
   methods: {
@@ -129,9 +143,11 @@ export default {
       this.minidisplay = true;
     },
     removepreview() {
-      this.minidisplay = false;
+      this.preview = false;
     },
-    showPreview() {
+    showPreview(show) {
+      this.previewImage = show;
+      console.log(show);
       this.preview = true;
     },
   },
@@ -150,12 +166,16 @@ export default {
 }
 .project-style {
   position: fixed !important;
-
-  z-index: 3 !important;
-  top: 3rem !important;
-  left: 0rem;
+  /* width: 20% !important; */
+  z-index: 100000 !important;
+  top: 6rem !important;
+  left: 7rem;
   right: 0rem;
-  box-shadow: 0rem 1rem 5rem 30rem rgba(0, 0, 0, 0.774);
+
+  box-shadow: 0rem 1rem 5rem 30rem rgba(0, 0, 0, 0.596);
+}
+.modal-image-shadow {
+  box-shadow: 0rem 1rem 5rem 30rem rgba(0, 0, 0, 0.596);
 }
 
 @media (max-width: 768px) {
@@ -166,6 +186,20 @@ export default {
   .projectsheroFont {
     font-size: 2px !important;
   }
+  /* remove preview button */
+  .removemobpreview {
+    display: none !important;
+  }
+  /* mini modal position */
+  .mini-display-radius {
+  border-radius: 1.4rem 1.4rem !important;
+  display: none;
+  position: absolute;
+  /* width: 100%; */
+  top: 0rem;
+  right: 2rem !important;
+  z-index: 10000;
+}
 }
 /* title underline and animation */
 .titleunderline {
@@ -204,7 +238,7 @@ export default {
   position: absolute;
   /* width: 100%; */
   top: 0rem;
-  right: -2rem;
+  right: -1rem;
   z-index: 10000;
 }
 /* hero section font*/
