@@ -65,9 +65,10 @@
           </p>
           <p class="fs-300">
             I also built a Hotel and Flight booking engine (Bitsin),which was
-            built to also handle visa application. i was
-            responsible for building the front-end, consuming API's using postman and using
-            tools (figma,Adobe e.t.c), libraries,that helped achieve the desired goal.
+            built to also handle visa application. i was responsible for
+            building the front-end, consuming API's using postman and using
+            tools (figma,Adobe e.t.c), libraries,that helped achieve the desired
+            goal.
           </p>
           <p class="fs-300">
             I am Equipped with several tools that makes me capable in handling
@@ -99,6 +100,13 @@
             <span class="fw-bold green">Proficient in :</span>
             <ul class="" v-for="skillz in skill" :key="skillz" type="square">
               <li>{{ skillz }}</li>
+            </ul>
+          </div>
+          <!-- certificate -->
+          <div>
+            <span class="fw-bold green">Certificates :</span>
+            <ul class="" type="square">
+              <li>Bsc in Microbiology</li>
             </ul>
           </div>
         </div>
