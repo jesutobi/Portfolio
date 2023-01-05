@@ -141,6 +141,11 @@
                 <li>{{ jobb.list1 }}</li>
                 <li>{{ jobb.list2 }}</li>
                 <li>{{ jobb.list3 }}</li>
+                <li>{{ jobb.list4 }}</li>
+                <li>{{ jobb.list5 }}</li>
+                <li>{{ jobb.list6 }}</li>
+                <li>{{ jobb.list7 }}</li>
+                <!-- <li>{{ jobb.list8 }}</li> -->
               </ul>
             </div>
           </div>

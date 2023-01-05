@@ -32,11 +32,10 @@
           >
             <div class="d-flex justify-content-between mt-2">
               <div class="">
-                <span class="fs-450 fw-bold">Project A</span>
+                <span class="fs-450 fw-bold">Raadaa Partners int.ltd</span>
                 <br />
-                <span class="fs-450 fw-bold"> Ecommerce platform </span>
-                <br />
-                <span class="fs-150"> a website</span>
+                <br>
+                <!-- <span class="fs-150"> Software</span> -->
               </div>
               <!-- open icon -->
               <div>
@@ -51,16 +50,15 @@
             <!-- image of project -->
             <div
               style="width: 280px; height: 200px"
-              class="bgwhite border rounded"
+              class="bgwhite border rounded position-relative"
             >
               <!-- <span class="bgwhite"></span> -->
-              <div
-                class="d-flex justify-content-center align-items-center py-3"
-              >
+              <div class="d-flex justify-content-center align-items-center">
                 <img
-                  src="@/assets/icon/facebook.png"
+                  src="@/assets/icon/raadaa.png"
                   alt=""
                   style="width: 180px"
+                  class="center-icon"
                 />
               </div>
             </div>
@@ -119,7 +117,7 @@
                   More Limited
                 </span>
                 <br />
-                <span class="fs-150"> An Ecommerce website</span>
+                <span class="fs-150">Ecommerce </span>
               </div>
               <!-- open icon -->
               <div>
@@ -350,9 +348,15 @@ export default {
 </script>
 
 <style scoped>
+/* centering icon of raadaa card */
+.center-icon {
+  position: absolute;
+  /* top: 7rem; */
+  bottom: 5rem;
+}
 /* projects animation */
-.toppro{
-  padding: 5rem 0rem 0rem 0rem ;
+.toppro {
+  padding: 5rem 0rem 0rem 0rem;
 }
 .projectanima:hover {
   animation: pulse;
@@ -539,8 +543,8 @@ export default {
   .not-on-mobile {
     display: none !important;
   }
-  .toppromob{
-    padding: 3rem 0rem 0rem 0rem ;
+  .toppromob {
+    padding: 3rem 0rem 0rem 0rem;
   }
 }
 @media (min-width: 768px) {
