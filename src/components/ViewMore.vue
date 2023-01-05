@@ -181,7 +181,7 @@ export default {
 @media (max-width: 768px) {
   .area {
     width: 100%;
-    height: 200vh !important;
+    height: 250vh !important;
   }
   .projectsheroFont {
     font-size: 2px !important;
