@@ -2,9 +2,10 @@
   <div>
     <div class="bg-color-second-div position-relative">
       <div>
-        <h1 class="bgContactab fw-bold">
-          <span>Ab</span><span class="not-on-mobile"> out</span>
-        </h1>
+        <h1 class="bgContactab not-on-mobile container fw-bold">About</h1>
+      </div>
+      <div>
+        <h1 class="mobbgContactab container notindesktop fw-bold">Ab</h1>
       </div>
       <div class="font1 white mob-width">
         <div class="row mob-abt-grid about-space position-relative">
@@ -153,7 +154,8 @@ export default {
   z-index: 0;
   top: -4rem;
   /* bottom: -30rem; */
-  left: 0;
+  left: 0rem;
+  right: 0rem;
   /* bottom: -6.5rem; */
 }
 /* read more button */
@@ -285,12 +287,12 @@ export default {
     padding: 0rem 1.4rem;
   }
   /* background text */
-  .bgContactab {
-    font-size: 15rem !important;
+  .mobbgContactab {
+    font-size: 15.7rem !important;
     color: rgba(105, 105, 105, 0.199) !important;
     position: absolute;
     z-index: 0;
-    top: -4rem;
+    top: -0rem;
 
     left: 0;
   }

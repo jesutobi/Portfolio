@@ -289,8 +289,11 @@
         </swiper>
       </div>
     </div> -->
-    <div>
-      <h1 class="bgContact2 fontneubold">Proje</h1>
+    <div class="">
+      <h1 class="bgContact2 container not-on-mobile  fontneubold">Project</h1>
+    </div>
+    <div class="not-on-desktop">
+      <h1 class="mobbgContact2 container  fontneubold">Pr</h1>
     </div>
   </div>
 </template>
@@ -390,8 +393,10 @@ export default {
   position: absolute;
   z-index: 0 !important;
   bottom: -2rem;
-  right: 0;
+  right: 0rem;
+  left: 0rem;
 }
+
 /* projects button */
 .contact-button {
   text-decoration: none;
@@ -483,7 +488,7 @@ export default {
 .project-bg {
   background-color: #162120;
   color: white;
-  height: 100vh;
+  /* height: 100vh; */
   /* padding: -7rem 0rem; */
 }
 /* project header */
@@ -517,6 +522,15 @@ export default {
   margin: auto;
 }
 @media (max-width: 768px) {
+  .mobbgContact2 {
+  font-size: 20rem !important;
+  color: rgba(105, 105, 105, 0.199) !important;
+  position: absolute;
+  z-index: 0 !important;
+  bottom: -2rem;
+  right: 0rem;
+  left: 0rem;
+}
   /* projects space */
   .works-space {
     padding: 0rem 0rem !important;
