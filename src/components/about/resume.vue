@@ -1,5 +1,5 @@
 <template>
-  <div class="font1 bgwhite3 green2 my-4" id="printMe">
+  <div class="font1 container bgwhite3 green2 my-4" id="printMe">
     <!-- print button -->
     <div
       role="button"
