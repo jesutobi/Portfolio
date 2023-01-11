@@ -128,6 +128,17 @@ export default {
     };
   },
   methods: {
+    metaInfo() {
+      return {
+        title: `${this.post.title}-jesutobi's portfolio`,
+        meta: [
+          {
+            name: "Jesutobi is an experienced Frontend developer that has the ability to build scalable web applications that is visually appealing with a great user experience",
+            content: this.post.body.slice(0, 200),
+          },
+        ],
+      };
+    },
     typeText() {
       if (this.charIndex < this.typeArray[this.typeArrayIndex].length) {
         if (!this.typeStatus) this.typeStatus = true;
