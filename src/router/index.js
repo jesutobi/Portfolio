@@ -10,6 +10,7 @@ import Abt from "@/components/about/About.vue";
 
 // import About from "@/views/about.vue";
 
+
 const routes = [
   { path: "/", name: "intro", component: intro },
   // { path: "/skills", name: "skills", component: Skills },
