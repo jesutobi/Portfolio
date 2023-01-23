@@ -1,44 +1,50 @@
 <template>
   <div class="font1 container bgwhite3 green2 my-4" id="printMe">
     <!-- print button -->
-    <div
-      role="button"
-      class="d-flex mob-print-style animate__animated animate__pulse animate__slow 2s animate__infinite infinite justify-content-end align-items-center"
+    <a
+      class="text-reset"
+      target="_blank"
+      href="https://docs.google.com/document/d/1KET1BVHJihs5EdxMPG9DLenHrvGPHg2QlhvvMQRxLhM/edit?usp=sharing"
     >
-      <div class="px-2">
-        <svg
-          version="1.1"
-          id="Capa_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          width="20px"
-          fill="green"
-          viewBox="0 0 384.97 384.97"
-          style="enable-background: new 0 0 384.97 384.97"
-          xml:space="preserve"
-        >
-          <g>
-            <g id="Arrow_Down_Circle">
-              <path
-                d="M192.485,0C86.185,0,0,86.173,0,192.485c0,106.3,86.185,192.485,192.485,192.485
+      <div
+        role="button"
+        class="d-flex mob-print-style animate__animated animate__pulse animate__slow 2s animate__infinite infinite justify-content-end align-items-center"
+      >
+        <div class="px-2">
+          <svg
+            version="1.1"
+            id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="20px"
+            fill="green"
+            viewBox="0 0 384.97 384.97"
+            style="enable-background: new 0 0 384.97 384.97"
+            xml:space="preserve"
+          >
+            <g>
+              <g id="Arrow_Down_Circle">
+                <path
+                  d="M192.485,0C86.185,0,0,86.173,0,192.485c0,106.3,86.185,192.485,192.485,192.485
 			c106.312,0,192.485-86.185,192.485-192.485C384.97,86.173,298.797,0,192.485,0z M192.485,360.909
 			c-93.018,0-168.424-75.406-168.424-168.424S99.467,24.061,192.485,24.061s168.424,75.406,168.424,168.424
 			S285.503,360.909,192.485,360.909z"
-              />
-              <path
-                d="M268.095,209.243l-63.46,62.558V84.212c0-6.641-5.438-12.03-12.151-12.03c-6.713,0-12.151,5.39-12.151,12.03v187.589
+                />
+                <path
+                  d="M268.095,209.243l-63.46,62.558V84.212c0-6.641-5.438-12.03-12.151-12.03c-6.713,0-12.151,5.39-12.151,12.03v187.589
 			l-63.46-62.558c-4.74-4.692-12.439-4.692-17.179,0c-4.74,4.704-4.74,12.319,0,17.011l84.2,82.997
 			c2.25,2.25,5.414,3.537,8.59,3.537c3.164,0,6.328-1.299,8.59-3.525l84.2-82.997c4.752-4.704,4.74-12.319,0-17.011
 			C280.535,204.551,272.835,204.551,268.095,209.243z"
-              />
+                />
+              </g>
             </g>
-          </g>
-        </svg>
-      </div>
-      <div v-print="'#printMe'" class="w-15 float-end">
-        <span class="anima-nav my-2 fw-bold">Print Resume</span>
-      </div>
-    </div>
+          </svg>
+        </div>
+        <div class="w-15 float-end">
+          <span class="anima-nav my-2 fw-bold">Download Resume</span>
+        </div>
+      </div></a
+    >
     <!-- <br /> -->
     <div class="mobile-hero-style p-5 w-100">
       <div class="row mobile-text-style">
@@ -95,7 +101,7 @@
           </div>
           <!-- proficient in -->
           <div class="mt-4">
-            <span class="fw-bold green">Proficient in :</span>
+            <span class="fw-bold green">skills :</span>
             <ul class="" v-for="skillz in skill" :key="skillz" type="square">
               <li>{{ skillz }}</li>
             </ul>
@@ -135,15 +141,12 @@
               {{ jobb.jobDesc }}
             </p>
             <div>
-              <ul>
-                <li>{{ jobb.list1 }}</li>
-                <li>{{ jobb.list2 }}</li>
-                <li>{{ jobb.list3 }}</li>
-                <li>{{ jobb.list4 }}</li>
-                <li>{{ jobb.list5 }}</li>
-                <li>{{ jobb.list6 }}</li>
-                <li>{{ jobb.list7 }}</li>
-                <!-- <li>{{ jobb.list8 }}</li> -->
+              <ul class="list-unstyled">
+                <li class="py-1">{{ jobb.list1 }}</li>
+                <li class="py-1">{{ jobb.list2 }}</li>
+                <li class="py-1">{{ jobb.list3 }}</li>
+                <li class="py-1">{{ jobb.list4 }}</li>
+                <li class="py-1">{{ jobb.list5 }}</li>
               </ul>
             </div>
           </div>

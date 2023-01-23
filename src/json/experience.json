@@ -1,47 +1,39 @@
 [
   {
     "job": "Buildings and More - Frontend Engineer",
-    "jobDesc": "i worked in a team and single-handedly handled the front-end of this app .The previous state of the app was monolithic which was difficult to scale , which lead to its revamping. Rebuilt the frontend from the initial monolithic state using  Nuxt js , Bootstrap , VueBootstrap, css ",
-    "list1": "Communicated effectively with project managers and the team ",
-    "list2": "Completed deliverables on time and delivered  accordingly",
-    "list3": "Creating responsive web pages across all digital screens",
-    "list4": "interacting with Apis from the Backend Engineer",
-    "list5": "Fixing bugs and testing Usability",
-    "list6": "Developing, maintaining, and improving user interfaces",
-    "list7": "building the client- side of the web application and translating the company and customer needs into a functional and appealing interactive application ",
+    "jobDesc": "Worked in a team and handled the front-end of web app . Rebuilt the frontend from the initial monolithic state using  Nuxt js , Bootstrap , VueBootstrap, css ",
+    "list1": "- I developed and implemented over 100 user interfaces using HTML, CSS, Bootstrap and Nuxt Js by translating prototypes.",
+    "list2": "- Integrated and consumed APIs from the backend to retrieve and display data in the user interface.",
+    "list3": "- Collaborated with a team of six to overhaul the web application, ensuring its full functionality while also creating responsive web pages that adapt to various digital devices and screen sizes.",
+    "list4": "- Translated the company and customer needs into a functional and appealing interactive application.",
+    "list5": "- I performed thorough testing and debugging to ensure optimal usability and functionality of the user interface.",
+
     "jobdate": "Februray 2022 - Present"
   },
   {
-    "job": "Bitsin - Frontend Engineer(contract)",
-    "jobDesc": "This is a  hotel, and flight booking engine, that was built with Nuxt js , Bootstrap , VueBootstrap, css. i worked as the only frontend developer in this company,and handled some of its page designs ",
-    "list1": "Implemented pixel perfect designs that also helps to improve site speed",
-    "list2": "Consumed Api's from third party source",
-    "list3": "interacting with Apis from the Backend Engineer",
-    "list4": "Completed deliverables on time and delivered  accordingly",
-    "list5": " implemented the user interface systems of website",
-    "list6": " worked with third party libraries to achieve some set task",
+    "job": "Bitsin - Frontend Engineer",
+    "jobDesc": "This is a  hotel, and flight booking engine, that was built with Nuxt js , Bootstrap , VueBootstrap, css. ",
+    "list1": "- Worked with the design team to ensure that the Front-end implementation aligned with the visual design intent. ",
+    "list2": "- Implemented the integration and utilization of backend APIs to obtain and present data within the user interface.",
+    "list3": "- Designed and implemented responsive web page layouts across various digital devices and screen sizes.",
+    "list4": "- I utilized various Vue.js style libraries, such as Buefy, to accomplish specific styling tasks and enhance the overall visual appeal of the user interface.",
+    "list5": "- handled some of its web-page designs",
     "jobdate": "October 2022 - November 2022"
   },
 
   {
     "job": "House-finder - Frontend Engineer ",
     "jobDesc": "This web application  was built with Vue js and Nuxt js, Bootstrap , Sass",
-    "list1": "Creating responsive web pages ",
-    "list2": "Communicated with the team efficiently",
-    "list3": "Completed deliverables on time and delivered  accordingly",
-    "list4": "Consumed Apis, and Implemented designs for mobile screens",
+    "list1": "- Collaborated with a team of three front-end developers to build the web application, ensuring its full functionality while also creating responsive web pages that adapt to various digital devices and screen sizes.",
+    "list2": "- Collaborated with the digital marketing team to generate content and devise strategic marketing plans.",
+
     "jobdate": "October 2021 - January 2022"
   },
   {
-    "job": "Raadaa - Frontend Engineer",
-    "jobDesc": "This web application was built with Vue js ,apart from being part of the team that built the website of this company, i also tutored students on the core principles of Javascript, Css .",
-    "list1": "Creating responsive web pages across all digital screens",
+    "job": "Raadaa Partners intl. limited. - Frontend Engineer",
+    "jobDesc": "",
+    "list1": "- Provided instruction in front-end web development, including HTML, CSS, and JavaScript, and created supplementary instructional materials in the form of video tutorials to assist in the pupils' understanding.",
+    "list2": "- led training on the use of Visual Studio Code as a development tool.",
     "jobdate": "November 2020 - September 2021"
   }
 ]
-
-
-
-
-
-

@@ -39,11 +39,11 @@
                   class="position-relative container-radius"
                 >
                   <div class="d-flex justify-content-center">
-                    <div class="w-60 center-icon">
+                    <div class="py-3">
                       <img
-                        :src="require(`@/assets/icon/${singleproject.image}`)"
+                        :src="require(`@/assets/images/${singleproject.image}`)"
                         alt=""
-                        class="w-100"
+                        class="w-100 "
                       />
                     </div>
                   </div>
@@ -86,10 +86,10 @@
                   <span>Built with</span>
                 </div>
                 <div class="py-1">
-                  <span>Js Framework: Nuxt</span>
+                  <span>Js Framework: {{ singleproject.framework }}</span>
                 </div>
                 <div class="py-1">
-                  <span>CSS library: Boostrap, Vue Bootstrap</span>
+                  <span>CSS library: {{singleproject.CSSlibrary}}</span>
                 </div>
                 <div class="py-1">
                   <span>HTML, CSS, Javascript</span>
@@ -379,4 +379,5 @@ export default {
   right: 0rem;
   bottom: 50rem !important;
 }
+
 </style>
