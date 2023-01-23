@@ -27,87 +27,140 @@
         <div class="col-lg-3 col-xl-3 not-on-mobile position-relative">
           <!-- project card -->
           <div
-            class="bord-button2 projectanima mt-5 second-position"
+            class="bord-button2 mt-5 second-position"
             @click="removeFirstCard"
           >
             <div class="d-flex justify-content-between mt-2">
               <div class="">
-                <span class="fs-450 fw-bold">Raadaa Partners int.ltd</span>
+                <span class="fs-450 fw-bold">Bitsin Travels and Tours</span>
                 <br />
-                <br>
+                <span class="fs-150">Hotel and Flight Bookings engine</span>
                 <!-- <span class="fs-150"> Software</span> -->
               </div>
               <!-- open icon -->
               <div>
                 <span
                   ><img
+                    style="width: 40px"
                     src="@/assets/icon/down-arrow.png"
                     alt=""
                     class="bggreen rounded-circle p-2"
                 /></span>
               </div>
             </div>
-            <!-- image of project -->
-            <div
-              style="width: 280px; height: 200px"
-              class="bgwhite border rounded position-relative"
-            >
-              <!-- <span class="bgwhite"></span> -->
-              <div class="d-flex justify-content-center align-items-center">
-                <img
-                  src="@/assets/icon/raadaa.png"
-                  alt=""
-                  style="width: 180px"
-                  class="center-icon"
-                />
+            <!-- skill used to build it -->
+            <div>
+              <div class="d-flex align-items center green3 fw-bold my-2">
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1">HTML</span>
+                </div>
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1">CSS</span>
+                </div>
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                    >Nuxt Js</span
+                  >
+                </div>
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                    >Bootstrap</span
+                  >
+                </div>
               </div>
             </div>
+            <!-- image of project -->
+            <a target="_blank" href="https://bitsintravelsandtours.com/">
+              <div
+                style="width: 280px; height: 200px"
+                class="bgwhite projectanima border rounded position-relative"
+              >
+                <!-- <span class="bgwhite"></span> -->
+                <div
+                  class="d-flex justify-content-center py-3 align-items-center"
+                >
+                  <img src="@/assets/images/bitsin.png" alt="" class="w-100" />
+                </div>
+                <div></div>
+              </div>
+            </a>
           </div>
         </div>
         <!-- third project -->
         <div class="col-lg-3 col-xl-3 not-on-mobile position-relative">
           <!-- project card -->
-          <div class="bord-button2 projectanima mt-5 third-position">
+          <div class="bord-button2 mt-5 third-position">
             <div class="d-flex justify-content-between mt-2">
               <div class="">
                 <!-- <span class="fs-450">Project A</span>
                 <br /> -->
                 <span class="fs-450 fw-bold">House Finder</span>
                 <br />
-                <span class="fs-150"> Real Estate </span>
+                <span class="fs-150">
+                  Real Estate platform to buy,sell and rent buildings
+                </span>
               </div>
               <!-- open icon -->
               <div>
                 <span
                   ><img
+                    style="width: 40px"
                     src="@/assets/icon/down-arrow.png"
                     alt=""
                     class="bggreen rounded-circle p-2"
                 /></span>
               </div>
             </div>
-            <div
-              style="width: 280px; height: 200px"
-              class="bgwhite border rounded"
-            >
-              <!-- <span class="bgwhite"></span> -->
-              <div
-                class="d-flex justify-content-center logo-marg align-items-center py-3"
-              >
-                <img
-                  src="@/assets/icon/housefinderLogo.fa8ea49c.png"
-                  alt=""
-                  style="width: 180px"
-                />
+            <!-- skill used to build it -->
+            <div>
+              <div class="d-flex align-items center my-2 fw-bold green3">
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1">HTML</span>
+                </div>
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1">CSS</span>
+                </div>
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                    >Vue Js</span
+                  >
+                </div>
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                    >Nuxt Js</span
+                  >
+                </div>
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                    >Boostrap</span
+                  >
+                </div>
               </div>
             </div>
+            <a target="_blank" href="https://housefinder.com.ng/">
+              <div
+                style="width: 280px; height: 200px"
+                class="bgwhite border projectanima rounded"
+              >
+                <!-- <span class="bgwhite"></span> -->
+                <div
+                  class="d-flex justify-content-center logo-marg align-items-center py-3"
+                >
+                  <img
+                    src="@/assets/images/housefinder.png"
+                    alt=""
+                    class="w-100"
+                  />
+                </div>
+              </div>
+            </a>
           </div>
         </div>
         <!-- fourth project -->
         <div class="col-lg-3 col-xl-3 not-on-mobile position-relative">
           <!-- project card -->
           <div
-            class="bord-button2 projectanima mt-5 forth-position"
+            class="bord-button2 mt-5 forth-position"
             @click="removeFirstCard"
           >
             <div class="d-flex justify-content-between mt-2">
@@ -117,30 +170,61 @@
                   More Limited
                 </span>
                 <br />
-                <span class="fs-150">Ecommerce </span>
+                <span class="fs-150"
+                  >Ecommerce for everything building and construction
+                  related</span
+                >
               </div>
               <!-- open icon -->
               <div>
                 <span
                   ><img
+                    style="width: 40px"
                     src="@/assets/icon/down-arrow.png"
                     alt=""
                     class="bggreen rounded-circle p-2"
                 /></span>
               </div>
             </div>
-            <!-- image of project -->
-            <div
-              style="width: 280px; height: 200px"
-              class="bgwhite border rounded"
-            >
-              <!-- <span class="bgwhite"></span> -->
-              <div
-                class="d-flex justify-content-center logo-marg align-items-center py-3"
-              >
-                <img src="@/assets/icon/Baml.png" alt="" style="width: 180px" />
+            <!-- skill used to build it -->
+            <div>
+              <div class="d-flex align-items center my-2 fw-bold green3">
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1">HTML</span>
+                </div>
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1">CSS</span>
+                </div>
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                    >Nuxt Js</span
+                  >
+                </div>
+                <div>
+                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                    >Bootstrap</span
+                  >
+                </div>
               </div>
             </div>
+            <!-- image of project -->
+            <a target="_blank" href="https://buildingsandmore.ng/">
+              <div
+                style="width: 280px; height: 200px"
+                class="bgwhite projectanima border rounded"
+              >
+                <!-- <span class="bgwhite"></span> -->
+                <div
+                  class="d-flex justify-content-center logo-marg align-items-center py-3"
+                >
+                  <img
+                    src="@/assets/images/portfolioBaml.png"
+                    alt=""
+                    class="w-100"
+                  />
+                </div>
+              </div>
+            </a>
             <!-- view more -->
             <router-link to="/viewMore">
               <div class="position-relative not-on-mobile">
@@ -183,34 +267,145 @@
                         >Buildings and More Limited</span
                       >
                       <br />
-                      <span class="fs-200 fw-bold"> Ecommerce platform </span>
+                      <span class="fs-170"
+                        >Ecommerce for everything building and construction
+                        related</span
+                      >
                     </div>
                     <!-- open icon -->
                     <div class="">
                       <span
                         ><img
+                          style="width: 40px"
                           src="@/assets/icon/down-arrow.png"
                           alt=""
                           class="bggreen rounded-circle p-2"
                       /></span>
                     </div>
                   </div>
-                  <!-- image of project -->
-                  <div
-                    style="width: 280px; height: 200px"
-                    class="bgwhite border rounded"
-                  >
-                    <!-- <span class="bgwhite"></span> -->
-                    <div
-                      class="d-flex bgwhite justify-content-center align-items-center toppro"
-                    >
-                      <img
-                        src="@/assets/icon/Baml.png"
-                        alt=""
-                        style="width: 180px"
-                      />
+                  <!-- skill used to build it -->
+                  <div>
+                    <div class="d-flex align-items center my-2 fw-bold green3">
+                      <div>
+                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                          >HTML</span
+                        >
+                      </div>
+                      <div>
+                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                          >CSS</span
+                        >
+                      </div>
+                      <div>
+                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                          >Nuxt Js</span
+                        >
+                      </div>
+                      <div>
+                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                          >Bootstrap</span
+                        >
+                      </div>
                     </div>
                   </div>
+                  <!-- image of project -->
+                  <a target="_blank" href="https://buildingsandmore.ng/">
+                    <div
+                      style="width: 280px; height: 200px"
+                      class="bgwhite border rounded"
+                    >
+                      <!-- <span class="bgwhite"></span> -->
+                      <div
+                        class="d-flex bgwhite justify-content-center align-items-center py-3"
+                      >
+                        <img
+                          src="@/assets/images/portfolioBaml.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </a>
+          </swiper-slide>
+          <swiper-slide class="">
+            <a
+              href="https://housefinder.com.ng/"
+              class="text-decoration-none text-reset"
+            >
+              <div class="">
+                <!-- project card -->
+                <div class="bord-button2 projectanima" @click="removeFirstCard">
+                  <div class="d-flex justify-content-between mt-2">
+                    <div class="">
+                     
+                      <span class="fs-450 fw-bold">House Finder</span>
+                      <br />
+                      <span class="fs-150">
+                        Real Estate platform to buy,sell and rent buildings
+                      </span>
+                    </div>
+                    <!-- open icon -->
+                    <div class="">
+                      <span
+                        ><img
+                          style="width: 40px"
+                          src="@/assets/icon/down-arrow.png"
+                          alt=""
+                          class="bggreen rounded-circle p-2"
+                      /></span>
+                    </div>
+                  </div>
+                  <!-- skill used to build it -->
+                  <div>
+                    <div class="d-flex align-items center my-2 fw-bold green3">
+                      <div>
+                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                          >HTML</span
+                        >
+                      </div>
+                      <div>
+                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                          >CSS</span
+                        >
+                      </div>
+                      <div>
+                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                          >Vue Js</span
+                        >
+                      </div>
+                      <div>
+                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                          >Nuxt Js</span
+                        >
+                      </div>
+                      <div>
+                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                          >Boostrap</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- image of project -->
+                  <a target="_blank" href="https://buildingsandmore.ng/">
+                    <div
+                      style="width: 280px; height: 200px"
+                      class="bgwhite border projectanima rounded"
+                    >
+                      <!-- <span class="bgwhite"></span> -->
+                      <div
+                        class="d-flex justify-content-center logo-marg align-items-center py-3"
+                      >
+                        <img
+                          src="@/assets/images/housefinder.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </a>
@@ -290,10 +485,10 @@
       </div>
     </div> -->
     <div class="">
-      <h1 class="bgContact2 container not-on-mobile  fontneubold">Project</h1>
+      <h1 class="bgContact2 container not-on-mobile fontneubold">Project</h1>
     </div>
     <div class="not-on-desktop">
-      <h1 class="mobbgContact2 container  fontneubold">Pr</h1>
+      <h1 class="mobbgContact2 container fontneubold">Pr</h1>
     </div>
   </div>
 </template>
@@ -369,9 +564,9 @@ export default {
 .project-text {
   text-align: justify !important;
 }
-.logo-marg {
+/* .logo-marg {
   margin: 4rem 0rem !important;
-}
+} */
 /* z index of contact */
 .zi-of-content {
   z-index: -5000 !important;
@@ -523,14 +718,14 @@ export default {
 }
 @media (max-width: 768px) {
   .mobbgContact2 {
-  font-size: 20rem !important;
-  color: rgba(105, 105, 105, 0.199) !important;
-  position: absolute;
-  z-index: 0 !important;
-  bottom: -2rem;
-  right: 0rem;
-  left: 0rem;
-}
+    font-size: 20rem !important;
+    color: rgba(105, 105, 105, 0.199) !important;
+    position: absolute;
+    z-index: 0 !important;
+    bottom: -2rem;
+    right: 0rem;
+    left: 0rem;
+  }
   /* projects space */
   .works-space {
     padding: 0rem 0rem !important;
@@ -573,5 +768,8 @@ export default {
   .max2 {
     max-width: 100% !important;
   }
+}
+img {
+  object-fit: cover !important;
 }
 </style>

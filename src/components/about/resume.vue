@@ -51,29 +51,27 @@
         </div>
         <div class="project-text col-lg-7 col-md-7 col-xl-7 col-xxl-7">
           <p class="fs-300">
-            Over the years i have Engineered and Designed several software
-            products which has helped to solve problems in their various
-            industries. Industries like Education,Transportation, Real Estate ,
-            Ecommerce.
+            Over the course of my career, I have developed and designed multiple
+            software products that have helped to address problems in various
+            industries such as education, transportation, real estate, and
+            e-commerce.
           </p>
           <p class="fs-300">
-            I worked and handled the revamping of web application (Buildings and
-            more)where i was reponsible for rebuilding the front-end of the web
-            product into a scalable applicaton , ensuring it was search engine
-            optimized using Nuxt js, with other several other qualities like
-            lazy loading images that improves the speed of the site.
+            I have experience in revamping web applications, specifically
+            focusing on rebuilding the front-end to be scalable and optimized
+            for search engines using Nuxt js, as well as implementing features
+            such as lazy loading images to improve site speed.
           </p>
           <p class="fs-300">
-            I also built a Hotel and Flight booking engine (Bitsin),which was
-            built to also handle visa application. i was responsible for
-            building the front-end, consuming API's using postman and using
-            tools (figma,Adobe e.t.c), libraries,that helped achieve the desired
-            goal.
+            Additionally, I have built a hotel and flight booking engine called
+            Bitsin, which also handles visa applications. I was responsible for
+            the front-end development, utilizing API's and utilizing tools such
+            as Figma and Adobe to achieve the desired outcome.
           </p>
           <p class="fs-300">
-            I am Equipped with several tools that makes me capable in handling
-            Design and Engineering projects proficiently, which enable me meet
-            up targets, deadlines and achieve desired goals.
+            I possess a wide range of tools and skills that make me proficient
+            in handling design and engineering projects, allowing me to meet
+            targets and deadlines while achieving desired results.
           </p>
         </div>
 

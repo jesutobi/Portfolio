@@ -20,7 +20,7 @@
         <u>
           <div class="py-5 fontbold titleunderline my-5">
             <h1 class="projectsheroFont text-center fw-bold">
-              Selected Projects
+              Selected <span class="grey "> Projects</span>
             </h1>
           </div>
         </u>

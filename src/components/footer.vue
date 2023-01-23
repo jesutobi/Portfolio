@@ -7,7 +7,7 @@
           <div class="not-on-mobile">
             <span class="reduce-font  font1 fs-200 fw-bold"
               >Designed(ideas from dribble &#38; hashnode) <br />
-              and built by
+              and built by Jesutobi Joseph
             </span>
           </div>
           <!--name  -->

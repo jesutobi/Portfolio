@@ -38,38 +38,65 @@
               </h2>
               <div class="about-text-font-size px-4">
                 <p class="fs-300">
-                  Over the years i have Engineered and Designed several software
-                  products which has helped to solve problems in their various
-                  industries. Industries like Education,Transportation, Real
-                  Estate , Ecommerce.
+                  Hi, my name is
+                  <span class="green px-1 fw-bold"> Jesutobi J.J</span> ,over
+                  the course of my career, I have developed and designed the
+                  <span class="green px-1 fw-bold">front-end</span>
+                  multiple web applications that have helped to address problems
+                  in various industries such as education, transportation, real
+                  estate, and e-commerce.
                 </p>
                 <p class="fs-300">
-                  I worked and handled the revamping of Buildings and more web
-                  application where i was reponsible for rebuilding the
-                  front-end of the web product into a scalable app , ensuring it
-                  was search engine optimized, with several other qualities.
+                  I have a strong understanding of
+                  <span class="green px-1 fw-bold"
+                    >web performance optimization techniques,</span
+                  >
+                  such as minifying code and using the right sizes of 'image
+                  assets' to ensure fast loading times for users
                 </p>
                 <p class="fs-300">
-                  I have handled several development contracts.One in particular
-                  was a Transportation Web application.....
+                  Additionally I am skilled in
+                  <span class="green px-1 fw-bold">accessibility</span> best
+                  practices to ensure that my designs are inclusive for all
+                  users. I am always looking for ways to improve and
+                  <span class="green px-1 fw-bold"
+                    >optimize the user experience</span
+                  >, and I believe that a well-designed and optimized front-end
+                  is crucial for the success of any web application.".
+                </p>
+              </div>
+              <!-- skill i have used -->
+              <div class="about-text-font-size px-4">
+                <p>
+                  I have experience using a variety of tools and technologies:
+                  <br />
+                  <span class=""
+                    >Technologies:
+                    <span class="green px-1 fw-bold"
+                      >HTML, CSS , Javascript , SASS</span
+                    ></span
+                  ><br />
+                  <span
+                    >Styling libraries:
+                    <span class="green px-1 fw-bold">
+                      Bootstrap, TailwindCSS</span
+                    ></span
+                  ><br />
+                  <span
+                    >Framework/Libraries:
+                    <span class="green px-1 fw-bold"
+                      >Vue Js, Nuxt Js</span
+                    ></span
+                  >
                 </p>
               </div>
               <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
                 &#8249;/p&#8250;
               </h2>
             </div>
+
             <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
-            <!-- about -->
-            <div class="pb-3 px-2" role="button">
-              <router-link to="/about/resume" class="contact-button py-2">
-                <div class="">
-                  <span class="bg"></span>
-                  <span class="base"></span>
-                  <span class="text fw-bold"> Read More </span>
-                </div>
-              </router-link>
-              <router-view></router-view>
-            </div>
+            
           </div>
           <div class="col-xl-6 col-lg-6">
             <div class="not-on-mobile pt-4">
