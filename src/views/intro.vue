@@ -52,10 +52,10 @@
                   <br />
 
                   skilled in utilizing the latest technologies and tools to
-                  build responsive and visually appealing websites. I am
+                  build responsive and visually appealing websites. <span class="not-on-mobile">I am
                   passionate about staying up to date on industry trends and
                   best practices to ensure that my work is of the highest
-                  quality.
+                  quality.</span> 
                 </p>
                 <p
                   class="fs-300 green3 reduce-mini-intro-text-hero brief-text disable-margin mobile-hero-width font1 mx-5"
