@@ -19,8 +19,7 @@
 
         <div class="overbg position-relative font1">
           <form
-            action="https://www.actionforms.io/e/r/jesutobi"
-            method="post"
+           action="https://formbold.com/s/oWgwp" method="POST"
             class=""
           >
             <!-- name -->
@@ -286,7 +285,7 @@
                   <div class="">
                     <span class="bg"></span>
                     <span class="base"></span>
-                    <span class="text fw-bold"> Lets Build </span>
+                    <span class="text fw-bold"> Contact me </span>
                   </div>
                 </button>
               </div>

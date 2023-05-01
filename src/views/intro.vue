@@ -420,7 +420,7 @@ div.c {
 }
 /* fake tag color */
 .fake-tag-color {
-  color: #06d599;
+  color: grey;
 }
 /* lets talk button */
 .view-marg-button {
