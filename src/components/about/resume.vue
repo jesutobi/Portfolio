@@ -1,5 +1,5 @@
 <template>
-  <div class="font1 container bgwhite3 green2 my-4" id="printMe">
+  <div class="font1  bgwhite3 green2 my-4" id="printMe">
     <!-- print button -->
     <a
       class="text-reset"
@@ -242,4 +242,5 @@ export default {
     padding: 3rem 0rem 0rem 0rem !important;
   }
 }
+
 </style>

@@ -1,35 +1,34 @@
 <template>
   <div>
-    <div class="contact-bg font1 bggreen3">
+    <div class="contact-bg font1 bggreen3 position-relative">
       <!-- <Preload /> -->
       <div class="mob-width">
         <!-- fake div and h1 tag -->
 
         <div class="mob-off-set-space fw-bold">
-          <h1 class="contact-head-font-size fw-bold reduce-title-font-size text-center">
-            I am just a message away <span class="not-on-mobile">,</span>
-          </h1>
           <h1
-            class="contact-head-font-size fw-bold not-on-mobile reduce-title-font-size text-center"
+            class="contact-head-font-size fw-bold reduce-title-font-size text-center"
           >
-            {{ typeValue }}
-            <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
+            I am just a message away
           </h1>
         </div>
 
-        <div class="overbg position-relative font1">
+        <div class="overbg font1">
           <form
-           action="https://formbold.com/s/oWgwp" method="POST"
-            class=""
+            action="https://formbold.com/s/oWgwp"
+            method="POST"
+            class="z-content"
           >
             <!-- name -->
             <div
-              class="d-flex off-felx-mob align-items-center justify-content-center"
+              class="d-flex off-felx-mob align-items-center justify-content-center z-content"
             >
-              <div class="mb-4 mx-1 position-relative input-width w-35">
+              <div
+                class="mb-4 mx-1 position-relative input-width w-35 z-content"
+              >
                 <!-- <label for="">Enter your name</label> -->
                 <br />
-                <div class="userpostion">
+                <div class="userpostion z-content">
                   <svg
                     version="1.1"
                     id="Layer_1"
@@ -118,19 +117,19 @@
                     </g>
                   </svg>
                 </div>
-                <label for="name" class="fs-200">Name</label>
+                <label for="name" class="fs-200 z-content">Name</label>
                 <br />
                 <input
                   type="text"
                   placeholder="Enter your name"
-                  class="border-bottom py-3 px-5 input-width remove-input-defaults w-80 reduce-placeholder-font fs-400 border-0 w-90 border-2 border-light"
+                  class="border-bottom z-content py-3 px-5 input-width remove-input-defaults w-80 reduce-placeholder-font fs-400 border-0 w-90 border-2 border-light"
                   name="name"
                   required
                 />
               </div>
               <!-- email adress -->
-              <div class="my-4 position-relative input-width w-35">
-                <div class="atpostion">
+              <div class="my-4 position-relative input-width w-35 z-content">
+                <div class="atpostion z-content">
                   <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                   <svg
                     version="1.1"
@@ -165,12 +164,14 @@
                     </g>
                   </svg>
                 </div>
-                <label for="email" class="fs-200">Email address</label>
+                <label for="email" class="fs-200 z-content"
+                  >Email address</label
+                >
                 <br />
                 <input
                   type="email"
                   placeholder="Enter your email address"
-                  class="border-bottom w-100 fs-400 remove-input-defaults reduce-placeholder-font px-5 py-3 border-0 w-70 border-2 border-light"
+                  class="border-bottom w-100 fs-400 z-content remove-input-defaults reduce-placeholder-font px-5 py-3 border-0 w-70 border-2 border-light"
                   name="email"
                   required
                 />
@@ -178,9 +179,10 @@
             </div>
 
             <!-- message -->
-            <div class="my-4 w-70 input-width m-auto position-relative">
+            <div
+              class="my-4 w-70 input-width m-auto position-relative z-content"
+            >
               <div class="atpostion">
-            
                 <svg
                   version="1.1"
                   id="Layer_1"
@@ -269,19 +271,19 @@
                   </g>
                 </svg>
               </div>
-              <label for="message" class="fs-200">Your message</label>
+              <label for="message" class="fs-200 z-content">Your message</label>
               <br />
               <textarea
                 type="text"
                 name="message"
                 placeholder="What do you have in mind"
-                class="border-bottom py-3 fs-400 overflow-auto reduce-placeholder-font remove-input-defaults px-5 border-0 w-100 border-2 border-light"
+                class="border-bottom z-content py-3 fs-400 overflow-auto reduce-placeholder-font remove-input-defaults px-5 border-0 w-100 border-2 border-light"
               />
             </div>
             <!-- lets talk button -->
-            <div  class="">
-              <div  class="d-flex justify-content-center">
-                <button type="submit" class="contact-button py-2">
+            <div class="z-content">
+              <div class="d-flex justify-content-center">
+                <button type="submit" class="contact-button py-2 z-content">
                   <div class="">
                     <span class="bg"></span>
                     <span class="base"></span>
@@ -291,19 +293,9 @@
               </div>
             </div>
           </form>
-          <!-- at bg -->
-          <!-- <div class="col-5 position-relative">
-            <div class="at2postion">
-              <img src="@/assets/icon/at2.png" alt="" class="" />
-            </div> -->
-          <!-- send
-          <div class="mailposition">
-            <img src="@/assets/icon/mail.png" alt="">
-          </div> -->
-          <!-- </div> -->
-          <div class="bgContactheight ">
-            <h1 class="bgContact fontneubold"> <span>Co</span><span class="not-on-mobile">ntac</span></h1>
-          </div>
+        </div>
+        <div class="">
+          <h1 style="font-size: 22em;" class="bgContact bgfont text-center fontneubold">Contact</h1>
         </div>
       </div>
       <!-- fp -->
@@ -370,22 +362,23 @@ export default {
 </script>
 
 <style scoped>
+.z-content {
+  z-index: 9999 !important ;
+}
 /*put form over background text */
 .overbg {
   z-index: 30000;
 }
-button{
+button {
   background-color: transparent;
   border: none;
 }
 /* background text */
 .bgContact {
-  
-  font-size: 24rem !important;
   color: rgba(105, 105, 105, 0.199) !important;
   position: absolute;
-  z-index: -1 !important;
-  top: 0;
+  z-index: 0 !important;
+  /* top: 0; */
   /* left: 0; */
   bottom: 0rem;
 }
@@ -559,34 +552,38 @@ textarea:focus {
     background: var(--clr-bgwhite1) !important;
   }
   /* projects button */
-.contact-button {
-  text-decoration: none;
-  width: 100%;
-  /* max-width: 200px; */
-  height: 70px;
-  display: block;
-  line-height: 50px;
-  /* letter-spacing: 3px; */
-  position: relative;
-  text-align: center;
-  color: #08fdd8;
-  /* margin-top: 50px; */
-}
+  .contact-button {
+    text-decoration: none;
+    width: 100%;
+    /* max-width: 200px; */
+    height: 70px;
+    display: block;
+    line-height: 50px;
+    /* letter-spacing: 3px; */
+    position: relative;
+    text-align: center;
+    color: #08fdd8;
+    /* margin-top: 50px; */
+  }
 }
 @media (max-width: 576px) {
-  /* background text */
-.bgContact {
-  
-  font-size: 16rem !important;
-  color: rgba(105, 105, 105, 0.199) !important;
-  position: absolute;
-  z-index: -1 !important;
-  top: 0;
-  /* left: 0; */
-  bottom: 0rem;
-}
   .not-on-mobile {
     display: none !important;
   }
 }
+/* @media (min-width: 1199px) {
+ .bgfont{
+    font-size: 20em;
+  }
+} */
+@media (max-width: 1197px) {
+ .bgfont{
+    font-size: 25vw !important;
+  }
+}
+
+  /* .bgfont{
+    font-size: 20em;
+  } */
+
 </style>

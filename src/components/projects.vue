@@ -1,422 +1,286 @@
 <template>
-  <div class="font1 project-bg position-relative">
-    <div>
-      <!-- <h1 class="bgContact">Pro</h1> -->
-    </div>
-    <div class="mob-width zi-of-content">
-      <div class="row works-space">
-        <div class="col-lg-3 col-xl-3 my-5 cont-space">
-          <!-- header -->
-          <!-- fake div and h1 tag -->
-          <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
-          <!-- fake div and h1 tag -->
-          <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
-            &#8249;h1&#8250;
-          </h2>
-          <h1 class="project-head-font-size fw-bold">Recent Projects</h1>
-          <!-- fake div and h1 tag -->
-          <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
-            &#8249;/h1&#8250;
-          </h2>
-          <!-- fake div and h1 tag -->
-          <h2 class="fontreg1 fs-550 text-white-50">&#8249;/div&#8250;</h2>
-          <!-- project card -->
-        </div>
-
-        <!-- second project -->
-        <div class="col-lg-3 col-xl-3 not-on-mobile position-relative">
-          <!-- project card -->
-          <div
-            class="bord-button2 mt-5 second-position"
-            @click="removeFirstCard"
-          >
-            <div class="d-flex justify-content-between mt-2">
-              <div class="">
-                <span class="fs-450 fw-bold">Bitsin Travels and Tours</span>
-                <br />
-                <span class="fs-150">Hotel and Flight Bookings engine</span>
-                <!-- <span class="fs-150"> Software</span> -->
-              </div>
-              <!-- open icon -->
-              <div>
-                <span
-                  ><img
-                    style="width: 40px"
-                    src="@/assets/icon/down-arrow.png"
-                    alt=""
-                    class="bggreen rounded-circle p-2"
-                /></span>
-              </div>
-            </div>
-            <!-- skill used to build it -->
-            <div>
-              <div class="d-flex align-items center green3 fw-bold my-2">
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1">HTML</span>
-                </div>
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1">CSS</span>
-                </div>
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                    >Nuxt Js</span
-                  >
-                </div>
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                    >Bootstrap</span
-                  >
-                </div>
-              </div>
-            </div>
-            <!-- image of project -->
-            <a target="_blank" href="https://bitsintravelsandtours.com/">
-              <div
-                style="width: 280px; height: 200px"
-                class="bgwhite projectanima border rounded position-relative"
-              >
-                <!-- <span class="bgwhite"></span> -->
-                <div
-                  class="d-flex justify-content-center py-3 align-items-center"
-                >
-                  <img src="@/assets/images/bitsin.png" alt="" class="w-100" />
-                </div>
-                <div></div>
-              </div>
-            </a>
+  <div>
+    <div class="font1 project-bg position-relative">
+      <div class="mob-width z-content desk_tab_screen">
+        <!-- slider for mobile -->
+        <!-- cont-space -->
+        <div class="row pt-2">
+          <div class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content">
+            <!-- header -->
+            <!-- fake div and h1 tag -->
+            <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
+            <!-- fake div and h1 tag -->
+            <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
+              &#8249;h1&#8250;
+            </h2>
+            <h1 class="project-head-font-size fw-bold">Recent Projects</h1>
+            <!-- fake div and h1 tag -->
+            <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
+              &#8249;/h1&#8250;
+            </h2>
+            <!-- fake div and h1 tag -->
+            <h2 class="fontreg1 fs-550 text-white-50">&#8249;/div&#8250;</h2>
+            <!-- project card -->
           </div>
-        </div>
-        <!-- third project -->
-        <div class="col-lg-3 col-xl-3 not-on-mobile position-relative">
-          <!-- project card -->
-          <div class="bord-button2 mt-5 third-position">
-            <div class="d-flex justify-content-between mt-2">
-              <div class="">
-                <!-- <span class="fs-450">Project A</span>
-                <br /> -->
-                <span class="fs-450 fw-bold">House Finder</span>
-                <br />
-                <span class="fs-150">
-                  Real Estate platform to buy,sell and rent buildings
-                </span>
-              </div>
-              <!-- open icon -->
-              <div>
-                <span
-                  ><img
-                    style="width: 40px"
-                    src="@/assets/icon/down-arrow.png"
-                    alt=""
-                    class="bggreen rounded-circle p-2"
-                /></span>
-              </div>
-            </div>
-            <!-- skill used to build it -->
-            <div>
-              <div class="d-flex align-items center my-2 fw-bold green3">
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1">HTML</span>
-                </div>
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1">CSS</span>
-                </div>
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                    >Vue Js</span
-                  >
-                </div>
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                    >Nuxt Js</span
-                  >
-                </div>
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                    >Boostrap</span
-                  >
-                </div>
-              </div>
-            </div>
-            <a target="_blank" href="https://housefinder.com.ng/">
-              <div
-                style="width: 280px; height: 200px"
-                class="bgwhite border projectanima rounded"
+          <div class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content">
+            <div class="d-flex justify-content-center">
+              <a
+                href="https://buildingsandmore.ng/"
+                class="text-decoration-none py-1 text-reset"
               >
-                <!-- <span class="bgwhite"></span> -->
-                <div
-                  class="d-flex justify-content-center logo-marg align-items-center py-3"
-                >
-                  <img
-                    src="@/assets/images/housefinder.png"
-                    alt=""
-                    class="w-100"
-                  />
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <!-- fourth project -->
-        <div class="col-lg-3 col-xl-3 not-on-mobile position-relative">
-          <!-- project card -->
-          <div
-            class="bord-button2 mt-5 forth-position"
-            @click="removeFirstCard"
-          >
-            <div class="d-flex justify-content-between mt-2">
-              <div class="">
-                <span class="fs-450 fw-bold">
-                  Buildings and <br />
-                  More Limited
-                </span>
-                <br />
-                <span class="fs-150"
-                  >Ecommerce for everything building and construction
-                  related</span
-                >
-              </div>
-              <!-- open icon -->
-              <div>
-                <span
-                  ><img
-                    style="width: 40px"
-                    src="@/assets/icon/down-arrow.png"
-                    alt=""
-                    class="bggreen rounded-circle p-2"
-                /></span>
-              </div>
-            </div>
-            <!-- skill used to build it -->
-            <div>
-              <div class="d-flex align-items center my-2 fw-bold green3">
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1">HTML</span>
-                </div>
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1">CSS</span>
-                </div>
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                    >Nuxt Js</span
-                  >
-                </div>
-                <div>
-                  <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                    >Bootstrap</span
-                  >
-                </div>
-              </div>
-            </div>
-            <!-- image of project -->
-            <a target="_blank" href="https://buildingsandmore.ng/">
-              <div
-                style="width: 280px; height: 200px"
-                class="bgwhite projectanima border rounded"
-              >
-                <!-- <span class="bgwhite"></span> -->
-                <div
-                  class="d-flex justify-content-center logo-marg align-items-center py-3"
-                >
-                  <img
-                    src="@/assets/images/portfolioBaml.png"
-                    alt=""
-                    class="w-100"
-                  />
-                </div>
-              </div>
-            </a>
-            <!-- view more -->
-            <router-link to="/viewMore">
-              <div class="position-relative not-on-mobile">
-                <div class="view-marg-button w-100">
-                  <a href="#" class="contact-button py-2">
-                    <div class="">
-                      <span class="bg"></span>
-                      <span class="base"></span>
-                      <span class="text fw-bold"> View more </span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </router-link>
-            <router-view></router-view>
-          </div>
-        </div>
-      </div>
-      <!-- slider for mobile -->
-      <div class="not-on-desktop w-85 m-auto pt-2">
-        <swiper
-          :modules="modules"
-          class="mySwiper"
-          :slides-per-view="1.1"
-          :space-between="25"
-          @swiper="onSwiper"
-          @slideChange="onSlideChange"
-        >
-          <swiper-slide class="">
-            <a
-              href="https://buildingsandmore.ng/"
-              class="text-decoration-none text-reset"
-            >
-              <div class="">
-                <!-- project card -->
-                <div class="bord-button2 projectanima" @click="removeFirstCard">
-                  <div class="d-flex justify-content-between mt-2">
-                    <div class="">
-                      <span class="fs-400 fw-bold"
-                        >Buildings and More Limited</span
-                      >
-                      <br />
-                      <span class="fs-170"
-                        >Ecommerce for everything building and construction
-                        related</span
-                      >
-                    </div>
-                    <!-- open icon -->
-                    <div class="">
-                      <span
-                        ><img
-                          style="width: 40px"
-                          src="@/assets/icon/down-arrow.png"
-                          alt=""
-                          class="bggreen rounded-circle p-2"
-                      /></span>
-                    </div>
-                  </div>
-                  <!-- skill used to build it -->
-                  <div>
-                    <div class="d-flex align-items center my-2 fw-bold green3">
-                      <div>
-                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                          >HTML</span
-                        >
-                      </div>
-                      <div>
-                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                          >CSS</span
-                        >
-                      </div>
-                      <div>
-                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                          >Nuxt Js</span
-                        >
-                      </div>
-                      <div>
-                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                          >Bootstrap</span
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <!-- image of project -->
-                  <a target="_blank" href="https://buildingsandmore.ng/">
+                <div class="my-2">
+                  <!-- project card -->
+                  <div class="bord-button2" @click="removeFirstCard">
                     <div
-                      style="width: 280px; height: 200px"
-                      class="bgwhite border rounded"
+                      style="width: 300px"
+                      class="d-flex justify-content-between mt-2"
                     >
-                      <!-- <span class="bgwhite"></span> -->
+                      <div class="">
+                        <span class="fs-400 fw-bold"
+                          >Buildings and More Limited</span
+                        >
+                        <br />
+                        <span class="fs-170"
+                          >Ecommerce for everything building and construction
+                          related</span
+                        >
+                      </div>
+                      <!-- open icon -->
+                      <div class="">
+                        <span
+                          ><img
+                            style="width: 40px"
+                            src="@/assets/icon/down-arrow.png"
+                            alt=""
+                            class="bggreen rounded-circle p-2"
+                        /></span>
+                      </div>
+                    </div>
+                    <!-- skill used to build it -->
+                    <div>
                       <div
-                        class="d-flex bgwhite justify-content-center align-items-center py-3"
+                        class="d-flex align-items center my-2 fw-bold green3"
                       >
-                        <img
-                          src="@/assets/images/portfolioBaml.png"
-                          alt=""
-                          class="w-100"
-                        />
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >HTML</span
+                          >
+                        </div>
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >CSS</span
+                          >
+                        </div>
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >Nuxt Js</span
+                          >
+                        </div>
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >Bootstrap</span
+                          >
+                        </div>
                       </div>
                     </div>
-                  </a>
+                    <!-- image of project -->
+                    <a target="_blank" href="https://buildingsandmore.ng/">
+                      <div
+                        style="width: 280px; height: 200px"
+                        class="bgwhite border rounded"
+                      >
+                        <!-- <span class="bgwhite"></span> -->
+                        <div
+                          class="d-flex bgwhite justify-content-center align-items-center py-3"
+                        >
+                          <img
+                            src="@/assets/images/portfolioBaml.png"
+                            alt=""
+                            class="w-100"
+                          />
+                        </div>
+                      </div>
+                    </a>
+                  </div>
                 </div>
-              </div>
-            </a>
-          </swiper-slide>
-          <swiper-slide class="">
-            <a
-              href="https://housefinder.com.ng/"
-              class="text-decoration-none text-reset"
-            >
-              <div class="">
-                <!-- project card -->
-                <div class="bord-button2 projectanima" @click="removeFirstCard">
-                  <div class="d-flex justify-content-between mt-2">
-                    <div class="">
-                     
-                      <span class="fs-450 fw-bold">House Finder</span>
-                      <br />
-                      <span class="fs-150">
-                        Real Estate platform to buy,sell and rent buildings
-                      </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content">
+            <div class="d-flex justify-content-center">
+              <a
+                href="https://housefinder.com.ng/"
+                class="text-decoration-none text-reset"
+              >
+                <div class="my-2">
+                  <!-- project card -->
+                  <div class="bord-button2" @click="removeFirstCard">
+                    <div class="d-flex justify-content-between mt-2">
+                      <div class="">
+                        <span class="fs-450 fw-bold">House Finder</span>
+                        <br />
+                        <span class="fs-150">
+                          Real Estate platform to buy,sell and rent buildings
+                        </span>
+                      </div>
+                      <!-- open icon -->
+                      <div class="">
+                        <span
+                          ><img
+                            style="width: 40px"
+                            src="@/assets/icon/down-arrow.png"
+                            alt=""
+                            class="bggreen rounded-circle p-2"
+                        /></span>
+                      </div>
                     </div>
-                    <!-- open icon -->
-                    <div class="">
-                      <span
-                        ><img
-                          style="width: 40px"
-                          src="@/assets/icon/down-arrow.png"
-                          alt=""
-                          class="bggreen rounded-circle p-2"
-                      /></span>
+                    <!-- skill used to build it -->
+                    <div>
+                      <div
+                        class="d-flex align-items center my-2 fw-bold green3"
+                      >
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >HTML</span
+                          >
+                        </div>
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >CSS</span
+                          >
+                        </div>
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >Vue Js</span
+                          >
+                        </div>
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >Nuxt Js</span
+                          >
+                        </div>
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >Boostrap</span
+                          >
+                        </div>
+                      </div>
                     </div>
+                    <!-- image of project -->
+                    <a target="_blank" href="https://buildingsandmore.ng/">
+                      <div
+                        style="width: 280px; height: 200px"
+                        class="bgwhite border projectanima rounded"
+                      >
+                        <!-- <span class="bgwhite"></span> -->
+                        <div
+                          class="d-flex justify-content-center logo-marg align-items-center py-3"
+                        >
+                          <img
+                            src="@/assets/images/housefinder.png"
+                            alt=""
+                            class="w-100"
+                          />
+                        </div>
+                      </div>
+                    </a>
                   </div>
-                  <!-- skill used to build it -->
-                  <div>
-                    <div class="d-flex align-items center my-2 fw-bold green3">
-                      <div>
-                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                          >HTML</span
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content">
+            <div class="d-flex justify-content-center">
+              <a
+                href="https://housefinder.com.ng/"
+                class="text-decoration-none text-reset"
+              >
+                <div class="my-2">
+                  <!-- project card -->
+                  <div class="bord-button2" @click="removeFirstCard">
+                    <div class="d-flex justify-content-between mt-2">
+                      <div class="">
+                        <span class="fs-450 fw-bold"
+                          >Bitsin Travels and Tours</span
                         >
+                        <br />
+                        <span class="fs-150"
+                          >Hotel and Flight Bookings engine</span
+                        >
+                        <!-- <span class="fs-150"> Software</span> -->
                       </div>
+                      <!-- open icon -->
                       <div>
-                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                          >CSS</span
-                        >
-                      </div>
-                      <div>
-                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                          >Vue Js</span
-                        >
-                      </div>
-                      <div>
-                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                          >Nuxt Js</span
-                        >
-                      </div>
-                      <div>
-                        <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                          >Boostrap</span
-                        >
+                        <span
+                          ><img
+                            style="width: 40px"
+                            src="@/assets/icon/down-arrow.png"
+                            alt=""
+                            class="bggreen rounded-circle p-2"
+                        /></span>
                       </div>
                     </div>
-                  </div>
-                  <!-- image of project -->
-                  <a target="_blank" href="https://buildingsandmore.ng/">
-                    <div
-                      style="width: 280px; height: 200px"
-                      class="bgwhite border projectanima rounded"
+                    <!-- skill used to build it -->
+                    <div>
+                      <div
+                        class="d-flex align-items center green3 fw-bold my-2"
+                      >
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >HTML</span
+                          >
+                        </div>
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >CSS</span
+                          >
+                        </div>
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >Nuxt Js</span
+                          >
+                        </div>
+                        <div>
+                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
+                            >Bootstrap</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <!-- image of project -->
+                    <a
+                      target="_blank"
+                      href="https://bitsintravelsandtours.com/"
                     >
-                      <!-- <span class="bgwhite"></span> -->
                       <div
-                        class="d-flex justify-content-center logo-marg align-items-center py-3"
+                        style="width: 280px; height: 200px"
+                        class="bgwhite projectanima border rounded position-relative"
                       >
-                        <img
-                          src="@/assets/images/housefinder.png"
-                          alt=""
-                          class="w-100"
-                        />
+                        <!-- <span class="bgwhite"></span> -->
+                        <div
+                          class="d-flex justify-content-center py-3 align-items-center"
+                        >
+                          <img
+                            src="@/assets/images/bitsin.png"
+                            alt=""
+                            class="w-100"
+                          />
+                        </div>
+                        <div></div>
                       </div>
-                    </div>
-                  </a>
+                    </a>
+                  </div>
                 </div>
-              </div>
-            </a>
-          </swiper-slide>
+              </a>
+            </div>
+          </div>
 
           <!-- view more -->
           <router-link to="/viewMore">
-            <div class="not-on-desktop toppromob">
-              <div class="w-100">
+            <div class="toppromob row justify-content-center">
+              <div class="w-50">
                 <a href="#" class="contact-button py-2">
-                  <div class="">
+                  <div class="z-content">
                     <span class="bg"></span>
                     <span class="base"></span>
                     <span class="text fw-bold"> View more </span>
@@ -426,69 +290,14 @@
             </div>
           </router-link>
           <router-view></router-view>
-
-          ...
-        </swiper>
+        </div>
       </div>
-    </div>
 
-    <!-- <div class="" v-if="showfirst">
-      <span
-        @click="removeFirst"
-        class="cancelstyle d-flex justify-content-end mx-5 my-3"
-        ><img src="@/assets/icon/cancel.png" alt=""
-      /></span>
-      <div class="project-style">
-        <swiper
-          :navigation="true"
-          :modules="modules"
-          class="mySwiper w-80 project-style-shadow"
-          style="height: 80vh"
-          :slides-per-view="1"
-          :space-between="10"
-          @swiper="onSwiper"
-          @slideChange="onSlideChange"
-        >
-          <swiper-slide class="bggreen"
-            ><img
-              src="@/assets/images/portfolioBaml.png"
-              class="w-100"
-              alt=""
-            />
-          </swiper-slide>
-          <swiper-slide class="bggreen2 text-center">
-            <h1 class="py-3 green">Buildings and More</h1>
-            <p class="p-3 project-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
-              animi modi labore. Suscipit doloremque, asperiores facilis, quo,
-              aliquam nesciunt voluptates excepturi quae enim fugit deserunt
-              ipsam voluptatum aperiam reprehenderit? Atque esse ipsa saepe
-              maiores, temporibus voluptates! Architecto asperiores eveniet odio
-              explicabo molestias quis accusantium accusamus, nostrum dolorum
-              blanditiis laudantium, voluptatibus nesciunt reiciendis, sint
-              possimus quisquam non iste pariatur. Perspiciatis minima excepturi
-              aliquam nesciunt, expedita nihil ex optio voluptates, quod maxime,
-              saepe rerum ab ipsum placeat officia! Praesentium hic id doloribus
-              molestias ab officia pariatur labore, eum vero cupiditate totam
-              itaque consequatur veritatis consequuntur quod dolorem deserunt
-              quibusdam quos odio cumque?
-            </p>
-            <p>
-              <a class="text-reset" href="https://buildingsandmore.ng/"
-                >visit site</a
-              >
-            </p>
-          </swiper-slide>
-
-          ...
-        </swiper>
+      <div class="">
+        <h1 style="font-size: 22em" class="bgContact2 bgfont  text-center fontneubold">
+          Project
+        </h1>
       </div>
-    </div> -->
-    <div class="">
-      <h1 class="bgContact2 container not-on-mobile fontneubold">Project</h1>
-    </div>
-    <div class="not-on-desktop">
-      <h1 class="mobbgContact2 container fontneubold">Pr</h1>
     </div>
   </div>
 </template>
@@ -567,29 +376,21 @@ export default {
 /* .logo-marg {
   margin: 4rem 0rem !important;
 } */
-/* z index of contact */
-.zi-of-content {
-  z-index: -5000 !important;
-}
+
 /* background text */
-.bgContact {
-  font-size: 20rem !important;
-  color: rgba(105, 105, 105, 0.199) !important;
-  position: absolute;
-  z-index: 0 !important;
-  top: -2.8rem;
-  /* left: 0;
-  bottom: -6.5rem;
-  overflow: auto; */
-}
+
 .bgContact2 {
-  font-size: 24rem !important;
+  /* font-size: 24rem !important; */
   color: rgba(105, 105, 105, 0.199) !important;
+  z-index: 0;
   position: absolute;
-  z-index: 0 !important;
-  bottom: -2rem;
-  right: 0rem;
-  left: 0rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* top: 0; */
+}
+.z-content {
+  z-index: 9999 !important ;
 }
 
 /* projects button */
@@ -653,21 +454,7 @@ export default {
   --animate-delay: 0.3s;
   --animate-repeat: 3 !important;
 }
-.second-position {
-  position: absolute;
-  top: 3.3rem;
-  z-index: 1 !important;
-}
-.third-position {
-  position: absolute;
-  top: 0.2rem;
-  z-index: 1 !important;
-}
-.forth-position {
-  position: absolute;
-  top: -2.7rem;
-  z-index: 1 !important;
-}
+
 /* projects space */
 .works-space {
   padding: 7.5rem 0rem !important;
@@ -678,6 +465,7 @@ export default {
 }
 .bord-button2 {
   border-top: 2px solid white !important;
+  width: 300px;
 }
 /* background color */
 .project-bg {
@@ -691,19 +479,7 @@ export default {
   font-size: 4.5rem !important;
   color: #06d599 !important;
 }
-/* project modal style */
-.project-style {
-  position: fixed !important;
 
-  z-index: 3 !important;
-  top: 3rem !important;
-  left: 0rem;
-  right: 0rem;
-  box-shadow: 0rem 1rem 5rem 30rem rgba(0, 0, 0, 0.774);
-}
-.project-style-shadow {
-  box-shadow: 0rem 1rem 5rem 30rem rgba(0, 0, 0, 0.774);
-}
 /* remove modal button */
 .cancelstyle {
   position: fixed;
@@ -717,15 +493,6 @@ export default {
   margin: auto;
 }
 @media (max-width: 768px) {
-  .mobbgContact2 {
-    font-size: 20rem !important;
-    color: rgba(105, 105, 105, 0.199) !important;
-    position: absolute;
-    z-index: 0 !important;
-    bottom: -2rem;
-    right: 0rem;
-    left: 0rem;
-  }
   /* projects space */
   .works-space {
     padding: 0rem 0rem !important;
@@ -748,7 +515,7 @@ export default {
     transition: all 0.3s ease-in-out;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .not-on-mobile {
     display: none !important;
   }
@@ -762,6 +529,9 @@ export default {
   }
 }
 @media (min-width: 1410px) {
+  .desk_tab_screen {
+    padding: 9rem 0rem;
+  }
   .mob-width {
     max-width: 1250px !important;
   }
@@ -769,7 +539,17 @@ export default {
     max-width: 100% !important;
   }
 }
+@media (min-width: 1268px) {
+  .desk_tab_screen {
+    padding: 9rem 0rem;
+  }
+}
 img {
   object-fit: cover !important;
+}
+@media (max-width: 1197px) {
+  .bgfont {
+    font-size: 25vw !important;
+  }
 }
 </style>

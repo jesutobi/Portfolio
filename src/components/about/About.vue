@@ -2,15 +2,13 @@
   <div>
     <div class="bg-color-second-div position-relative">
       <div>
-        <h1 class="bgContactab not-on-mobile container fw-bold">About</h1>
+        <h1 style="font-size: 22em;" class="bgContactab bgfont  text-center fw-bold">About</h1>
       </div>
-      <div>
-        <h1 class="mobbgContactab container notindesktop fw-bold">Ab</h1>
-      </div>
+     
       <div class="font1 white mob-width">
-        <div class="row mob-abt-grid about-space position-relative">
+        <div class="row  about-space position-relative">
           <!-- about -->
-          <div class="col-xl-6 col-lg-6">
+          <div class="col-xl-6 col-md-7 col-lg-7">
             <!-- fake div and h1 tag -->
             <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
 
@@ -28,8 +26,8 @@
               </h2>
             </div>
             <!-- image -->
-            <div class="p-2 notindesktop">
-              <img src="@/assets/images/fig.png" alt="" class="w-100" />
+            <div class="p-2 notindesktop d-flex justify-content-center">
+              <img src="@/assets/images/fig.png" alt="" class="w-70" />
             </div>
 
             <div class="font1">
@@ -98,9 +96,9 @@
             <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
             
           </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="not-on-mobile pt-4">
-              <img src="@/assets/images/fig.png" alt="" class="w-85" />
+          <div class="col-xl-6 col-md-5 col-lg-5">
+            <div class="not-on-mobile pt-4 d-flex justify-content-center">
+              <img src="@/assets/images/fig.png" alt="" class="w-100" />
             </div>
           </div>
         </div>
@@ -175,11 +173,11 @@ export default {
 <style scoped>
 /* background text */
 .bgContactab {
-  font-size: 25rem !important;
+  
   color: rgba(105, 105, 105, 0.199) !important;
   position: absolute;
   z-index: 0;
-  top: -4rem;
+  top: 0rem;
   /* bottom: -30rem; */
   left: 0rem;
   right: 0rem;
@@ -263,7 +261,7 @@ export default {
 }
 /* about header */
 .about-head-font-size {
-  font-size: 4.5rem !important;
+  font-size: 4rem !important;
   color: #06d599 !important;
 }
 .about-text-font-size {
@@ -281,7 +279,7 @@ export default {
     max-width: 100% !important;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .not-on-mobile {
     display: none !important;
   }
@@ -305,7 +303,7 @@ export default {
     position: relative;
     text-align: center;
     color: #08fdd8;
-    padding: ;
+    /* padding: ; */
     /* margin-top: 50px; */
   }
   /* title */
@@ -343,14 +341,16 @@ export default {
     text-indent: 4px !important;
     text-align: justify !important;
   }
-  /* mobile about grid */
-  /* .mob-abt-grid{
-    display: block !important;
-  } */
+ 
 }
 @media (min-width: 768px) {
   .notindesktop {
     display: none !important;
+  }
+}
+@media (max-width: 1197px) {
+ .bgfont{
+    font-size: 25vw !important;
   }
 }
 </style>

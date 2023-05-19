@@ -6,7 +6,7 @@
           <!-- intro page -->
           <div class="row mobile-hero-width py-2 text-weight">
             <div
-              class="col-7 col-sm-7 mobile-hero-width col-lg-7 col-xl-7 animate__animated animate__bounceInLeft"
+              class="col-7 col-sm-7 mobile-hero-width col-md-9 col-lg-9 col-xl-7 animate__animated animate__bounceInLeft"
             >
               <!-- fake div and h1 tag -->
               <h2 class="fontreg1 fs-550 fake-tag-color">&#8249;div&#8250;</h2>
@@ -15,14 +15,14 @@
               >
                 &#8249;h1&#8250;
               </h2>
-              <h1
+              <h2
                 class="text-weight fw-bold reduce-hero-font-size disable-margin intro-spacing mx-5"
               >
                 {{ typeValue }}
-                <span class="cursor" :class="{ typing: typeStatus }"
+                <!-- <span class="cursor" :class="{ typing: typeStatus }"
                   >&nbsp;</span
-                >
-              </h1>
+                > -->
+              </h2>
               <h2
                 class="fontreg1 reduce_fake_margin paragraph-height mx-5 fs-350 fake-tag-color"
               >
@@ -304,55 +304,37 @@ export default {
   justify-content: center;
   align-items: center;
 }
-h1 {
-  font-size: 6rem;
-  font-weight: normal;
-  span.typed-text {
-    color: #d2b94b;
-  }
-  span.cursor {
-    display: inline-block;
-    margin-left: 3px;
-    width: 4px;
-    height: 10vh !important;
-    background-color: #162120;
-    animation: cursorBlink 1s infinite;
-  }
-  span.cursor.typing {
-    animation: none;
-  }
-}
+
 @media (max-width: 576px) {
+  .mobile-hero-width {
+    width: 100% !important;
+  }
   h1 {
     font-size: 6rem;
     font-weight: normal;
     span.typed-text {
       color: #d2b94b;
     }
-    span.cursor {
-      display: inline-block;
-      margin-left: 3px;
-      width: 4px;
-      height: 5vh !important;
-      background-color: #162120;
-      animation: cursorBlink 1s infinite;
-    }
-    span.cursor.typing {
-      animation: none;
-    }
+    // span.cursor {
+    //   display: inline-block;
+    //   margin-left: 3px;
+    //   width: 4px;
+    //   height: 5vh !important;
+    //   background-color: #162120;
+    //   animation: cursorBlink 1s infinite;
+    // }
+    // span.cursor.typing {
+    //   animation: none;
+    // }
   }
 }
-@keyframes cursorBlink {
-  49% {
-    background-color: #162120;
+@media (min-width: 768px) {
+  .reduce-hero-font-size{
+    font-size: 4rem !important;
   }
-  50% {
-    background-color: transparent;
-  }
-  99% {
-    background-color: transparent;
-  }
+ 
 }
+
 /* DEMO-SPECIFIC STYLES */
 
 /* contact me button */
@@ -361,24 +343,7 @@ h1 {
   word-spacing: 1rem !important;
 }
 
-/* background image */
-/* .bgimage{
-  background-image: url(@/assets/images/Taieri.svg);
-  background-size: contain;
 
-} */
-/* hero image */
-/* .image-intro {
-  position: absolute;
-  top: -3rem;
-  bottom: 0;
-  left: 0rem;
-  right:5rem;
-} */
-/* intro image height */
-//  .height-of-hero-page {
-//   height: 85vh !important;
-// }
 .text-weight {
   font-weight: 900 !important;
   font-size: 4.5rem;
@@ -443,7 +408,7 @@ div.c {
     max-width: 100% !important;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   // .mob-social-icon-position{
   //   position: unset !important;
   // }
@@ -456,24 +421,13 @@ div.c {
   .lastfakediv {
     margin: unset !important;
   }
-  .mobile-hero-width {
-    width: 100% !important;
-  }
+  
   .reduce-hero-font-size {
     font-size: 2.5rem !important;
     padding: 0.5rem 1.4rem;
   }
   .disable-margin {
     margin: unset !important;
-  }
-  // hero cursor
-  cursor {
-    display: inline-block;
-    margin-left: 3px;
-    width: 4px;
-    height: 2vh !important;
-    background-color: #162120;
-    animation: cursorBlink 1s infinite;
   }
   .intro-spacing {
     word-spacing: 0.5rem !important;
@@ -488,9 +442,9 @@ div.c {
     margin: unset !important;
     padding: 1rem 1rem 0rem 1rem;
   }
-  .reduce-mini-intro-text-hero {
-    padding: 0rem 1rem !important;
-  }
+  // .reduce-mini-intro-text-hero {
+  //   padding: 0rem 1rem !important;
+  // }
   .not-on-mobile {
     display: none !important;
   }
