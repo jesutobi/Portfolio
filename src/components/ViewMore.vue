@@ -20,7 +20,7 @@
         <u>
           <div class="py-5 fontbold titleunderline my-5">
             <h1 class="projectsheroFont text-center fw-bold">
-              Selected <span class="grey "> Projects</span>
+              Selected <span class="grey"> Projects</span>
             </h1>
           </div>
         </u>
@@ -35,17 +35,15 @@
             >
               <div class="hov">
                 <div
-                  style="height: 200px"
+                  style="height: 170px"
                   class="position-relative container-radius"
                 >
-                  <div class="d-flex justify-content-center">
-                    <div class="py-3">
-                      <img
-                        :src="require(`@/assets/images/${singleproject.image}`)"
-                        alt=""
-                        class="w-100 "
-                      />
-                    </div>
+                  <div class="">
+                    <img
+                      :src="require(`@/assets/images/${singleproject.image}`)"
+                      alt=""
+                      class="w-100 object-size container-radius"
+                    />
                   </div>
                 </div>
                 <!-- link -->
@@ -86,14 +84,14 @@
                   <span>Built with</span>
                 </div>
                 <div class="py-1">
-                  <span>Js Framework: {{ singleproject.framework }}</span>
+                  <span>Dev-tech: {{ singleproject.devTech }}</span>
                 </div>
                 <div class="py-1">
-                  <span>CSS library: {{singleproject.CSSlibrary}}</span>
+                  <span>CSS library: {{ singleproject.CSSlibrary }}</span>
                 </div>
-                <div class="py-1">
-                  <span>HTML, CSS, Javascript</span>
-                </div>
+                <!-- <div class="py-1">
+                  <span></span>
+                </div> -->
               </div>
             </div>
             <div
@@ -192,14 +190,14 @@ export default {
   }
   /* mini modal position */
   .mini-display-radius {
-  border-radius: 1.4rem 1.4rem !important;
-  display: none;
-  position: absolute;
-  /* width: 100%; */
-  top: 0rem;
-  right: 2rem !important;
-  z-index: 10000;
-}
+    border-radius: 1.4rem 1.4rem !important;
+    display: none;
+    position: absolute;
+    /* width: 100%; */
+    top: 0rem;
+    right: 2rem !important;
+    z-index: 10000;
+  }
 }
 /* title underline and animation */
 .titleunderline {
@@ -380,4 +378,7 @@ export default {
   bottom: 50rem !important;
 }
 
+.object-size {
+  object-fit: filll !important;
+}
 </style>

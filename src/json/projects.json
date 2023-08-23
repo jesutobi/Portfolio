@@ -5,7 +5,7 @@
     "url": "https://bitsintravelsandtours.com/",
     "propurl": "bitsintravelsandtours.com",
     "modal": "bitsin.png",
-    "framework": "Nuxt js",
+    "devTech": "Nuxt-js, HTML, CSS, Javascript, Vuex",
     "CSSlibrary": "Bootstrap , Vue Bootstrap"
   },
   {
@@ -14,7 +14,7 @@
     "url": "https://raadaa.com/",
     "propurl": "raadaa.com",
     "modal": "raadaa.png",
-    "framework": "Vue js"
+    "devTech": "Vue js"
   },
   {
     "image": "housefinder.png",
@@ -22,7 +22,7 @@
     "url": "https://housefinder.com.ng/",
     "propurl": "housefinder.com.ng",
     "modal": "housefinder.png",
-    "framework": "Nuxt js , Vue js",
+    "devTech": "Nuxt-js , Vue-js, HTML, CSS, Javascript, Vuex",
     "CSSlibrary": "Bootstrap , Vue Bootstrap"
   },
   {
@@ -31,7 +31,7 @@
     "url": "https://buildingsandmore.ng/",
     "propurl": "buildingsandmore.ng",
     "modal": "portfolioBaml.png",
-    "framework": "Nuxt js",
+    "devTech": "Nuxt-js, HTML, CSS, Javascript, Vuex",
     "CSSlibrary": "Bootstrap , Vue Bootstrap"
   },
   {
@@ -40,7 +40,16 @@
     "url": "https://jesutobi-joseph.onrender.com/",
     "propurl": "jesutobi-joseph.or.com",
     "modal": "Jesutobi.png",
-    "framework": "Vue js",
+    "devTech": "Vue-js, HTML, CSS, Javascript",
     "CSSlibrary": "Bootstrap , Vue Bootstrap"
+  },
+  {
+    "image": "todo.png",
+    "title": "To-do app",
+    "url": "https://tuduapp.000webhostapp.com/todo/",
+    "propurl": "Todo",
+    "modal": "todo.png",
+    "devTech": "PHP,Javascript, HTML, CSS,",
+    "CSSlibrary": " tailwind css"
   }
 ]
