@@ -96,7 +96,7 @@
                 >jesutobi-joseph.onrender.com</a
               >
             </h6>
-            <h6 class="py-1">FCT, Abuja ,Nigeria</h6>
+            <!-- <h6 class="py-1">FCT, Abuja ,Nigeria</h6> -->
             <h6 class="py-1">jesutobit@gmail.com</h6>
           </div>
           <!-- proficient in -->
