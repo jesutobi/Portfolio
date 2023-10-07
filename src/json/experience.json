@@ -2,38 +2,49 @@
   {
     "job": "Buildings and More - Frontend Engineer",
     "jobDesc": "Worked in a team and handled the front-end of web app . Rebuilt the frontend from the initial monolithic state using  Nuxt js , Bootstrap , VueBootstrap, css ",
-    "list1": "- I developed and implemented over 100 user interfaces using HTML, CSS, Bootstrap and Nuxt Js by translating prototypes.",
-    "list2": "- Integrated and consumed APIs from the backend to retrieve and display data in the user interface.",
-    "list3": "- Collaborated with a team of six to overhaul the web application, ensuring its full functionality while also creating responsive web pages that adapt to various digital devices and screen sizes.",
-    "list4": "- Translated the company and customer needs into a functional and appealing interactive application.",
-    "list5": "- I performed thorough testing and debugging to ensure optimal usability and functionality of the user interface.",
+    "list1": "- I developed and implemented over 100 user interfaces using HTML, CSS, Bootstrap and Nuxt Js by translating prototypes",
+    "list2": "- Implemented  dynamic meta tags strategy, optimizing SEO performance and  ensuring each page had relevant and accurate meta information, leading to increase in organic search traffic.",
+    "list3": "- I identified and resolved a critical bug in the Axios interceptor responsible for appending authentication tokens to outgoing API requests.",
+    "list4": "- Integrated API calls with Axios to efficiently retrieve and display dynamic content on the user interface, optimizing data fetching and ensuring real-time updates for users.",
 
     "jobdate": "Februray 2022 - Present"
   },
   {
     "job": "Bitsin - Frontend Engineer",
     "jobDesc": "This is a  hotel, and flight booking engine, that was built with Nuxt js , Bootstrap , VueBootstrap, css. ",
-    "list1": "- Worked with the design team to ensure that the Front-end implementation aligned with the visual design intent. ",
-    "list2": "- Implemented the integration and utilization of backend APIs to obtain and present data within the user interface.",
-    "list3": "- Designed and implemented responsive web page layouts across various digital devices and screen sizes.",
-    "list4": "- I utilized various Vue.js style libraries, such as Buefy, to accomplish specific styling tasks and enhance the overall visual appeal of the user interface.",
-    "list5": "- handled some of its web-page designs",
+    "list1": "- Successfully resolved a critical authentication bug that was causing user login failures, improving the overall user experience and boosting user trust and satisfaction..",
+    "list2": "- Implemented Vuex for state management, ensuring consistent and efficient handling of application data across various components.",
+    "list3": "- I worked closely with the backend developers to consume API endpoints using Axios, ensuring seamless communication within the team..",
+    "list4": "- I utilized bootstrap's grid system and pre-built components, which  led to a significant reduction in development time and ensured a consistently responsive design across various devices and screen sizes .",
+
     "jobdate": "October 2022 - November 2022"
   },
 
   {
     "job": "House-finder - Frontend Engineer ",
-    "jobDesc": "This web application  was built with Vue js and Nuxt js, Bootstrap , Sass",
-    "list1": "- Collaborated with a team of three front-end developers to build the web application, ensuring its full functionality while also creating responsive web pages that adapt to various digital devices and screen sizes.",
-    "list2": "- Collaborated with the digital marketing team to generate content and devise strategic marketing plans.",
+    "jobDesc": "",
+    "list1": "- I implemented a robust state management system utilizing Vuex that handled the application state efficiently and also improved the maintainability and scalability of the code",
+    "list2": "- Utilized Vue Router to enable seamless navigation and dynamic page loading.",
+    "list3": "- implemented lazy loading for images and assets, resulting in a significant reduction in initial page load times and improving overall site performance.",
+    "list4": "- Worked closely with the design team to translate visual mockups into interactive web applications.",
 
-    "jobdate": "October 2021 - January 2022"
+    "jobdate": "September 2021 - January 2022"
+  },
+  {
+    "job": "Taxi Cabby, Abuja, Nigeria  — Frontend Engineer",
+    "jobDesc": "",
+    "list1": "- Worked with the design team to ensure that the Front-end implementation aligned with the UI design and design intent.",
+    "list2": "- I implemented the integration and utilization of endpoints to obtain and present data within the user interface, and I also Implemented Vuex for state management, ensuring consistent and efficient handling of application data across various components.",
+    "list3": "- Designed and implemented responsive web page layouts across various digital devices and screen sizes.",
+    "list4": "- I utilized various Vue.js style libraries, such as Vuetify, to accomplish specific styling tasks and enhance the overall visual appeal of the user interface.",
+
+    "jobdate": "January 2021 - August 2021"
   },
   {
     "job": "Raadaa Partners intl. limited. - Frontend Engineer",
     "jobDesc": "",
     "list1": "- Provided instruction in front-end web development, including HTML, CSS, and JavaScript, and created supplementary instructional materials in the form of video tutorials to assist in the pupils' understanding.",
     "list2": "- led training on the use of Visual Studio Code as a development tool.",
-    "jobdate": "November 2020 - September 2021"
+    "jobdate": "September  2020 -December  2021"
   }
 ]

@@ -52,10 +52,12 @@
                   <br />
 
                   skilled in utilizing the latest technologies and tools to
-                  build responsive and visually appealing websites. <span class="not-on-mobile">I am
-                  passionate about staying up to date on industry trends and
-                  best practices to ensure that my work is of the highest
-                  quality.</span> 
+                  build responsive and visually appealing websites.
+                  <span class="not-on-mobile"
+                    >I am passionate about staying up to date on industry trends
+                    and best practices to ensure that my work is of the highest
+                    quality.</span
+                  >
                 </p>
                 <p
                   class="fs-300 green3 reduce-mini-intro-text-hero brief-text disable-margin mobile-hero-width font1 mx-5"
@@ -80,12 +82,14 @@
           </div>
           <!-- socials -->
           <div class="position-relative mob-social-icon-position">
-            <div class="social-media-category-position mob-social-media-category-position">
+            <div
+              class="social-media-category-position mob-social-media-category-position"
+            >
               <div class="d-flex align-items-center justify-content-center">
                 <!-- instagra, -->
                 <a
                   href="https://www.instagram.com/jesutobbi/"
-                  class="anima-nav social-nav animate__animated animate__delay-2s animate__slow	2s animate__bounce animate__repeat-3	3"
+                  class="anima-nav social-nav animate__animated animate__delay-2s animate__slow 2s animate__bounce animate__repeat-3 3"
                 >
                   <div>
                     <span class="anima-nav mx-3"
@@ -110,7 +114,7 @@
                 <!-- linkdln -->
                 <a
                   href="https://www.linkedin.com/in/jesutobi-joseph-191557167/"
-                  class="anima-nav social-nav animate__animated animate__delay-3s animate__slow	2s animate__bounce animate__repeat-3	3"
+                  class="anima-nav social-nav animate__animated animate__delay-3s animate__slow 2s animate__bounce animate__repeat-3 3"
                 >
                   <div>
                     <span class="anima-nav mx-3"
@@ -130,7 +134,6 @@
                               opacity="0"
                             />
                             <path
-                            
                               d="M15.15 8.4a5.83 5.83 0 0 0-5.85 5.82v5.88a.9.9 0 0 0 .9.9h2.1a.9.9 0 0 0 .9-.9v-5.88a1.94 1.94 0 0 1 2.15-1.93 2 2 0 0 1 1.75 2v5.81a.9.9 0 0 0 .9.9h2.1a.9.9 0 0 0 .9-.9v-5.88a5.83 5.83 0 0 0-5.85-5.82z"
                             />
                             <rect
@@ -149,7 +152,10 @@
                 </a>
 
                 <!-- git hub -->
-                <a href="https://github.com/jesutobi" class="anima-nav social-nav animate__animated animate__delay-4s animate__slow	2s animate__bounce animate__repeat-3	3">
+                <a
+                  href="https://github.com/jesutobi"
+                  class="anima-nav social-nav animate__animated animate__delay-4s animate__slow 2s animate__bounce animate__repeat-3 3"
+                >
                   <div>
                     <span class="">
                       <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -163,8 +169,6 @@
                         baseProfile="full"
                         enable-background="new 0 0 76.00 76.00"
                         xml:space="preserve"
-                        
-                        
                         class="change-color-of-icon"
                       >
                         <path
@@ -180,7 +184,10 @@
                   </div>
                 </a>
                 <!-- email -->
-                <a href="mailto:jesutobit@gmail.com" class="anima-nav social-nav animate__animated animate__delay-5s animate__slow	2s animate__bounce animate__repeat-3	3">
+                <a
+                  href="mailto:jesutobit@gmail.com"
+                  class="anima-nav social-nav animate__animated animate__delay-5s animate__slow 2s animate__bounce animate__repeat-3 3"
+                >
                   <div>
                     <span class="mx-2">
                       <svg
@@ -329,10 +336,9 @@ export default {
   }
 }
 @media (min-width: 768px) {
-  .reduce-hero-font-size{
+  .reduce-hero-font-size {
     font-size: 4rem !important;
   }
- 
 }
 
 /* DEMO-SPECIFIC STYLES */
@@ -342,7 +348,6 @@ export default {
 .intro-spacing {
   word-spacing: 1rem !important;
 }
-
 
 .text-weight {
   font-weight: 900 !important;
@@ -412,16 +417,15 @@ div.c {
   // .mob-social-icon-position{
   //   position: unset !important;
   // }
-  .mob-social-media-category-position{
+  .mob-social-media-category-position {
     position: absolute !important;
     top: -5rem;
-    left:0rem !important;
-    
+    left: 0rem !important;
   }
   .lastfakediv {
     margin: unset !important;
   }
-  
+
   .reduce-hero-font-size {
     font-size: 2.5rem !important;
     padding: 0.5rem 1.4rem;
@@ -517,9 +521,8 @@ div.c {
   // top: 0rem;
   right: 0rem;
 }
-.change-color-of-icon:hover{
-  fill:rgb(226, 226, 226) !important;
-
+.change-color-of-icon:hover {
+  fill: rgb(226, 226, 226) !important;
 }
 // class="change-color-of-icon"n
 </style>

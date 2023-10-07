@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import intro from "@/views/intro.vue";
+import intro from "@/views/Homepage.vue";
 // import Skills from "@/views/skills.vue";
 import Projects from "@/components/projects.vue";
 // import Testimonials from "@/views/testimonials.vue";
@@ -10,7 +10,6 @@ import Abt from "@/components/about/About.vue";
 
 // import About from "@/views/about.vue";
 
-
 const routes = [
   { path: "/", name: "intro", component: intro },
   // { path: "/skills", name: "skills", component: Skills },
@@ -19,7 +18,7 @@ const routes = [
   { path: "/contacts", name: "Contacts", component: Contacts },
   { path: "/about/resume", name: "viewM", component: ViewM },
   { path: "/about/About", name: "Abt", component: Abt },
-  { path: "/ViewMore", name: "viewmore", component: ViewMore }
+  { path: "/ViewMore", name: "viewmore", component: ViewMore },
 
   // { path: "/about", name: "about", component: About },e
 ];
@@ -29,14 +28,13 @@ const router = createRouter({
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
-      return savedPosition
+      return savedPosition;
     } else {
       return { top: 0 };
     }
-    
+
     // ...
-  }
+  },
 });
 
 export default router;
- 

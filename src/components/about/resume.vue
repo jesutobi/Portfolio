@@ -1,5 +1,5 @@
 <template>
-  <div class="font1  bgwhite3 green2 my-4" id="printMe">
+  <div class="font1 bgwhite3 green2 my-4" id="printMe">
     <!-- print button -->
     <a
       class="text-reset"
@@ -110,7 +110,7 @@
           <div>
             <span class="fw-bold green">Certificates :</span>
             <ul class="" type="square">
-              <li>Bsc in Microbiology</li>
+              <li>Bsc</li>
             </ul>
           </div>
         </div>
@@ -242,5 +242,4 @@ export default {
     padding: 3rem 0rem 0rem 0rem !important;
   }
 }
-
 </style>
