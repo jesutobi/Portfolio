@@ -48,14 +48,20 @@
     <!-- <br /> -->
     <div class="mobile-hero-style p-5 w-100">
       <div class="row mobile-text-style">
-        <div class="col-lg-5 col-md-5 col-xl-5 desk-herospace col-xxl-5">
+        <div
+          v-motion-slide-visible-left
+          class="col-lg-5 col-md-5 col-xl-5 desk-herospace col-xxl-5"
+        >
           <h1 class="text-end fs-750">Jesutobi</h1>
 
           <h1 class="text-center fs-750">Joseph</h1>
 
           <h1 class="text-start fs-750">Jesutobi</h1>
         </div>
-        <div class="project-text col-lg-7 col-md-7 col-xl-7 col-xxl-7">
+        <div
+          v-motion-slide-visible-right
+          class="project-text col-lg-7 col-md-7 col-xl-7 col-xxl-7"
+        >
           <p class="fs-300">
             Over the course of my career, I have developed and designed multiple
             software products that have helped to address problems in various
@@ -85,7 +91,10 @@
       </div>
       <div class="row py-1">
         <!-- small about -->
-        <div class="col-lg-2 col-md-2 col-xl-2 col-xxl-2">
+        <div
+          v-motion-slide-visible-bottom
+          class="col-lg-2 col-md-2 col-xl-2 col-xxl-2"
+        >
           <!-- contact -->
           <div>
             <h6 class="py-1 fw-bold green">
@@ -114,7 +123,10 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-10 col-md-10 col-xl-10 col-xxl-10">
+        <div
+          v-motion-slide-visible-top
+          class="col-lg-10 col-md-10 col-xl-10 col-xxl-10"
+        >
           <div class="mobile-text-style">
             <!-- head -->
             <h5 class="fw-bold">Experience</h5>
@@ -241,5 +253,30 @@ export default {
   .desk-herospace {
     padding: 3rem 0rem 0rem 0rem !important;
   }
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to each h1 element */
+.text-end {
+  animation: slideInLeft 1s ease-in-out;
+}
+
+.text-center {
+  animation: slideInLeft 1s ease-in-out;
+  animation-delay: 0.5s; /* Delay for 1 second */
+}
+
+.text-start {
+  animation: slideInLeft 1s ease-in-out;
+  animation-delay: 1s; /* Delay for 2 seconds */
 }
 </style>

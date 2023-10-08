@@ -1,11 +1,14 @@
 <template>
   <div>
     <div class="font1 project-bg position-relative">
-      <div class="mob-width z-content desk_tab_screen">
+      <div class="mob-width desk_tab_screen">
         <!-- slider for mobile -->
         <!-- cont-space -->
         <div class="row pt-2">
-          <div class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content">
+          <div
+            v-motion-slide-visible-left
+            class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content"
+          >
             <!-- header -->
             <!-- fake div and h1 tag -->
             <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
@@ -22,7 +25,10 @@
             <h2 class="fontreg1 fs-550 text-white-50">&#8249;/div&#8250;</h2>
             <!-- project card -->
           </div>
-          <div class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content">
+          <div
+            v-motion-slide-visible-left
+            class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content"
+          >
             <div class="d-flex justify-content-center">
               <a
                 href="https://buildingsandmore.ng/"
@@ -106,7 +112,10 @@
               </a>
             </div>
           </div>
-          <div class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content">
+          <div
+            v-motion-slide-visible-top
+            class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content"
+          >
             <div class="d-flex justify-content-center">
               <a
                 href="https://housefinder.com.ng/"
@@ -189,7 +198,10 @@
               </a>
             </div>
           </div>
-          <div class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content">
+          <div
+            v-motion-slide-visible-right
+            class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content"
+          >
             <div class="d-flex justify-content-center">
               <a
                 href="https://housefinder.com.ng/"
@@ -294,7 +306,10 @@
       </div>
 
       <div class="">
-        <h1 style="font-size: 22em" class="bgContact2 bgfont  text-center fontneubold">
+        <h1
+          style="font-size: 22em"
+          class="bgContact2 bgfont text-center fontneubold"
+        >
           Project
         </h1>
       </div>
@@ -493,6 +508,12 @@ export default {
   margin: auto;
 }
 @media (max-width: 768px) {
+  .project-bg {
+    background-color: #162120;
+    color: white;
+    height: auto;
+    /* padding: -7rem 0rem; */
+  }
   /* projects space */
   .works-space {
     padding: 0rem 0rem !important;

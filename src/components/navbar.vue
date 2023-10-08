@@ -19,6 +19,7 @@
         <div class="d-flex not-on-mobile font1 fw-bold justify-content-between">
           <!-- nav -->
           <router-link
+            :class="{ animaNav: isActive(port.to) }"
             class="text-reset anima-nav text-decoration-none px-3"
             :to="port.to"
             v-for="port in portfolios"
@@ -114,6 +115,9 @@ export default {
 
   components: {},
   methods: {
+    isActive(route) {
+      return this.$route.path === route;
+    },
     menu() {
       this.deg2 = 180;
       this.mobmenu = true;
@@ -143,9 +147,26 @@ export default {
   background-image: url(@/assets/images/Shape.png);
   background-color: #05d69a;
   color: #162120;
+  animation: slide 10s infinite linear;
+}
+@keyframes slide {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
 }
 
 .anima-nav:hover {
+  animation: headShake; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  background-color: #162120;
+  color: #05d69a !important;
+  border-radius: 0.3rem;
+  padding: 0rem 0rem;
+}
+.animaNav {
   animation: headShake; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s;
   background-color: #162120;

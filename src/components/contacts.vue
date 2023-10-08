@@ -2,7 +2,7 @@
   <div>
     <div class="contact-bg font1 bggreen3 position-relative">
       <!-- <Preload /> -->
-      <div class="mob-width">
+      <div class="mob-width pt-5">
         <!-- fake div and h1 tag -->
 
         <div class="mob-off-set-space fw-bold">
@@ -21,6 +21,7 @@
           >
             <!-- name -->
             <div
+              v-motion-slide-visible-left
               class="d-flex off-felx-mob align-items-center justify-content-center z-content"
             >
               <div
@@ -180,6 +181,7 @@
 
             <!-- message -->
             <div
+              v-motion-slide-visible-right
               class="my-4 w-70 input-width m-auto position-relative z-content"
             >
               <div class="atpostion">
@@ -295,7 +297,12 @@
           </form>
         </div>
         <div class="">
-          <h1 style="font-size: 22em;" class="bgContact bgfont text-center fontneubold">Contact</h1>
+          <h1
+            style="font-size: 22em"
+            class="bgContact bgfont text-center fontneubold"
+          >
+            Contact
+          </h1>
         </div>
       </div>
       <!-- fp -->
@@ -483,7 +490,7 @@ button {
   background-size: contain;
   background-repeat: no-repeat;
   color: white;
-  /* height: 100vh; */
+  height: 100vh;
   padding: 4rem 0rem;
 }
 /* project header */
@@ -577,13 +584,12 @@ textarea:focus {
   }
 } */
 @media (max-width: 1197px) {
- .bgfont{
+  .bgfont {
     font-size: 25vw !important;
   }
 }
 
-  /* .bgfont{
+/* .bgfont{
     font-size: 20em;
   } */
-
 </style>

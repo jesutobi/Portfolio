@@ -31,7 +31,7 @@
             <div
               v-for="(singleproject, index) in projects"
               :key="index"
-              class="position-relative col-sm-6 col-md-4 col-lg-4 py-3 col-xl-3 col-xxl-3"
+              class="position-relative col-sm-6 col-md-4 card-animation col-lg-4 py-3 col-xl-3 col-xxl-3"
             >
               <div class="hov">
                 <div
@@ -153,6 +153,22 @@ export default {
 </script>
 
 <style scoped>
+.card-animation {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: popIn 0.5s ease-in-out forwards;
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 /* product preview modal */
 /* remove modal button */
 .cancelstyle {

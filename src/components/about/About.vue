@@ -2,13 +2,18 @@
   <div>
     <div class="bg-color-second-div position-relative">
       <div>
-        <h1 style="font-size: 22em;" class="bgContactab bgfont  text-center fw-bold">About</h1>
+        <h1
+          style="font-size: 22em"
+          class="bgContactab bgfont text-center fw-bold"
+        >
+          About
+        </h1>
       </div>
-     
+
       <div class="font1 white mob-width">
-        <div class="row  about-space position-relative">
+        <div class="row about-space position-relative">
           <!-- about -->
-          <div class="col-xl-6 col-md-7 col-lg-7">
+          <div class="col-xl-6 col-md-7 col-lg-7" v-motion-roll-visible-left>
             <!-- fake div and h1 tag -->
             <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
 
@@ -94,9 +99,8 @@
             </div>
 
             <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
-            
           </div>
-          <div class="col-xl-6 col-md-5 col-lg-5">
+          <div v-motion-roll-visible-right class="col-xl-6 col-md-5 col-lg-5">
             <div class="not-on-mobile pt-4 d-flex justify-content-center">
               <img src="@/assets/images/fig.png" alt="" class="w-100" />
             </div>
@@ -173,7 +177,6 @@ export default {
 <style scoped>
 /* background text */
 .bgContactab {
-  
   color: rgba(105, 105, 105, 0.199) !important;
   position: absolute;
   z-index: 0;
@@ -341,7 +344,6 @@ export default {
     text-indent: 4px !important;
     text-align: justify !important;
   }
- 
 }
 @media (min-width: 768px) {
   .notindesktop {
@@ -349,7 +351,7 @@ export default {
   }
 }
 @media (max-width: 1197px) {
- .bgfont{
+  .bgfont {
     font-size: 25vw !important;
   }
 }
