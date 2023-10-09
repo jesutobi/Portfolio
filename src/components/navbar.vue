@@ -3,7 +3,7 @@
     <div class="fontneubold">
       <!-- container -->
       <div
-        class="d-flex mob-width pt-4 align-items-center justify-content-between"
+        class="d-flex container pt-4 align-items-center justify-content-between"
       >
         <!-- logo -->
         <div>
@@ -226,8 +226,8 @@ export default {
   .displaymenu {
     animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s;
-    z-index: 1000 !important;
-    position: absolute;
+    z-index: 999999 !important;
+    /* position: absolute; */
     position: fixed;
     height: 100vh !important;
     /* bottom: 0rem; */

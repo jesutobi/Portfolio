@@ -2,7 +2,7 @@
   <div>
     <div class="contact-bg font1 bggreen3 position-relative">
       <!-- <Preload /> -->
-      <div class="mob-width pt-5">
+      <div class="container pt-5 overflow-hidden">
         <!-- fake div and h1 tag -->
 
         <div class="mob-off-set-space fw-bold">

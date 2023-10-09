@@ -8,7 +8,7 @@
     >
       <div
         role="button"
-        class="d-flex mob-print-style animate__animated animate__pulse animate__slow 2s animate__infinite infinite justify-content-end align-items-center"
+        class="d-flex mob-print-style container animate__animated animate__pulse animate__slow 2s animate__infinite infinite justify-content-end align-items-center"
       >
         <div class="px-2">
           <svg
@@ -46,22 +46,16 @@
       </div></a
     >
     <!-- <br /> -->
-    <div class="mobile-hero-style p-5 w-100">
+    <div class="container p-5 w-100">
       <div class="row mobile-text-style">
-        <div
-          v-motion-slide-visible-left
-          class="col-lg-5 col-md-5 col-xl-5 desk-herospace col-xxl-5"
-        >
+        <div class="col-lg-5 col-md-5 col-xl-5 desk-herospace col-xxl-5">
           <h1 class="text-end fs-750">Jesutobi</h1>
 
           <h1 class="text-center fs-750">Joseph</h1>
 
           <h1 class="text-start fs-750">Jesutobi</h1>
         </div>
-        <div
-          v-motion-slide-visible-right
-          class="project-text col-lg-7 col-md-7 col-xl-7 col-xxl-7"
-        >
+        <div class="project-text col-lg-7 col-md-7 col-xl-7 col-xxl-7">
           <p class="fs-300">
             Over the course of my career, I have developed and designed multiple
             software products that have helped to address problems in various
@@ -91,10 +85,7 @@
       </div>
       <div class="row py-1">
         <!-- small about -->
-        <div
-          v-motion-slide-visible-bottom
-          class="col-lg-2 col-md-2 col-xl-2 col-xxl-2"
-        >
+        <div class="col-lg-2 col-md-2 col-xl-2 col-xxl-2">
           <!-- contact -->
           <div>
             <h6 class="py-1 fw-bold green">
@@ -123,10 +114,7 @@
             </ul>
           </div>
         </div>
-        <div
-          v-motion-slide-visible-top
-          class="col-lg-10 col-md-10 col-xl-10 col-xxl-10"
-        >
+        <div class="col-lg-10 col-md-10 col-xl-10 col-xxl-10 mobile-padding">
           <div class="mobile-text-style">
             <!-- head -->
             <h5 class="fw-bold">Experience</h5>
@@ -218,6 +206,9 @@ export default {
   }
 }
 @media (max-width: 768px) {
+  .mobile-padding {
+    padding: 0rem 1.5rem;
+  }
   .mobile-text-style {
     width: 100% !important;
   }

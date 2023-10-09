@@ -1,108 +1,111 @@
 <template>
   <div>
     <div class="bg-color-second-div position-relative">
-      <div>
-        <h1
-          style="font-size: 22em"
-          class="bgContactab bgfont text-center fw-bold"
-        >
-          About
-        </h1>
-      </div>
+      <div class="container overflow-hidden">
+        <div>
+          <h1
+            style="font-size: 22em"
+            class="bgContactab bgfont text-center fw-bold"
+          >
+            About
+          </h1>
+        </div>
 
-      <div class="font1 white mob-width">
-        <div class="row about-space position-relative">
-          <!-- about -->
-          <div class="col-xl-6 col-md-7 col-lg-7" v-motion-roll-visible-left>
-            <!-- fake div and h1 tag -->
-            <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
+        <div class="font1 white">
+          <div class="row about-space position-relative">
+            <!-- about -->
+            <div class="col-xl-6 col-md-7 col-lg-7" v-motion-roll-visible-left>
+              <!-- fake div and h1 tag -->
+              <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
 
-            <div>
-              <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
-                &#8249;h1&#8250;
-              </h2>
-              <h1
-                class="about-head-font-size px-4 fw-bold reduce-title-font-size"
-              >
-                About me
-              </h1>
-              <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
-                &#8249;h1 /&#8250;
-              </h2>
-            </div>
-            <!-- image -->
-            <div class="p-2 notindesktop d-flex justify-content-center">
-              <img src="@/assets/images/fig.png" alt="" class="w-70" />
-            </div>
-
-            <div class="font1">
-              <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
-                &#8249;p&#8250;
-              </h2>
-              <div class="about-text-font-size px-4">
-                <p class="fs-300">
-                  Hi, my name is
-                  <span class="green px-1 fw-bold"> Jesutobi J.J</span> ,over
-                  the course of my career, I have developed and designed the
-                  <span class="green px-1 fw-bold">front-end</span>
-                  multiple web applications that have helped to address problems
-                  in various industries such as education, transportation, real
-                  estate, and e-commerce.
-                </p>
-                <p class="fs-300">
-                  I have a strong understanding of
-                  <span class="green px-1 fw-bold"
-                    >web performance optimization techniques,</span
-                  >
-                  such as minifying code and using the right sizes of 'image
-                  assets' to ensure fast loading times for users
-                </p>
-                <p class="fs-300">
-                  Additionally I am skilled in
-                  <span class="green px-1 fw-bold">accessibility</span> best
-                  practices to ensure that my designs are inclusive for all
-                  users. I am always looking for ways to improve and
-                  <span class="green px-1 fw-bold"
-                    >optimize the user experience</span
-                  >, and I believe that a well-designed and optimized front-end
-                  is crucial for the success of any web application.".
-                </p>
+              <div>
+                <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
+                  &#8249;h1&#8250;
+                </h2>
+                <h1
+                  class="about-head-font-size px-4 fw-bold reduce-title-font-size"
+                >
+                  About me
+                </h1>
+                <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
+                  &#8249;h1 /&#8250;
+                </h2>
               </div>
-              <!-- skill i have used -->
-              <div class="about-text-font-size px-4">
-                <p>
-                  I have experience using a variety of tools and technologies:
-                  <br />
-                  <span class=""
-                    >Technologies:
-                    <span class="green px-1 fw-bold"
-                      >HTML, CSS , Javascript , SASS</span
-                    ></span
-                  ><br />
-                  <span
-                    >Styling libraries:
-                    <span class="green px-1 fw-bold">
-                      Bootstrap, TailwindCSS</span
-                    ></span
-                  ><br />
-                  <span
-                    >Framework/Libraries:
-                    <span class="green px-1 fw-bold"
-                      >Vue Js, Nuxt Js</span
-                    ></span
-                  >
-                </p>
+              <!-- image -->
+              <div class="p-2 notindesktop d-flex justify-content-center">
+                <img src="@/assets/images/fig.png" alt="" class="w-70" />
               </div>
-              <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
-                &#8249;/p&#8250;
-              </h2>
-            </div>
 
-            <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
-          </div>
-          <div v-motion-roll-visible-right class="col-xl-6 col-md-5 col-lg-5">
-            <div class="not-on-mobile pt-4 d-flex justify-content-center">
-              <img src="@/assets/images/fig.png" alt="" class="w-100" />
+              <div class="font1">
+                <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
+                  &#8249;p&#8250;
+                </h2>
+                <div class="about-text-font-size px-4">
+                  <p class="fs-300">
+                    Hi, my name is
+                    <span class="green px-1 fw-bold"> Jesutobi J.J</span> ,over
+                    the course of my career, I have developed and designed the
+                    <span class="green px-1 fw-bold">front-end</span>
+                    multiple web applications that have helped to address
+                    problems in various industries such as education,
+                    transportation, real estate, and e-commerce.
+                  </p>
+                  <p class="fs-300">
+                    I have a strong understanding of
+                    <span class="green px-1 fw-bold"
+                      >web performance optimization techniques,</span
+                    >
+                    such as minifying code and using the right sizes of 'image
+                    assets' to ensure fast loading times for users
+                  </p>
+                  <p class="fs-300">
+                    Additionally I am skilled in
+                    <span class="green px-1 fw-bold">accessibility</span> best
+                    practices to ensure that my designs are inclusive for all
+                    users. I am always looking for ways to improve and
+                    <span class="green px-1 fw-bold"
+                      >optimize the user experience</span
+                    >, and I believe that a well-designed and optimized
+                    front-end is crucial for the success of any web
+                    application.".
+                  </p>
+                </div>
+                <!-- skill i have used -->
+                <div class="about-text-font-size px-4">
+                  <p>
+                    I have experience using a variety of tools and technologies:
+                    <br />
+                    <span class=""
+                      >Technologies:
+                      <span class="green px-1 fw-bold"
+                        >HTML, CSS , Javascript , SASS</span
+                      ></span
+                    ><br />
+                    <span
+                      >Styling libraries:
+                      <span class="green px-1 fw-bold">
+                        Bootstrap, TailwindCSS</span
+                      ></span
+                    ><br />
+                    <span
+                      >Framework/Libraries:
+                      <span class="green px-1 fw-bold"
+                        >Vue Js, Nuxt Js</span
+                      ></span
+                    >
+                  </p>
+                </div>
+                <h2 class="fontreg1 paragraph-height mx-4 fs-350 text-white-50">
+                  &#8249;/p&#8250;
+                </h2>
+              </div>
+
+              <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
+            </div>
+            <div v-motion-roll-visible-right class="col-xl-6 col-md-5 col-lg-5">
+              <div class="not-on-mobile pt-4 d-flex justify-content-center">
+                <img src="@/assets/images/fig.png" alt="" class="w-100" />
+              </div>
             </div>
           </div>
         </div>

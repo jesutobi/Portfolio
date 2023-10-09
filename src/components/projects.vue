@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="font1 project-bg position-relative">
-      <div class="mob-width desk_tab_screen">
+      <div class="desk_tab_screen container">
         <!-- slider for mobile -->
         <!-- cont-space -->
-        <div class="row pt-2">
+        <div class="row pt-2 overflow-hidden">
           <div
             v-motion-slide-visible-left
             class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content"
