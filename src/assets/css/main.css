@@ -23,6 +23,12 @@
   font-style: normal;
   font-weight: normal;
 }
+@font-face {
+  font-family: "Clashdisplaybold";
+  src: url("../fonts/ClashDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
 
 @font-face {
   font-family: "Neue Haas Grotesk Display reg";
@@ -574,6 +580,9 @@ background-image: linear-gradient(314deg, #f6eae8 0%, #f6eae8 74%); */
 }
 .acquirefontbold {
   font-family: "AquireBold-8Ma60" !important;
+}
+.clashBold {
+  font-family: "Clashdisplaybold" !important;
 }
 /* shadow */
 .bx-shadow {

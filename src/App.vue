@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div  style="height: 100vh" class="scroll">
-     
+    <div class="scroll">
       <Nav />
       <div>
         <router-link to="/"></router-link>
@@ -9,7 +8,6 @@
       <router-view></router-view>
       <Footer />
     </div>
-    
   </div>
 </template>
 
@@ -18,15 +16,13 @@
 import Nav from "@/components/navbar.vue";
 import Footer from "@/components/footer.vue";
 export default {
-  name: 'Jesutobi\'s portfolio',
-    metaInfo: {
-      // title will be injected into parent titleTemplate
-      title: 'Vue developers in Nigeria'
-    },
+  name: "Jesutobi's portfolio",
+  metaInfo: {
+    // title will be injected into parent titleTemplate
+    title: "Vue developers in Nigeria",
+  },
   data() {
-    return {
-    
-    };
+    return {};
   },
   components: {
     Nav,

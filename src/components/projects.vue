@@ -116,6 +116,7 @@
             v-motion-slide-visible-top
             class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content"
           >
+            <!-- house finder -->
             <div class="d-flex justify-content-center">
               <a
                 href="https://housefinder.com.ng/"
@@ -204,7 +205,7 @@
           >
             <div class="d-flex justify-content-center">
               <a
-                href="https://housefinder.com.ng/"
+                href="https://bitsintravelsandtours.com/"
                 class="text-decoration-none text-reset"
               >
                 <div class="my-2">
@@ -291,7 +292,7 @@
           <router-link to="/viewMore">
             <div class="toppromob row justify-content-center">
               <div class="w-50">
-                <a href="#" class="contact-button py-2">
+                <a href="#" class="contact-button py-2 my-5">
                   <div class="z-content">
                     <span class="bg"></span>
                     <span class="base"></span>

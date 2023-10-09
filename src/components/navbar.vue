@@ -1,5 +1,5 @@
 <template>
-  <div class="bggreen sticky-top">
+  <div class="bggreen sticky-top top-0 zedindex">
     <div class="fontneubold">
       <!-- container -->
       <div
@@ -7,7 +7,10 @@
       >
         <!-- logo -->
         <div>
-          <router-link to="/" class="text-reset text-decoration-none">
+          <router-link
+            to="/"
+            class="text-reset mob-padding text-decoration-none"
+          >
             <h4 class="logo-style acquirefontbold anima-nav-home">
               Jesutobi.
               <br />
@@ -137,6 +140,9 @@ export default {
 </script>
 
 <style scoped>
+.zedindex {
+  z-index: 9999999 !important;
+}
 .nav-marg {
   margin: 2rem 4rem 0rem 3.5rem !important ;
 }

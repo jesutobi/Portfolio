@@ -5,7 +5,7 @@
         <!-- intro page -->
         <div class="row mobile-hero-width text-weight">
           <div
-            class="col-7 col-sm-7 mobile-hero-width col-md-9 col-lg-9 col-xl-7 animate__animated animate__bounceInLeft"
+            class="col-8 mobile-hero-width animate__animated animate__bounceInLeft"
           >
             <!-- fake div and h1 tag -->
             <h2 class="fontreg1 fs-550 fake-tag-color">&#8249;div&#8250;</h2>
@@ -14,14 +14,14 @@
             >
               &#8249;h1&#8250;
             </h2>
-            <h2
-              class="text-weight fw-bold reduce-hero-font-size disable-margin intro-spacing mx-5"
+            <h1
+              class="text-weight fw-bold reduce-hero-font-size disable-margin clashBold intro-spacing mx-5"
             >
               {{ typeValue }}
               <!-- <span class="cursor" :class="{ typing: typeStatus }"
                   >&nbsp;</span
                 > -->
-            </h2>
+            </h1>
             <h2
               class="fontreg1 reduce_fake_margin paragraph-height mx-5 fs-350 fake-tag-color"
             >
@@ -99,7 +99,7 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      typeArray: ["Jesutobi Builds seamless User experience"],
+      typeArray: ["FRONT-END DEVELOPER"],
       typingSpeed: 80,
       erasingSpeed: 100,
       newTextDelay: 2000,
@@ -147,9 +147,9 @@ export default {
   background-image: url(@/assets/images/Shape.png);
   background-color: #06d599;
   color: #162120;
-  height: 100vh;
+  height: 95vh;
   animation: slide 7s infinite linear; /* Adjust the duration as needed */
-  padding: 3rem 0rem 0rem 0rem !important;
+  padding: 3rem 0rem !important;
 }
 @media (max-width: 768px) {
   .bg-pattern-img {
@@ -157,6 +157,7 @@ export default {
     background-color: #06d599;
     color: #162120;
     height: 100vh;
+    animation: slide 17s infinite linear !important; /* Adjust the duration as needed */
   }
 }
 
@@ -199,7 +200,7 @@ export default {
 
 .text-weight {
   font-weight: 900 !important;
-  font-size: 4.5rem;
+  font-size: 6rem !important;
   word-spacing: 2;
 }
 .intro-marg {
@@ -285,7 +286,7 @@ div.c {
   }
 
   .reduce-hero-font-size {
-    font-size: 2.8rem !important;
+    font-size: 2.4rem !important;
     padding: 0.5rem 1.4rem;
   }
   .disable-margin {

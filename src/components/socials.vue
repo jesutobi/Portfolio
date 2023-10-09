@@ -5,7 +5,7 @@
       <div
         class="social-media-category-position mob-social-media-category-position"
       >
-        <div class="d-flex align-items-center justify-content-center">
+        <div class="d-flex align-items-center justify-content-center px-3">
           <!-- instagram -->
           <a
             href="https://www.instagram.com/jesutobbi/"

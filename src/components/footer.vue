@@ -5,7 +5,7 @@
         <div class="d-flex align-items-center justify-content-between">
           <!-- copyright -->
           <div class="not-on-mobile">
-            <span class="reduce-font  font1 fs-200 fw-bold"
+            <span class="reduce-font font1 fs-200 fw-bold"
               >Designed(ideas from dribble &#38; hashnode) <br />
               and built by Jesutobi Joseph
             </span>
@@ -149,7 +149,7 @@ export default {};
 </script>
 
 <style scoped>
-.footer-pos{
+.footer-pos {
   z-index: 1000000;
 }
 .mob-width {
@@ -178,6 +178,7 @@ export default {};
   }
   .reduce-logo {
     font-size: 1rem !important;
+    padding: 0rem 0.5rem;
   }
   .not-on-mobile {
     display: none !important;
