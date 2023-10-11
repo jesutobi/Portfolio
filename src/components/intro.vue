@@ -99,28 +99,62 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      typeArray: ["FRONT-END DEVELOPER"],
+      typeArray: ["SOFTWARE DEVELOPER", "FRONT-END DEVELOPER"],
       typingSpeed: 80,
       erasingSpeed: 100,
       newTextDelay: 2000,
       typeArrayIndex: 0,
       charIndex: 0,
+      stopTyping: false, // Add a new property to control stopping typing and erasing
     };
   },
   methods: {
     typeText() {
-      if (this.charIndex < this.typeArray[this.typeArrayIndex].length) {
-        if (!this.typeStatus) this.typeStatus = true;
-        this.typeValue += this.typeArray[this.typeArrayIndex].charAt(
-          this.charIndex
-        );
-        this.charIndex += 1;
-        setTimeout(this.typeText, this.typingSpeed);
-      } else {
+      if (
+        this.stopTyping ||
+        this.charIndex == this.typeArray[this.typeArrayIndex].length
+      ) {
         this.typeStatus = false;
         setTimeout(this.eraseText, this.newTextDelay);
+
+        return; // Exit the function
       }
+      if (this.charIndex >= 18) {
+        this.stopTyping = true;
+        !this.eraseText;
+      }
+      if (!this.typeStatus) this.typeStatus = true;
+      this.typeValue += this.typeArray[this.typeArrayIndex].charAt(
+        this.charIndex
+      );
+      this.charIndex += 1;
+      setTimeout(this.typeText, this.typingSpeed);
     },
+    eraseText() {
+      if (this.stopTyping || this.charIndex <= 0) {
+        this.typeStatus = false;
+        if (this.typeArrayIndex === 1) {
+          this.stopTyping = true; // Set stopTyping to true after second text
+          this.typeStatus = true; // Set typeStatus to true to stop erasing
+        }
+        this.typeArrayIndex += 1;
+        if (this.typeArrayIndex >= this.typeArray.length)
+          this.typeArrayIndex = 0;
+        setTimeout(this.typeText, this.typingSpeed + 1000);
+        return; // Exit the function
+      }
+      if (!this.typeStatus) this.typeStatus = true;
+      this.typeValue = this.typeArray[this.typeArrayIndex].substring(
+        0,
+        this.charIndex - 1
+      );
+      this.charIndex -= 1;
+
+      setTimeout(this.eraseText, this.erasingSpeed);
+    },
+  },
+  created() {
+    setTimeout(this.typeText, this.newTextDelay + 200);
   },
   metaInfo() {
     return {
@@ -147,16 +181,16 @@ export default {
   background-image: url(@/assets/images/Shape.png);
   background-color: #06d599;
   color: #162120;
-  height: 95vh;
+  height: 100%;
   animation: slide 7s infinite linear; /* Adjust the duration as needed */
-  padding: 3rem 0rem !important;
+  padding: 2rem 0rem !important;
 }
 @media (max-width: 768px) {
   .bg-pattern-img {
     background-image: url(@/assets/images/Shape.png);
     background-color: #06d599;
     color: #162120;
-    height: 100vh;
+    height: 100%;
     animation: slide 17s infinite linear !important; /* Adjust the duration as needed */
   }
 }

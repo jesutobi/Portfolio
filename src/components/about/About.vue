@@ -14,7 +14,7 @@
         <div class="font1 white">
           <div class="row about-space position-relative">
             <!-- about -->
-            <div class="col-xl-6 col-md-7 col-lg-7" v-motion-roll-visible-left>
+            <div class="col-xl-6" v-motion-roll-visible-left>
               <!-- fake div and h1 tag -->
               <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
 
@@ -102,7 +102,7 @@
 
               <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
             </div>
-            <div v-motion-roll-visible-right class="col-xl-6 col-md-5 col-lg-5">
+            <div v-motion-roll-visible-right class="col-xl-6">
               <div class="not-on-mobile pt-4 d-flex justify-content-center">
                 <img src="@/assets/images/fig.png" alt="" class="w-100" />
               </div>
@@ -285,6 +285,11 @@ export default {
     max-width: 100% !important;
   }
 }
+@media (max-width: 1200px) {
+  .not-on-mobile {
+    display: none !important;
+  }
+}
 @media (max-width: 768px) {
   .not-on-mobile {
     display: none !important;
@@ -348,7 +353,7 @@ export default {
     text-align: justify !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .notindesktop {
     display: none !important;
   }

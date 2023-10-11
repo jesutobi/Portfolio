@@ -490,7 +490,7 @@ button {
   background-size: contain;
   background-repeat: no-repeat;
   color: white;
-  height: 100vh;
+  height: 100%;
   padding: 4rem 0rem;
 }
 /* project header */
@@ -529,6 +529,7 @@ textarea:focus {
     max-width: 100% !important;
   }
 }
+
 @media (max-width: 768px) {
   .reduce-placeholder-font {
     font-size: 1rem !important;
@@ -576,6 +577,11 @@ textarea:focus {
 @media (max-width: 576px) {
   .not-on-mobile {
     display: none !important;
+  }
+  /* title */
+  .reduce-title-font-size {
+    font-size: 2rem !important;
+    padding: 0rem 1.4rem !important;
   }
 }
 /* @media (min-width: 1199px) {

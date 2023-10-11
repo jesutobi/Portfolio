@@ -487,7 +487,7 @@ export default {
 .project-bg {
   background-color: #162120;
   color: white;
-  /* height: 100vh; */
+  height: 100%;
   /* padding: -7rem 0rem; */
 }
 /* project header */
