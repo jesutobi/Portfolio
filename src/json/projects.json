@@ -51,5 +51,23 @@
     "modal": "todo.png",
     "devTech": "PHP,Javascript, HTML, CSS, SQL",
     "CSSlibrary": " tailwind css"
+  },
+  {
+    "image": "getlinked.png",
+    "title": "GETlinked app",
+    "url": "https://jesutobi-getlinked.netlify.app",
+    "propurl": "GET-linked",
+    "modal": "getlinked.png",
+    "devTech": "Vue, Vuex,Vueuse/motion , CSS, Axios , ",
+    "CSSlibrary": " tailwind css"
+  },
+  {
+    "image": "Dog-filter.png",
+    "title": "Dog filter app",
+    "url": "https://dogapp-tobi.netlify.app",
+    "propurl": "Dog-filter App",
+    "modal": "Dog-filter.png",
+    "devTech": "Vue, Vuex,Vueuse/motion , CSS, Axios , ",
+    "CSSlibrary": " tailwind css"
   }
 ]

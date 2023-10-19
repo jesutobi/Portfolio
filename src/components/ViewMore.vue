@@ -43,6 +43,7 @@
                       :src="require(`@/assets/images/${singleproject.image}`)"
                       alt=""
                       class="w-100 object-size container-radius"
+                      style="height: 170px"
                     />
                   </div>
                 </div>
@@ -61,7 +62,7 @@
                         >{{ singleproject.propurl }}</a
                       >
                     </div>
-                    <div
+                    <!-- <div
                       @click="showPreview(singleproject)"
                       role="button"
                       class="removemobpreview"
@@ -69,7 +70,7 @@
                       <div>
                         <span class="">preview</span>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
