@@ -1,6 +1,6 @@
 [
   {
-    "image": "portfolioBaml.png",
+    "image": "baml.png",
     "title": "Buildings and More Ng. ltd",
     "url": "https://buildingsandmore.ng/",
     "propurl": "buildingsandmore.ng",
@@ -63,7 +63,7 @@
     "CSSlibrary": " tailwind css"
   },
   {
-    "image": "Dog-filter.png",
+    "image": "dog.png",
     "title": "Dog filter app",
     "url": "https://dogapp-tobi.netlify.app",
     "propurl": "Dog-filter App",
