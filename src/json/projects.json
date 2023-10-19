@@ -1,5 +1,14 @@
 [
   {
+    "image": "portfolioBaml.png",
+    "title": "Buildings and More Ng. ltd",
+    "url": "https://buildingsandmore.ng/",
+    "propurl": "buildingsandmore.ng",
+    "modal": "portfolioBaml.png",
+    "devTech": "Nuxt-js, HTML, CSS, Javascript, Vuex",
+    "CSSlibrary": "Bootstrap , Vue Bootstrap"
+  },
+  {
     "image": "bitsin.png",
     "title": "Bitsin Travels and Tours",
     "url": "https://bitsintravelsandtours.com/",
@@ -7,14 +16,6 @@
     "modal": "bitsin.png",
     "devTech": "Nuxt-js, HTML, CSS, Javascript, Vuex",
     "CSSlibrary": "Bootstrap , Vue Bootstrap"
-  },
-  {
-    "image": "raadaa.png",
-    "title": "Raadaa Partners int. ltd",
-    "url": "https://raadaa.com/",
-    "propurl": "raadaa.com",
-    "modal": "raadaa.png",
-    "devTech": "Vue js"
   },
   {
     "image": "housefinder.png",
@@ -26,14 +27,14 @@
     "CSSlibrary": "Bootstrap , Vue Bootstrap"
   },
   {
-    "image": "portfolioBaml.png",
-    "title": "Buildings and More Ng. ltd",
-    "url": "https://buildingsandmore.ng/",
-    "propurl": "buildingsandmore.ng",
-    "modal": "portfolioBaml.png",
-    "devTech": "Nuxt-js, HTML, CSS, Javascript, Vuex",
-    "CSSlibrary": "Bootstrap , Vue Bootstrap"
+    "image": "raadaa.png",
+    "title": "Raadaa Partners int. ltd",
+    "url": "https://raadaa.com/",
+    "propurl": "raadaa.com",
+    "modal": "raadaa.png",
+    "devTech": "Vue js"
   },
+
   {
     "image": "Jesutobi.png",
     "title": "Jesutobi J.J",
