@@ -122,7 +122,7 @@
                 <input
                   type="text"
                   placeholder="Enter your name"
-                  class="border-bottom z-content py-3 px-5 input-width remove-input-defaults w-80 reduce-placeholder-font fs-400 border-0 w-90 border-2 border-light"
+                  class="border-bottom z-content name py-3 px-5 input-width remove-input-defaults w-80 reduce-placeholder-font fs-400 border-0 w-90 border-2 border-light"
                   name="name"
                   required
                 />
@@ -171,7 +171,7 @@
                 <input
                   type="email"
                   placeholder="Enter your email address"
-                  class="border-bottom w-100 fs-400 z-content remove-input-defaults reduce-placeholder-font px-5 py-3 border-0 w-70 border-2 border-light"
+                  class="border-bottom w-100 fs-400 z-content white remove-input-defaults reduce-placeholder-font px-5 py-3 border-0 w-70 border-2 border-light"
                   name="email"
                   required
                 />
@@ -277,7 +277,7 @@
                 type="text"
                 name="message"
                 placeholder="What do you have in mind"
-                class="border-bottom z-content py-3 fs-400 overflow-auto reduce-placeholder-font remove-input-defaults px-5 border-0 w-100 border-2 border-light"
+                class="border-bottom z-content white py-3 fs-400 overflow-auto reduce-placeholder-font remove-input-defaults px-5 border-0 w-100 border-2 border-light"
               />
             </div>
             <!-- lets talk button -->
