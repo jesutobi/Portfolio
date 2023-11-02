@@ -132,7 +132,12 @@
             </h5>
             <p class="w-70 mobile-text-style"></p>
           </div>
-          <div class="mt-4" v-for="jobb in experience" :key="jobb">
+          <div
+            class="mt-4 rounded-4 w-100 p-3"
+            style="background-color: rgba(177, 177, 177, 0.172)"
+            v-for="jobb in experience"
+            :key="jobb"
+          >
             <!-- head -->
             <div
               class="d-flex justify-content-between change-display mobile-text-style"
@@ -244,7 +249,7 @@ export default {
     font-size: 0.875rem !important;
   }
   .mobile-container-padding {
-    padding: 1rem !important;
+    padding: 0.6rem !important;
   }
   .resumeNameMobile {
     font-size: 3.3rem !important;
