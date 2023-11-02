@@ -4,6 +4,8 @@ import intro from "@/views/Homepage.vue";
 import Projects from "@/components/projects.vue";
 // import Testimonials from "@/views/testimonials.vue";
 import Contacts from "@/components/contacts.vue";
+import ViewmoreLayout from "@/components/viewmoreLayout.vue";
+import HomeLayout from "@/components/homeLayout.vue";
 import ViewM from "@/components/about/resume";
 import ViewMore from "@/components/ViewMore.vue";
 import Abt from "@/components/about/About.vue";
@@ -18,7 +20,32 @@ const routes = [
   { path: "/contacts", name: "Contacts", component: Contacts },
   { path: "/about/resume", name: "viewM", component: ViewM },
   { path: "/about/About", name: "Abt", component: Abt },
-  { path: "/ViewMore", name: "viewmore", component: ViewMore },
+  // { path: "/ViewMore", name: "viewmore", component: ViewMore },
+
+  {
+    path: "/viewmoreLayout",
+    component: ViewmoreLayout,
+    children: [
+      {
+        path: "/ViewMore",
+        name: "viewmore",
+        component: ViewMore,
+      },
+    ],
+  },
+  {
+    path: "/",
+    component: HomeLayout,
+    children: [
+      { path: "/", name: "intro", component: intro },
+      // { path: "/skills", name: "skills", component: Skills },
+      { path: "/projects", name: "Projects", component: Projects },
+      // { path: "/testimonials", name: "Testimonials", component: Testimonials },
+      { path: "/contacts", name: "Contacts", component: Contacts },
+      { path: "/about/resume", name: "viewM", component: ViewM },
+      { path: "/about/About", name: "Abt", component: Abt },
+    ],
+  },
 
   // { path: "/about", name: "about", component: About },e
 ];

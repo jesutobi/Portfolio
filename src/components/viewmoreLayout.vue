@@ -1,12 +1,11 @@
 <template>
   <div>
     <div class="scroll">
-      <!-- <Nav /> -->
-      <!-- <div>
+      <Nav />
+      <div>
         <router-link to="/"></router-link>
-      </div> -->
-      <router-view />
-      <!-- <Footer /> -->
+      </div>
+      <router-view></router-view>
     </div>
   </div>
 </template>
@@ -14,7 +13,7 @@
 <script>
 // import Preload from "@/components/pageloader.vue";
 import Nav from "@/components/navbar.vue";
-import Footer from "@/components/footer.vue";
+
 export default {
   name: "Jesutobi's portfolio",
   metaInfo: {
@@ -26,7 +25,6 @@ export default {
   },
   components: {
     Nav,
-    Footer,
     // Preload,
   },
 };

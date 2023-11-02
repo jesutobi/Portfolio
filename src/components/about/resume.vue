@@ -10,7 +10,13 @@
         role="button"
         class="d-flex mob-print-style container animate__animated animate__pulse animate__slow 2s animate__infinite infinite justify-content-end align-items-center"
       >
-        <div class="px-2">
+        <div
+          class="px-2"
+          type="button"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="Tooltip on top"
+        >
           <svg
             version="1.1"
             id="Capa_1"
@@ -40,41 +46,43 @@
             </g>
           </svg>
         </div>
-        <div class="w-15 float-end">
-          <span class="anima-nav my-2 fw-bold">Download Resume</span>
-        </div>
+        <!-- <div class="w-15 float-end">
+          <span class="anima-nav my-2 fw-bold ">Download Resume</span>
+        </div> -->
       </div></a
     >
     <!-- <br /> -->
-    <div class="container p-5 w-100">
+    <div class="container mobile-container-padding p-5 w-100">
       <div class="row mobile-text-style">
-        <div class="col-lg-5 col-md-5 col-xl-5 desk-herospace col-xxl-5">
-          <h1 class="text-end fs-750">Jesutobi</h1>
+        <div
+          class="col-lg-5 col-md-5 col-xl-5 resumeNameMobile desk-herospace col-xxl-5"
+        >
+          <h1 class="text-end fs-750 resumeNameMobile">Jesutobi</h1>
 
-          <h1 class="text-center fs-750">Joseph</h1>
+          <h1 class="text-center fs-750 resumeNameMobile">Joseph</h1>
 
-          <h1 class="text-start fs-750">Jesutobi</h1>
+          <h1 class="text-start fs-750 resumeNameMobile">Jesutobi</h1>
         </div>
         <div class="project-text col-lg-7 col-md-7 col-xl-7 col-xxl-7">
-          <p class="fs-300">
+          <p class="fs-300 mobile-text-intro">
             Over the course of my career, I have developed and designed multiple
             software products that have helped to address problems in various
             industries such as education, transportation, real estate, and
             e-commerce.
           </p>
-          <p class="fs-300">
+          <p class="fs-300 mobile-text-intro">
             I have experience in revamping web applications, specifically
             focusing on rebuilding the front-end to be scalable and optimized
             for search engines using Nuxt js, as well as implementing features
             such as lazy loading images to improve site speed.
           </p>
-          <p class="fs-300">
+          <p class="fs-300 mobile-text-intro">
             Additionally, I have built a hotel and flight booking engine called
             Bitsin, which also handles visa applications. I was responsible for
             the front-end development, utilizing API's and utilizing tools such
             as Figma and Adobe to achieve the desired outcome.
           </p>
-          <p class="fs-300">
+          <p class="fs-300 mobile-text-intro">
             I possess a wide range of tools and skills that make me proficient
             in handling design and engineering projects, allowing me to meet
             targets and deadlines while achieving desired results.
@@ -87,20 +95,20 @@
         <!-- small about -->
         <div class="col-lg-2 col-md-2 col-xl-2 col-xxl-2">
           <!-- contact -->
-          <div>
+          <div class="">
             <h6 class="py-1 fw-bold green">
               <a
-                class="text-reset text-decoration-none"
+                class="text-reset text-decoration-none mobile-text-intro"
                 target="_blank"
                 href="https://jesutobi-joseph.onrender.com/"
                 >jesutobi-joseph.onrender.com</a
               >
             </h6>
             <!-- <h6 class="py-1">FCT, Abuja ,Nigeria</h6> -->
-            <h6 class="py-1">jesutobit@gmail.com</h6>
+            <h6 class="py-1 mobile-text-intro">jesutobit@gmail.com</h6>
           </div>
           <!-- proficient in -->
-          <div class="mt-4">
+          <div class="mt-4 mobile-text-intro">
             <span class="fw-bold green">skills :</span>
             <ul class="" v-for="skillz in skill" :key="skillz" type="square">
               <li>{{ skillz }}</li>
@@ -108,8 +116,10 @@
           </div>
           <!-- certificate -->
           <div>
-            <span class="fw-bold green">Certificates :</span>
-            <ul class="" type="square">
+            <span class="fw-bold green text-decoration-underline"
+              >Certificates :</span
+            >
+            <ul class="mobile-text-intro" type="square">
               <li>Bsc</li>
             </ul>
           </div>
@@ -117,7 +127,9 @@
         <div class="col-lg-10 col-md-10 col-xl-10 col-xxl-10 mobile-padding">
           <div class="mobile-text-style">
             <!-- head -->
-            <h5 class="fw-bold">Experience</h5>
+            <h5 class="fw-bold job-donetext-style text-decoration-underline">
+              Experience
+            </h5>
             <p class="w-70 mobile-text-style"></p>
           </div>
           <div class="mt-4" v-for="jobb in experience" :key="jobb">
@@ -137,11 +149,11 @@
               </div>
             </div>
 
-            <p class="w-70 mobile-text-style">
+            <p class="w-70 mobile-text-style mobile-text-intro">
               {{ jobb.jobDesc }}
             </p>
             <div>
-              <ul class="list-unstyled">
+              <ul class="list-unstyled mobile-text-intro">
                 <li class="py-1">{{ jobb.list1 }}</li>
                 <li class="py-1">{{ jobb.list2 }}</li>
                 <li class="py-1">{{ jobb.list3 }}</li>
@@ -228,13 +240,23 @@ export default {
   }
 }
 @media (max-width: 576px) {
+  .mobile-text-intro {
+    font-size: 0.875rem !important;
+  }
+  .mobile-container-padding {
+    padding: 1rem !important;
+  }
+  .resumeNameMobile {
+    font-size: 3.3rem !important;
+    text-align: center !important;
+  }
   .mob-print-style {
     /* padding: 0rem 7rem !important; */
     width: 80% !important;
   }
   /* job text style */
   .job-donetext-style {
-    font-size: 1.1rem !important;
+    font-size: 1rem !important;
   }
   .change-display {
     display: block !important;

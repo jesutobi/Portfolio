@@ -36,7 +36,7 @@
               </h2>
 
               <p
-                class="fs-300 reduce-mini-intro-text-hero brief-text disable-margin mobile-hero-width font1 mx-5"
+                class="fs-300 resumeNameMobile reduce-mini-intro-text-hero brief-text disable-margin mobile-hero-width font1 mx-5"
               >
                 <img
                   src="../../src/assets/icon/minus-horizontal-straight-line.png"
@@ -301,6 +301,12 @@ div.c {
   // }
 }
 @media (max-width: 768px) {
+  .resumeNameMobile {
+    font-size: 0.9rem !important;
+    // text-align: center !important;
+  }
+}
+@media (max-width: 768px) {
   .bg-pattern-img {
     background-image: url(@/assets/images/Shape.png);
     background-color: #06d599;
@@ -320,7 +326,7 @@ div.c {
   }
 
   .reduce-hero-font-size {
-    font-size: 2.4rem !important;
+    font-size: 2.8rem !important;
     padding: 0.5rem 1.4rem;
   }
   .disable-margin {

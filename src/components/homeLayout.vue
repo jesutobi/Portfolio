@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="scroll">
-      <!-- <Nav /> -->
-      <!-- <div>
+      <Nav />
+      <div>
         <router-link to="/"></router-link>
-      </div> -->
-      <router-view />
-      <!-- <Footer /> -->
+      </div>
+      <router-view></router-view>
+      <Footer />
     </div>
   </div>
 </template>
