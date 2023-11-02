@@ -41,7 +41,7 @@
                   &#8249;p&#8250;
                 </h2>
                 <div class="about-text-font-size px-4">
-                  <p class="fs-300">
+                  <p class="fs-300 mobile-text-intro">
                     Hi, my name is
                     <span class="green px-1 fw-bold"> Jesutobi J.J</span> ,over
                     the course of my career, I have developed and designed the
@@ -50,7 +50,7 @@
                     problems in various industries such as education,
                     transportation, real estate, and e-commerce.
                   </p>
-                  <p class="fs-300">
+                  <p class="fs-300 mobile-text-intro">
                     I have a strong understanding of
                     <span class="green px-1 fw-bold"
                       >web performance optimization techniques,</span
@@ -58,7 +58,7 @@
                     such as minifying code and using the right sizes of 'image
                     assets' to ensure fast loading times for users
                   </p>
-                  <p class="fs-300">
+                  <p class="fs-300 mobile-text-intro">
                     Additionally I am skilled in
                     <span class="green px-1 fw-bold">accessibility</span> best
                     practices to ensure that my designs are inclusive for all
@@ -71,7 +71,7 @@
                   </p>
                 </div>
                 <!-- skill i have used -->
-                <div class="about-text-font-size px-4">
+                <div class="about-text-font-size mobile-text-intro px-4">
                   <p>
                     I have experience using a variety of tools and technologies:
                     <br />
@@ -361,6 +361,11 @@ export default {
 @media (max-width: 1197px) {
   .bgfont {
     font-size: 25vw !important;
+  }
+}
+@media (max-width: 576px) {
+  .mobile-text-intro {
+    font-size: 0.875rem !important;
   }
 }
 </style>

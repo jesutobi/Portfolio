@@ -53,9 +53,9 @@
     >
     <!-- <br /> -->
     <div class="container mobile-container-padding p-5 w-100">
-      <div class="row mobile-text-style">
+      <div class="row justify-content-center">
         <div
-          class="col-lg-5 col-md-5 col-xl-5 resumeNameMobile desk-herospace col-xxl-5"
+          class="col-lg-5 col-md-5 col-xl-5 col-12 resumeNameMobile desk-herospace col-xxl-5"
         >
           <h1 class="text-end fs-750 resumeNameMobile">Jesutobi</h1>
 
@@ -153,7 +153,7 @@
               {{ jobb.jobDesc }}
             </p>
             <div>
-              <ul class="list-unstyled mobile-text-intro">
+              <ul class="mobile-text-intro">
                 <li class="py-1">{{ jobb.list1 }}</li>
                 <li class="py-1">{{ jobb.list2 }}</li>
                 <li class="py-1">{{ jobb.list3 }}</li>
