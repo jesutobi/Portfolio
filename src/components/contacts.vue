@@ -21,7 +21,6 @@
           >
             <!-- name -->
             <div
-              v-motion-slide-visible-left
               class="d-flex off-felx-mob align-items-center justify-content-center z-content"
             >
               <div
@@ -181,7 +180,6 @@
 
             <!-- message -->
             <div
-              v-motion-slide-visible-right
               class="my-4 w-70 input-width m-auto position-relative z-content"
             >
               <div class="atpostion">
