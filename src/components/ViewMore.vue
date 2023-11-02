@@ -18,20 +18,22 @@
       <div>
         <!-- intro text -->
         <u>
-          <div class="py-5 fontbold titleunderline my-5">
-            <h1 class="projectsheroFont text-center fw-bold">
+          <div
+            class="py-5 projectsheroFont mobprojectsheroFont fontbold titleunderline my-5"
+          >
+            <span class="text-center fw-bold">
               Selected <span class="grey"> Projects</span>
-            </h1>
+            </span>
           </div>
         </u>
         <!-- projects -->
         <div>
-          <div class="row">
+          <div class="row justify-content-center">
             <!-- card -->
             <div
               v-for="(singleproject, index) in projects"
               :key="index"
-              class="position-relative col-sm-6 col-md-4 card-animation col-lg-4 py-3 col-xl-3 col-xxl-3"
+              class="position-relative col-sm-6 mobile-width-card col-12 col-md-4 card-animation col-lg-4 py-3 col-xl-3 col-xxl-3"
             >
               <div class="hov">
                 <div
@@ -193,13 +195,35 @@ export default {
   box-shadow: 0rem 1rem 5rem 30rem rgba(0, 0, 0, 0.596);
 }
 
+@media (max-width: 576px) {
+  .mobile-width-card {
+    width: 250px !important;
+  }
+  /* .mobprojectsheroFont {
+    font-size: 1.5rem !important;
+  } */
+}
+@media (max-width: 500px) {
+  .mobile-width-card {
+    width: 290px !important;
+  }
+  /* .mobprojectsheroFont {
+    font-size: 1.5px !important;
+  } */
+}
+@media (min-width: 768px) {
+  /* hero section font*/
+  .projectsheroFont {
+    font-size: 4rem !important;
+  }
+}
 @media (max-width: 768px) {
   .area {
     width: 100%;
     height: 250vh !important;
   }
-  .projectsheroFont {
-    font-size: 2px !important;
+  .mobprojectsheroFont {
+    font-size: 3rem !important;
   }
   /* remove preview button */
   .removemobpreview {
@@ -257,9 +281,9 @@ export default {
   z-index: 10000;
 }
 /* hero section font*/
-.projectsheroFont {
+/* .projectsheroFont {
   font-size: 4rem !important;
-}
+} */
 .hov:hover + .mini-display-radius {
   display: block !important;
 }
