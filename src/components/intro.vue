@@ -68,6 +68,7 @@
                 &#8249;p /&#8250;
               </h2> -->
             </div>
+            <!-- apps i work with -->
 
             <!-- fake div and h1 tag -->
             <!-- <div class="c">
@@ -79,24 +80,37 @@
           </div>
           <!-- lets build -->
         </div>
+        <div class="row justify-content-center mx-auto only-on-mob">
+          <div class="col-4" v-for="(icon, index) in icons" :key="index">
+            <div class="px-2 py-3">
+              <img
+                :src="require(`@/assets/icon/${icon}`)"
+                alt=""
+                style="width: 45px"
+              />
+            </div>
+          </div>
+        </div>
         <!-- socials -->
-        <div class="mob-social-icon-position">
+        <!-- <div class="mob-social-icon-position">
           <div>
             <Socials />
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import skillIcon from "@/json/skillicon.json";
 import "animate.css";
 import Socials from "@/components/socials.vue";
 export default {
   components: { Socials },
   data: () => {
     return {
+      icons: skillIcon,
       typeValue: "",
       typeStatus: false,
       typeArray: ["SOFTWARE DEVELOPER", "FRONT-END DEVELOPER"],
@@ -228,6 +242,11 @@ export default {
 @media (min-width: 576px) and (max-width: 768px) {
   .tab-reduce-hero-font-size {
     font-size: 4rem !important;
+  }
+}
+@media (min-width: 576px) {
+  .only-on-mob {
+    display: none !important;
   }
 }
 
