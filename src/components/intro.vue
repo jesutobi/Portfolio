@@ -80,9 +80,9 @@
           </div>
           <!-- lets build -->
         </div>
-        <div class="row justify-content-center mx-auto only-on-mob">
+        <div class="row only-on-mob">
           <div class="col-4" v-for="(icon, index) in icons" :key="index">
-            <div class="px-2 py-3">
+            <div class="py-3 d-flex justify-content-center">
               <img
                 :src="require(`@/assets/icon/${icon}`)"
                 alt=""
