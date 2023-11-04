@@ -147,7 +147,7 @@ export default {};
 }
 .social-media-category-position {
   position: absolute;
-  bottom: 0rem !important;
+  bottom: -12rem !important;
 
   right: 0rem;
 }

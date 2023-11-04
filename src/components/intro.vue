@@ -8,35 +8,35 @@
             class="col-8 mobile-hero-width animate__animated animate__bounceInLeft"
           >
             <!-- fake div and h1 tag -->
-            <h2 class="fontreg1 fs-550 fake-tag-color">&#8249;div&#8250;</h2>
+            <!-- <h2 class="fontreg1 fs-550 fake-tag-color">&#8249;div&#8250;</h2>
             <h2
               class="fontreg1 paragraph-height reduce_fake_margin mx-5 fs-350 fake-tag-color"
             >
               &#8249;h1&#8250;
-            </h2>
+            </h2> -->
             <h1
-              class="text-weight fw-bold reduce-hero-font-size disable-margin clashBold intro-spacing mx-5"
+              class="text-weight fw-bold desk-hero-font-size reduce-hero-font-size tab-reduce-hero-font-size disable-margin clashBold intro-spacing"
             >
               {{ typeValue }}
               <!-- <span class="cursor" :class="{ typing: typeStatus }"
                   >&nbsp;</span
                 > -->
             </h1>
-            <h2
+            <!-- <h2
               class="fontreg1 reduce_fake_margin paragraph-height mx-5 fs-350 fake-tag-color"
             >
               &#8249;h1 /&#8250;
-            </h2>
+            </h2> -->
             <!-- a little intro about what i do -->
             <div class="postion-relative">
-              <h2
+              <!-- <h2
                 class="fontreg1 mx-5 reduce_fake_margin fs-350 fake-tag-color"
               >
                 &#8249;p&#8250;
-              </h2>
+              </h2> -->
 
               <p
-                class="fs-300 resumeNameMobile reduce-mini-intro-text-hero brief-text disable-margin mobile-hero-width font1 mx-5"
+                class="fs-300 resumeNameMobile reduce-mini-intro-text-hero brief-text disable-margin mobile-hero-width font1"
               >
                 <img
                   src="../../src/assets/icon/minus-horizontal-straight-line.png"
@@ -44,10 +44,10 @@
                 />
                 Hello there , <br />
                 i am a Front-end developer,
-                <img
+                <!-- <img
                   src="../../src/assets/icon/minus-horizontal-straight-line.png"
                   alt=""
-                />
+                /> -->
                 <br />
 
                 skilled in utilizing the latest technologies and tools to build
@@ -59,23 +59,23 @@
                 >
               </p>
               <p
-                class="fs-300 green3 reduce-mini-intro-text-hero brief-text disable-margin mobile-hero-width font1 mx-5"
+                class="fs-300 green3 brief-text disable-margin mobile-hero-width font1 mx-5"
               ></p>
 
-              <h2
+              <!-- <h2
                 class="fontreg1 reduce_fake_marginp mx-5 fs-350 fake-tag-color"
               >
                 &#8249;p /&#8250;
-              </h2>
+              </h2> -->
             </div>
 
             <!-- fake div and h1 tag -->
-            <div class="c">
+            <!-- <div class="c">
               <br class="not-on-mobile" />
               <h2 class="fontreg1 mt-0 fs-550 fake-tag-color">
                 &#8249;div /&#8250;
               </h2>
-            </div>
+            </div> -->
           </div>
           <!-- lets build -->
         </div>
@@ -181,21 +181,28 @@ export default {
   background-image: url(@/assets/images/Shape.png);
   background-color: #06d599;
   color: #162120;
-  height: 100%;
+  height: 100vh;
   animation: slide 7s infinite linear; /* Adjust the duration as needed */
-  padding: 2rem 0rem !important;
+  padding: 3.5rem 0rem !important;
 }
 @media (max-width: 768px) {
   .bg-pattern-img {
     background-image: url(@/assets/images/Shape.png);
     background-color: #06d599;
     color: #162120;
-    height: 100%;
+    height: 100vh;
     animation: slide 17s infinite linear !important; /* Adjust the duration as needed */
   }
 }
 
 @media (max-width: 576px) {
+  .tab-reduce-hero-font-size {
+    font-size: 3rem !important;
+  }
+  // .reduce-hero-font-size {
+  //   font-size: 2.8rem !important;
+  //   padding: 0.5rem 0rem;
+  // }
   .mobile-hero-width {
     width: 100% !important;
   }
@@ -205,21 +212,21 @@ export default {
     span.typed-text {
       color: #d2b94b;
     }
-    // span.cursor {
-    //   display: inline-block;
-    //   margin-left: 3px;
-    //   width: 4px;
-    //   height: 5vh !important;
-    //   background-color: #162120;
-    //   animation: cursorBlink 1s infinite;
-    // }
-    // span.cursor.typing {
-    //   animation: none;
-    // }
   }
 }
-@media (min-width: 768px) {
-  .reduce-hero-font-size {
+
+@media (min-width: 992px) {
+  .desk-hero-font-size {
+    font-size: 6rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .tab-reduce-hero-font-size {
+    font-size: 4.5rem !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .tab-reduce-hero-font-size {
     font-size: 4rem !important;
   }
 }
@@ -227,14 +234,14 @@ export default {
 /* DEMO-SPECIFIC STYLES */
 
 /* contact me button */
-// intro words spacing
+
 .intro-spacing {
   word-spacing: 1rem !important;
 }
 
 .text-weight {
   font-weight: 900 !important;
-  font-size: 6rem !important;
+
   word-spacing: 2;
 }
 .intro-marg {
@@ -288,22 +295,10 @@ div.c {
   left: 6rem;
   right: 0;
 }
-// .mob-width {
-//   max-width: 95%;
-//   margin: auto;
-// }
-@media (min-width: 1410px) {
-  // .mob-width {
-  //   max-width: 1250px !important;
-  // }
-  // .max2 {
-  //   max-width: 100% !important;
-  // }
-}
+
 @media (max-width: 768px) {
   .resumeNameMobile {
     font-size: 0.9rem !important;
-    // text-align: center !important;
   }
 }
 @media (max-width: 768px) {
@@ -311,11 +306,9 @@ div.c {
     background-image: url(@/assets/images/Shape.png);
     background-color: #06d599;
     color: #162120;
-    height: auto;
+    height: 100vh;
   }
-  // .mob-social-icon-position{
-  //   position: unset !important;
-  // }
+
   .mob-social-media-category-position {
     position: absolute !important;
     top: -5rem;
@@ -325,10 +318,6 @@ div.c {
     margin: unset !important;
   }
 
-  .reduce-hero-font-size {
-    font-size: 2.8rem !important;
-    padding: 0.5rem 1.4rem;
-  }
   .disable-margin {
     margin: unset !important;
   }
@@ -345,9 +334,9 @@ div.c {
     margin: unset !important;
     padding: 1rem 1rem 0rem 1rem;
   }
-  // .reduce-mini-intro-text-hero {
-  //   padding: 0rem 1rem !important;
-  // }
+  .reduce-mini-intro-text-hero {
+    padding: 1.5rem 0rem !important;
+  }
   .not-on-mobile {
     display: none !important;
   }
@@ -417,11 +406,10 @@ div.c {
 .social-media-category-position {
   position: absolute;
   bottom: 6rem;
-  // top: 0rem;
+
   right: 0rem;
 }
 .change-color-of-icon:hover {
   fill: rgb(226, 226, 226) !important;
 }
-// class="change-color-of-icon"n
 </style>
