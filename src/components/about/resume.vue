@@ -93,7 +93,7 @@
       </div>
       <div class="row py-1">
         <!-- small about -->
-        <div class="col-lg-2 col-md-2 col-xl-2 col-xxl-2">
+        <div class="col-lg-4 col-md-4 col-xl-3 col-xxl-3">
           <!-- contact -->
           <div class="">
             <h6 class="py-1 fw-bold green">
@@ -124,7 +124,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-10 col-md-10 col-xl-10 col-xxl-10 mobile-padding">
+        <div class="col-lg-8 col-md-8 col-xl-9 col-xxl-9 mobile-padding">
           <div class="mobile-text-style">
             <!-- head -->
             <h5 class="fw-bold job-donetext-style text-decoration-underline">
@@ -143,7 +143,7 @@
               class="d-flex justify-content-between change-display mobile-text-style"
             >
               <div>
-                <h5 class="fw-bold green3 job-donetext-style">
+                <h5 class="fw-bold green3 job-donetext-style mobile-text-style">
                   {{ jobb.job }}
                 </h5>
               </div>
@@ -154,7 +154,7 @@
               </div>
             </div>
 
-            <p class="w-70 mobile-text-style mobile-text-intro">
+            <p class="w-100 mob-description-width mobile-text-intro">
               {{ jobb.jobDesc }}
             </p>
             <div>
@@ -223,6 +223,9 @@ export default {
   }
 }
 @media (max-width: 768px) {
+  .mob-description-width {
+    width: 100% !important;
+  }
   .mobile-padding {
     padding: 0rem 1.5rem;
   }
