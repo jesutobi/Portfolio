@@ -148,7 +148,7 @@
                 </h5>
               </div>
               <div>
-                <span class="fw-bold grey fs-200 mobile-text-style">{{
+                <span class="fw-bold grey fs-190 mobile-text-style">{{
                   jobb.jobdate
                 }}</span>
               </div>
@@ -264,7 +264,7 @@ export default {
   }
   /* job text style */
   .job-donetext-style {
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
   }
   .change-display {
     display: block !important;
