@@ -92,11 +92,11 @@
           </div>
         </div>
         <!-- socials -->
-        <!-- <div class="mob-social-icon-position">
+        <div class="mob-social-icon-position min-576">
           <div>
             <Socials />
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
   </div>
@@ -210,6 +210,9 @@ export default {
 }
 
 @media (max-width: 576px) {
+  .min-576 {
+    display: none !important;
+  }
   .tab-reduce-hero-font-size {
     font-size: 3rem !important;
   }
@@ -245,6 +248,9 @@ export default {
   }
 }
 @media (min-width: 576px) {
+  .min-576 {
+    display: block !important;
+  }
   .only-on-mob {
     display: none !important;
   }
