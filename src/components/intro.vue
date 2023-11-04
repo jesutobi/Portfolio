@@ -87,12 +87,15 @@
                 :src="require(`@/assets/icon/${icon}`)"
                 alt=""
                 style="width: 45px"
+                class="jelly-icon"
               />
             </div>
           </div>
         </div>
         <!-- socials -->
-        <div class="mob-social-icon-position min-576">
+        <div
+          class="mob-social-icon-position min-576 social-media-category-position mob-social-media-category-position"
+        >
           <div>
             <Socials />
           </div>
@@ -188,6 +191,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// @keyframes jellyAnimation {
+//   0%,
+//   100% {
+//     transform: scaleY(1);
+//   }
+//   50% {
+//     transform: scaleY(1.2);
+//   }
+// }
+
+// .jelly-icon {
+//   display: inline-block;
+//   animation: jellyAnimation 0.8s infinite;
+//   transform-origin: center bottom;
+// }
 .off-padding {
   padding: 0rem !important;
 }
@@ -198,15 +216,6 @@ export default {
   height: 100vh;
   animation: slide 7s infinite linear; /* Adjust the duration as needed */
   padding: 3.5rem 0rem !important;
-}
-@media (max-width: 768px) {
-  .bg-pattern-img {
-    background-image: url(@/assets/images/Shape.png);
-    background-color: #06d599;
-    color: #162120;
-    height: 100vh;
-    animation: slide 17s infinite linear !important; /* Adjust the duration as needed */
-  }
 }
 
 @media (max-width: 576px) {
@@ -235,6 +244,14 @@ export default {
 @media (min-width: 992px) {
   .desk-hero-font-size {
     font-size: 6rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .social-media-category-position {
+    position: absolute;
+    bottom: -12rem !important;
+
+    right: 0rem;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -322,11 +339,20 @@ div.c {
 }
 
 @media (max-width: 768px) {
+  .bg-pattern-img {
+    background-image: url(@/assets/images/Shape.png);
+    background-color: #06d599;
+    color: #162120;
+    height: 100vh;
+    animation: slide 17s infinite linear !important; /* Adjust the duration as needed */
+  }
+  .mob-social-media-category-position {
+    position: absolute !important;
+    bottom: -12rem !important;
+  }
   .resumeNameMobile {
     font-size: 0.9rem !important;
   }
-}
-@media (max-width: 768px) {
   .bg-pattern-img {
     background-image: url(@/assets/images/Shape.png);
     background-color: #06d599;
@@ -334,11 +360,6 @@ div.c {
     height: 100vh;
   }
 
-  .mob-social-media-category-position {
-    position: absolute !important;
-    top: -5rem;
-    left: 0rem !important;
-  }
   .lastfakediv {
     margin: unset !important;
   }

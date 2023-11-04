@@ -91,13 +91,13 @@
                   </li>
                 </router-link>
               </div>
-              <div class="">
-                <div>
-                  <Socials />
-                </div>
-              </div>
             </ul>
             <!-- socials -->
+            <div class="">
+              <div>
+                <Socials />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -108,6 +108,7 @@
 <script>
 import Socials from "@/components/socials.vue";
 export default {
+  components: { Socials },
   data() {
     return {
       mobmenu: false,
@@ -123,7 +124,6 @@ export default {
     };
   },
 
-  components: { Socials },
   methods: {
     isActive(route) {
       return this.$route.path === route;

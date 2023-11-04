@@ -14,7 +14,7 @@
         <div class="font1 white">
           <div class="row about-space position-relative">
             <!-- about -->
-            <div class="col-xl-6" v-motion-roll-visible-left>
+            <div class="col-xl-6" v-motion-slide-visible-right>
               <!-- fake div and h1 tag -->
               <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
 
@@ -102,7 +102,7 @@
 
               <h2 class="fontreg1 fs-550 text-white-50">&#8249;div&#8250;</h2>
             </div>
-            <div v-motion-roll-visible-right class="col-xl-6">
+            <div v-motion-slide-visible-left class="col-xl-6">
               <div class="not-on-mobile pt-4 d-flex justify-content-center">
                 <img src="@/assets/images/fig.png" alt="" class="w-100" />
               </div>

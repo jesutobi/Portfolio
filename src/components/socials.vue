@@ -2,9 +2,7 @@
   <div>
     <!-- socials -->
     <div>
-      <div
-        class="social-media-category-position mob-social-media-category-position"
-      >
+      <div class="">
         <div class="d-flex align-items-center justify-content-center px-3">
           <!-- instagram -->
           <a
@@ -138,17 +136,4 @@
 export default {};
 </script>
 
-<style scoped>
-@media (max-width: 768px) {
-  .mob-social-media-category-position {
-    position: absolute !important;
-    bottom: 0rem !important;
-  }
-}
-.social-media-category-position {
-  position: absolute;
-  bottom: -12rem !important;
-
-  right: 0rem;
-}
-</style>
+<style scoped></style>

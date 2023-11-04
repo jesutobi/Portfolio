@@ -55,7 +55,7 @@
     <div class="container mobile-container-padding p-5 w-100">
       <div class="row justify-content-center">
         <div
-          class="col-lg-5 col-md-5 col-xl-5 col-12 resumeNameMobile desk-herospace col-xxl-5"
+          class="col-lg-5 col-md-6 col-xl-5 col-12 resumeNameMobile desk-herospace col-xxl-5"
         >
           <h1 class="text-end fs-750 resumeNameMobile">Jesutobi</h1>
 
@@ -63,7 +63,7 @@
 
           <h1 class="text-start fs-750 resumeNameMobile">Jesutobi</h1>
         </div>
-        <div class="project-text col-lg-7 col-md-7 col-xl-7 col-xxl-7">
+        <div class="project-text col-lg-7 col-md-6 col-xl-7 col-xxl-7">
           <p class="fs-300 mobile-text-intro">
             Over the course of my career, I have developed and designed multiple
             software products that have helped to address problems in various
@@ -270,11 +270,11 @@ export default {
     display: block !important;
   }
 }
-@media (min-width: 992px) {
-  .desk-herospace {
-    padding: 3rem 0rem 0rem 0rem !important;
-  }
+/* @media (min-width: 992px) { */
+.desk-herospace {
+  padding: 3rem 0rem 0rem 0rem !important;
 }
+/* } */
 @keyframes slideInLeft {
   from {
     transform: translateX(-100%);
