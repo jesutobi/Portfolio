@@ -338,12 +338,21 @@ div.c {
   right: 0;
 }
 
+@media (max-width: 400px) {
+  .bg-pattern-img {
+    background-image: url(@/assets/images/Shape.png);
+    background-color: #06d599;
+    color: #162120;
+    height: 95vh;
+    animation: slide 17s infinite linear !important; /* Adjust the duration as needed */
+  }
+}
 @media (max-width: 768px) {
   .bg-pattern-img {
     background-image: url(@/assets/images/Shape.png);
     background-color: #06d599;
     color: #162120;
-    height: 100vh;
+    height: 80vh;
     animation: slide 17s infinite linear !important; /* Adjust the duration as needed */
   }
   .mob-social-media-category-position {
@@ -353,12 +362,12 @@ div.c {
   .resumeNameMobile {
     font-size: 0.9rem !important;
   }
-  .bg-pattern-img {
-    background-image: url(@/assets/images/Shape.png);
-    background-color: #06d599;
-    color: #162120;
-    height: 100vh;
-  }
+  // .bg-pattern-img {
+  //   background-image: url(@/assets/images/Shape.png);
+  //   background-color: #06d599;
+  //   color: #162120;
+  //   height: 100vh;
+  // }
 
   .lastfakediv {
     margin: unset !important;
