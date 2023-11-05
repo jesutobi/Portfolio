@@ -213,9 +213,11 @@ export default {
   background-image: url(@/assets/images/Shape.png);
   background-color: #06d599;
   color: #162120;
-  height: 100vh;
+  height: 650px !important;
   animation: slide 7s infinite linear; /* Adjust the duration as needed */
   padding: 3.5rem 0rem !important;
+  // width: 100% !important;
+  // overflow-y: hidden !important;
 }
 
 @media (max-width: 576px) {
@@ -343,7 +345,7 @@ div.c {
     background-image: url(@/assets/images/Shape.png);
     background-color: #06d599;
     color: #162120;
-    height: 95vh;
+    height: 650px;
     animation: slide 17s infinite linear !important; /* Adjust the duration as needed */
   }
 }
@@ -352,7 +354,7 @@ div.c {
     background-image: url(@/assets/images/Shape.png);
     background-color: #06d599;
     color: #162120;
-    height: 80vh;
+    height: 650px;
     animation: slide 17s infinite linear !important; /* Adjust the duration as needed */
   }
   .mob-social-media-category-position {
