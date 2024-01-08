@@ -90,7 +90,7 @@
                       </div>
                     </div>
                     <!-- image of project -->
-                    <a target="_blank" href="https://buildingsandmore.ng/">
+                    <a target="_blank" href="https://buildingsandmoreng.com/">
                       <div
                         style="width: 280px; height: 200px"
                         class="bgwhite border rounded"
