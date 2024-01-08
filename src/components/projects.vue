@@ -7,7 +7,7 @@
         <div class="row pt-2 overflow-hidden">
           <div
             v-motion-slide-visible-left
-            class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content"
+            class="col-md-3.5 col-lg-4 col-xl-3 z-content"
           >
             <!-- header -->
             <!-- fake div and h1 tag -->
@@ -27,7 +27,7 @@
           </div>
           <div
             v-motion-slide-visible-left
-            class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content"
+            class="col-md-3.5 col-lg-4 col-xl-3 z-content"
           >
             <div class="d-flex justify-content-center">
               <a
@@ -114,7 +114,7 @@
           </div>
           <div
             v-motion-slide-visible-top
-            class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content"
+            class="col-md-3.5 col-lg-4 col-xl-3 z-content"
           >
             <!-- house finder -->
             <div class="d-flex justify-content-center">
@@ -201,7 +201,7 @@
           </div>
           <div
             v-motion-slide-visible-right
-            class="col-sm-6 col-md-3.5 col-lg-4 col-xl-3 z-content"
+            class="col-md-3.5 col-lg-4 col-xl-3 z-content"
           >
             <div class="d-flex justify-content-center">
               <a
