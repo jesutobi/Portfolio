@@ -1,7 +1,7 @@
 [
   {
     "job": "Buildings and More - Frontend Engineer",
-    "jobDesc": "Worked in a team and handled the front-end of web app . Rebuilt the frontend from the initial monolithic state using  Nuxt js , Bootstrap , VueBootstrap, css ",
+    "jobDesc": "",
     "list1": "- I developed and implemented over 100 user interfaces using HTML, CSS, Bootstrap and Nuxt Js by translating prototypes",
     "list2": "- Implemented  dynamic meta tags strategy, optimizing SEO performance and  ensuring each page had relevant and accurate meta information, leading to increase in organic search traffic.",
     "list3": "- I identified and resolved a critical bug in the Axios interceptor responsible for appending authentication tokens to outgoing API requests.",
@@ -28,23 +28,14 @@
     "list3": "- implemented lazy loading for images and assets, resulting in a significant reduction in initial page load times and improving overall site performance.",
     "list4": "- Worked closely with the design team to translate visual mockups into interactive web applications.",
 
-    "jobdate": "September 2021 - January 2022"
+    "jobdate": "January 2022 - June 2022"
   },
-  {
-    "job": "Taxi Cabby, Abuja, Nigeria  — Frontend Engineer",
-    "jobDesc": "",
-    "list1": "- Worked with the design team to ensure that the Front-end implementation aligned with the UI design and design intent.",
-    "list2": "- I implemented the integration and utilization of endpoints to obtain and present data within the user interface, and I also Implemented Vuex for state management, ensuring consistent and efficient handling of application data across various components.",
-    "list3": "- Designed and implemented responsive web page layouts across various digital devices and screen sizes.",
-    "list4": "- I utilized various Vue.js style libraries, such as Vuetify, to accomplish specific styling tasks and enhance the overall visual appeal of the user interface.",
 
-    "jobdate": "January 2021 - August 2021"
-  },
   {
     "job": "Raadaa Partners intl. limited. - Frontend Engineer",
     "jobDesc": "",
     "list1": "- Provided instruction in front-end web development, including HTML, CSS, and JavaScript, and created supplementary instructional materials in the form of video tutorials to assist in the pupils' understanding.",
     "list2": "- led training on the use of Visual Studio Code as a development tool.",
-    "jobdate": "September  2020 -December  2021"
+    "jobdate": "September 2020 -December  2021"
   }
 ]

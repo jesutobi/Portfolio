@@ -130,7 +130,7 @@
                         <span class="fs-450 fw-bold">House Finder</span>
                         <br />
                         <span class="fs-150">
-                          Real Estate platform to buy,sell and rent buildings
+                          Real estate platform to buy,sell and rent buildings
                         </span>
                       </div>
                       <!-- open icon -->
