@@ -69,7 +69,7 @@
                       >
                         <div>
                           <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                            >HTML</span
+                            >Nuxt.Js</span
                           >
                         </div>
                         <div>
@@ -79,7 +79,7 @@
                         </div>
                         <div>
                           <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                            >Nuxt Js</span
+                            >Axios</span
                           >
                         </div>
                         <div>
@@ -177,7 +177,7 @@
                       </div>
                     </div>
                     <!-- image of project -->
-                    <a target="_blank" href="https://buildingsandmore.ng/">
+                    <a target="_blank" href="https://housefinder.com.ng/">
                       <div
                         style="width: 280px; height: 200px"
                         class="bgwhite border projectanima rounded"
@@ -205,7 +205,7 @@
           >
             <div class="d-flex justify-content-center">
               <a
-                href="https://bitsintravelsandtours.com/"
+                href="https://app.quickcollects.com/"
                 class="text-decoration-none text-reset"
               >
                 <div class="my-2">
@@ -213,13 +213,9 @@
                   <div class="bord-button2" @click="removeFirstCard">
                     <div class="d-flex justify-content-between mt-2">
                       <div class="">
-                        <span class="fs-450 fw-bold"
-                          >Bitsin Travels and Tours</span
-                        >
+                        <span class="fs-450 fw-bold">Quick collect</span>
                         <br />
-                        <span class="fs-150"
-                          >Hotel and Flight Bookings engine</span
-                        >
+                        <span class="fs-150">Financial Technology</span>
                         <!-- <span class="fs-150"> Software</span> -->
                       </div>
                       <!-- open icon -->
@@ -240,7 +236,7 @@
                       >
                         <div>
                           <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                            >HTML</span
+                            >Vue.js</span
                           >
                         </div>
                         <div>
@@ -250,21 +246,18 @@
                         </div>
                         <div>
                           <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                            >Nuxt Js</span
+                            >Tailwind css</span
                           >
                         </div>
                         <div>
                           <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                            >Bootstrap</span
+                            >Axios</span
                           >
                         </div>
                       </div>
                     </div>
                     <!-- image of project -->
-                    <a
-                      target="_blank"
-                      href="https://bitsintravelsandtours.com/"
-                    >
+                    <a target="_blank" href="https://app.quickcollects.com/">
                       <div
                         style="width: 280px; height: 200px"
                         class="bgwhite projectanima border rounded position-relative"
@@ -274,7 +267,7 @@
                           class="d-flex justify-content-center py-3 align-items-center"
                         >
                           <img
-                            src="@/assets/images/bitsin.png"
+                            src="@/assets/images/quick.png"
                             alt=""
                             class="w-100"
                           />

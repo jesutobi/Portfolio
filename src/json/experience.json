@@ -7,10 +7,21 @@
     "list3": "- I identified and resolved a critical bug in the Axios interceptor responsible for appending authentication tokens to outgoing API requests.",
     "list4": "- Integrated API calls with Axios to efficiently retrieve and display dynamic content on the user interface, optimizing data fetching and ensuring real-time updates for users.",
 
-    "jobdate": "Februray 2022 - Present"
+    "jobdate": "Februray 2022 - December 2023"
   },
   {
-    "job": "Bitsin - Frontend Engineer",
+    "job": "Quick Collect Canada(contract) - Frontend Engineer",
+    "jobDesc": "This is a  hotel, and flight booking engine, that was built with Nuxt js , Bootstrap , VueBootstrap, css. ",
+    "list1": "- Implemented and enhanced a secure OTP (One-Time Password) authentication system, ensuring robust user verification.",
+    "list2": "- Developed a feature to automatically resend OTPs when the countdown timer expires, enhancing user experience and reducing potential login issues.",
+    "list3": "- Implemented and managed environment configurations using .env files to streamline application deployment and ensure consistent behavior across various environments.",
+    "list4": "- Worked in a team to implement complex user interfaces, ensuring alignment with project requirements and UX/UI guidelines.",
+    "list5": "- Utilized mixins to efficiently share and reuse common functionalities across multiple Vue components, promoting code reusability and maintainability.",
+
+    "jobdate": "June 2023 - August 2023"
+  },
+  {
+    "job": "Bitsin Travels and Tour - Frontend Engineer",
     "jobDesc": "This is a  hotel, and flight booking engine, that was built with Nuxt js , Bootstrap , VueBootstrap, css. ",
     "list1": "- Successfully resolved a critical authentication bug that was causing user login failures, improving the overall user experience and boosting user trust and satisfaction..",
     "list2": "- Implemented Vuex for state management, ensuring consistent and efficient handling of application data across various components.",
@@ -32,7 +43,7 @@
   },
 
   {
-    "job": "Raadaa Partners intl. limited. - Frontend Engineer",
+    "job": "Raadaa Partners intl. limited. - Frontend Engineer/Tech instructor",
     "jobDesc": "",
     "list1": "- Provided instruction in front-end web development, including HTML, CSS, and JavaScript, and created supplementary instructional materials in the form of video tutorials to assist in the pupils' understanding.",
     "list2": "- led training on the use of Visual Studio Code as a development tool.",

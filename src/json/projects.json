@@ -5,8 +5,17 @@
     "url": "https://buildingsandmoreng.com/",
     "propurl": "buildingsandmore.ng",
     "modal": "portfolioBaml.png",
-    "devTech": "Nuxt-js, HTML, CSS, Javascript, Vuex",
+    "devTech": "Nuxt.js, HTML, CSS, Javascript, Vuex",
     "CSSlibrary": "Bootstrap , Vue Bootstrap"
+  },
+  {
+    "image": "quick.png",
+    "title": "Quick Collect Canada",
+    "url": "https://app.quickcollects.com/",
+    "propurl": "app.quickcollects.com",
+    "modal": "quick.png",
+    "devTech": "Vue.js, HTML, CSS, Javascript, Vuex",
+    "CSSlibrary": "Tailwind css"
   },
   {
     "image": "bitsin.png",
@@ -14,7 +23,7 @@
     "url": "https://bitsintravelsandtours.com/",
     "propurl": "bitsintravelsandtours.com",
     "modal": "bitsin.png",
-    "devTech": "Nuxt-js, HTML, CSS, Javascript, Vuex",
+    "devTech": "Nuxt.js, Vue.js, HTML, CSS, Javascript, Vuex",
     "CSSlibrary": "Bootstrap , Vue Bootstrap"
   },
   {
@@ -23,7 +32,7 @@
     "url": "https://housefinder.com.ng/",
     "propurl": "housefinder.com.ng",
     "modal": "housefinder.png",
-    "devTech": "Nuxt-js , Vue-js, HTML, CSS, Javascript, Vuex",
+    "devTech": "Nuxt.js , Vue.js, HTML, CSS, Javascript, Vuex",
     "CSSlibrary": "Bootstrap , Vue Bootstrap"
   },
   {
@@ -32,16 +41,16 @@
     "url": "https://raadaa.com/",
     "propurl": "raadaa.com",
     "modal": "raadaa.png",
-    "devTech": "Vue js"
+    "devTech": "Vue.js Javascript"
   },
 
   {
     "image": "Jesutobi.png",
     "title": "Jesutobi J.J",
-    "url": "https://jesutobi-joseph.onrender.com/",
+    "url": "https://jesutobi-joseph.netlify.app/",
     "propurl": "jesutobi-joseph.or.com",
     "modal": "Jesutobi.png",
-    "devTech": "Vue-js, HTML, CSS, Javascript",
+    "devTech": "Vue.js, HTML, CSS, Javascript",
     "CSSlibrary": "Bootstrap , Vue Bootstrap"
   },
   {
@@ -59,15 +68,6 @@
     "url": "https://jesutobi-getlinked.netlify.app",
     "propurl": "GET-linked",
     "modal": "getlinked.png",
-    "devTech": "Vue, Vuex,Vueuse/motion , CSS, Axios , ",
-    "CSSlibrary": " tailwind css"
-  },
-  {
-    "image": "dog.png",
-    "title": "Dog filter app",
-    "url": "https://dogapp-tobi.netlify.app",
-    "propurl": "Dog-filter App",
-    "modal": "Dog-filter.png",
     "devTech": "Vue, Vuex,Vueuse/motion , CSS, Axios , ",
     "CSSlibrary": " tailwind css"
   }
