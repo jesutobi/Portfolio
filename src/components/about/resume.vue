@@ -64,25 +64,25 @@
           <h1 class="text-start fs-750 resumeNameMobile">Jesutobi</h1>
         </div>
         <div class="project-text col-lg-7 col-md-6 col-xl-7 col-xxl-7">
-          <p class="fs-300 mobile-text-intro">
+          <p class="fs-250 mobile-text-intro">
             Over the course of my career, I have developed and designed multiple
             software products that have helped to address problems in various
             industries such as education, transportation, real estate, and
             e-commerce.
           </p>
-          <p class="fs-300 mobile-text-intro">
+          <p class="fs-250 mobile-text-intro">
             I have experience in revamping web applications, specifically
             focusing on rebuilding the front-end to be scalable and optimized
             for search engines using Nuxt js, as well as implementing features
             such as lazy loading images to improve site speed.
           </p>
-          <p class="fs-300 mobile-text-intro">
+          <p class="fs-250 mobile-text-intro">
             Additionally, I have built a hotel and flight booking engine called
             Bitsin, which also handles visa applications. I was responsible for
             the front-end development, utilizing API's and utilizing tools such
             as Figma and Adobe to achieve the desired outcome.
           </p>
-          <p class="fs-300 mobile-text-intro">
+          <p class="fs-250 mobile-text-intro">
             I possess a wide range of tools and skills that make me proficient
             in handling design and engineering projects, allowing me to meet
             targets and deadlines while achieving desired results.
@@ -124,6 +124,7 @@
             </ul>
           </div>
         </div>
+        {{ experience.list }}
         <div class="col-lg-8 col-md-8 col-xl-9 col-xxl-9 mobile-padding">
           <div class="mobile-text-style">
             <!-- head -->
@@ -135,15 +136,17 @@
           <div
             class="mt-4 rounded-4 w-100 p-3"
             style="background-color: rgba(177, 177, 177, 0.172)"
-            v-for="jobb in experience"
-            :key="jobb"
+            v-for="(jobb, index) in experience"
+            :key="index"
           >
             <!-- head -->
             <div
-              class="d-flex justify-content-between change-display mobile-text-style"
+              class="d-flex justify-content-between py-2 change-display mobile-text-style"
             >
               <div>
-                <h5 class="fw-bold green3 job-donetext-style mobile-text-style">
+                <h5
+                  class="fw-bold green3 fs-300 job-donetext-style mobile-text-style"
+                >
                   {{ jobb.job }}
                 </h5>
               </div>
@@ -154,16 +157,18 @@
               </div>
             </div>
 
-            <p class="w-100 mob-description-width mobile-text-intro">
+            <p class="w-100 fs-200 mob-description-width mobile-text-intro">
               {{ jobb.jobDesc }}
             </p>
             <div>
-              <ul class="mobile-text-intro">
-                <li class="py-1">{{ jobb.list1 }}</li>
-                <li class="py-1">{{ jobb.list2 }}</li>
-                <li class="py-1">{{ jobb.list3 }}</li>
-                <li class="py-1">{{ jobb.list4 }}</li>
-                <li class="py-1">{{ jobb.list5 }}</li>
+              <ul class="mobile-text-intro fs-200">
+                <li
+                  v-for="(description, index) in jobb.list"
+                  :key="index"
+                  class="py-1"
+                >
+                  {{ description }}
+                </li>
               </ul>
             </div>
           </div>
@@ -264,7 +269,7 @@ export default {
   }
   /* job text style */
   .job-donetext-style {
-    font-size: 0.8rem !important;
+    font-size: 0.9rem !important;
   }
   .change-display {
     display: block !important;

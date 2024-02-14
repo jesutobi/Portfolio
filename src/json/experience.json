@@ -2,31 +2,37 @@
   {
     "job": "Buildings and More - Frontend Engineer",
     "jobDesc": "",
-    "list1": "- I developed and implemented over 100 user interfaces using HTML, CSS, Bootstrap and Nuxt Js by translating prototypes",
-    "list2": "- Implemented  dynamic meta tags strategy, optimizing SEO performance and  ensuring each page had relevant and accurate meta information, leading to increase in organic search traffic.",
-    "list3": "- I identified and resolved a critical bug in the Axios interceptor responsible for appending authentication tokens to outgoing API requests.",
-    "list4": "- Integrated API calls with Axios to efficiently retrieve and display dynamic content on the user interface, optimizing data fetching and ensuring real-time updates for users.",
+    "list": [
+      "- I developed and implemented over 100 user interfaces using HTML, CSS, Bootstrap and Nuxt Js by translating prototypes",
+      "- Implemented  dynamic meta tags strategy, optimizing SEO performance and  ensuring each page had relevant and accurate meta information, leading to increase in organic search traffic.",
+      "- I identified and resolved a critical bug in the Axios interceptor responsible for appending authentication tokens to outgoing API requests.",
+      "- Integrated API calls with Axios to efficiently retrieve and display dynamic content on the user interface, optimizing data fetching and ensuring real-time updates for users."
+    ],
 
     "jobdate": "Februray 2022 - December 2023"
   },
   {
     "job": "Quick Collect Canada(contract) - Frontend Engineer",
-    "jobDesc": "This is a  hotel, and flight booking engine, that was built with Nuxt js , Bootstrap , VueBootstrap, css. ",
-    "list1": "- Implemented and enhanced a secure OTP (One-Time Password) authentication system, ensuring robust user verification.",
-    "list2": "- Developed a feature to automatically resend OTPs when the countdown timer expires, enhancing user experience and reducing potential login issues.",
-    "list3": "- Implemented and managed environment configurations using .env files to streamline application deployment and ensure consistent behavior across various environments.",
-    "list4": "- Worked in a team to implement complex user interfaces, ensuring alignment with project requirements and UX/UI guidelines.",
-    "list5": "- Utilized mixins to efficiently share and reuse common functionalities across multiple Vue components, promoting code reusability and maintainability.",
+    "jobDesc": "This is a fintech Web application that helps its users in various parts of africa to make seamless paymnet transaction to Canada  ",
+    "list": [
+      "- Implemented and enhanced a secure OTP (One-Time Password) authentication system, ensuring robust user verification.",
+      "- Developed a feature to automatically resend OTPs when the countdown timer expires, enhancing user experience and reducing potential login issues.",
+      "- Implemented and managed environment configurations using .env files to streamline application deployment and ensure consistent behavior across various environments.",
+      "- Worked in a team to implement complex user interfaces, ensuring alignment with project requirements and UX/UI guidelines.",
+      "- Utilized mixins to efficiently share and reuse common functionalities across multiple Vue components, promoting code reusability and maintainability."
+    ],
 
     "jobdate": "June 2023 - August 2023"
   },
   {
     "job": "Bitsin Travels and Tour - Frontend Engineer",
     "jobDesc": "This is a  hotel, and flight booking engine, that was built with Nuxt js , Bootstrap , VueBootstrap, css. ",
-    "list1": "- Successfully resolved a critical authentication bug that was causing user login failures, improving the overall user experience and boosting user trust and satisfaction..",
-    "list2": "- Implemented Vuex for state management, ensuring consistent and efficient handling of application data across various components.",
-    "list3": "- I worked closely with the backend developers to consume API endpoints using Axios, ensuring seamless communication within the team..",
-    "list4": "- I utilized bootstrap's grid system and pre-built components, which  led to a significant reduction in development time and ensured a consistently responsive design across various devices and screen sizes .",
+    "list": [
+      "- Successfully resolved a critical authentication bug that was causing user login failures, improving the overall user experience and boosting user trust and satisfaction..",
+      "- Implemented Vuex for state management, ensuring consistent and efficient handling of application data across various components.",
+      "- I worked closely with the backend developers to consume API endpoints using Axios, ensuring seamless communication within the team..",
+      "- I utilized bootstrap's grid system and pre-built components, which  led to a significant reduction in development time and ensured a consistently responsive design across various devices and screen sizes ."
+    ],
 
     "jobdate": "October 2022 - November 2022"
   },
@@ -34,10 +40,12 @@
   {
     "job": "House-finder - Frontend Engineer ",
     "jobDesc": "",
-    "list1": "- I implemented a robust state management system utilizing Vuex that handled the application state efficiently and also improved the maintainability and scalability of the code",
-    "list2": "- Utilized Vue Router to enable seamless navigation and dynamic page loading.",
-    "list3": "- implemented lazy loading for images and assets, resulting in a significant reduction in initial page load times and improving overall site performance.",
-    "list4": "- Worked closely with the design team to translate visual mockups into interactive web applications.",
+    "list": [
+      "- I implemented a robust state management system utilizing Vuex that handled the application state efficiently and also improved the maintainability and scalability of the code",
+      "- Utilized Vue Router to enable seamless navigation and dynamic page loading.",
+      "- implemented lazy loading for images and assets, resulting in a significant reduction in initial page load times and improving overall site performance.",
+      "- Worked closely with the design team to translate visual mockups into interactive web applications."
+    ],
 
     "jobdate": "January 2022 - June 2022"
   },
@@ -45,8 +53,10 @@
   {
     "job": "Raadaa Partners intl. limited. - Frontend Engineer/Tech instructor",
     "jobDesc": "",
-    "list1": "- Provided instruction in front-end web development, including HTML, CSS, and JavaScript, and created supplementary instructional materials in the form of video tutorials to assist in the pupils' understanding.",
-    "list2": "- led training on the use of Visual Studio Code as a development tool.",
+    "list": [
+      "- Provided instruction in front-end web development, including HTML, CSS, and JavaScript, and created supplementary instructional materials in the form of video tutorials to assist in the pupils' understanding.",
+      "- led training on the use of Visual Studio Code as a development tool."
+    ],
     "jobdate": "September 2020 -December  2021"
   }
 ]
