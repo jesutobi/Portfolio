@@ -9,6 +9,15 @@
     "CSSlibrary": "Bootstrap , Vue Bootstrap"
   },
   {
+    "image": "oja.png",
+    "title": "Buildings and More Ng. ltd",
+    "url": "https://ojastore.com.ng",
+    "propurl": "ojastore.com.ng",
+    "modal": "oja.png",
+    "devTech": "Laravel, vue.js, Pinia",
+    "CSSlibrary": "Tailwind CSS"
+  },
+  {
     "image": "quick.png",
     "title": "Quick Collect Canada",
     "url": "https://app.quickcollects.com/",
@@ -17,15 +26,7 @@
     "devTech": "Vue.js, HTML, CSS, Javascript, Vuex",
     "CSSlibrary": "Tailwind css"
   },
-  {
-    "image": "bitsin.png",
-    "title": "Bitsin Travels and Tours",
-    "url": "https://bitsintravelsandtours.com/",
-    "propurl": "bitsintravelsandtours.com",
-    "modal": "bitsin.png",
-    "devTech": "Nuxt.js, Vue.js, HTML, CSS, Javascript, Vuex",
-    "CSSlibrary": "Bootstrap , Vue Bootstrap"
-  },
+
   {
     "image": "housefinder.png",
     "title": "House-finder",
@@ -42,25 +43,6 @@
     "propurl": "raadaa.com",
     "modal": "raadaa.png",
     "devTech": "Vue.js Javascript"
-  },
-
-  {
-    "image": "Jesutobi.png",
-    "title": "Jesutobi J.J",
-    "url": "https://jesutobi-joseph.netlify.app/",
-    "propurl": "jesutobi-joseph.or.com",
-    "modal": "Jesutobi.png",
-    "devTech": "Vue.js, HTML, CSS, Javascript",
-    "CSSlibrary": "Bootstrap , Vue Bootstrap"
-  },
-  {
-    "image": "todo.png",
-    "title": "To-do app",
-    "url": "https://tuduapp.000webhostapp.com/todo/",
-    "propurl": "Todo",
-    "modal": "todo.png",
-    "devTech": "PHP,Javascript, HTML, CSS, SQL",
-    "CSSlibrary": " tailwind css"
   },
   {
     "image": "getlinked.png",

@@ -4,7 +4,7 @@
     <a
       class="text-reset"
       target="_blank"
-      href="https://docs.google.com/document/d/1KET1BVHJihs5EdxMPG9DLenHrvGPHg2QlhvvMQRxLhM/edit?usp=sharing"
+      href="https://docs.google.com/document/d/1TSNL4LHX_3UaojdOUYQuVPzbSqPN-nBku9dA69YFlMQ/edit?usp=sharing"
     >
       <div
         role="button"
@@ -53,44 +53,6 @@
     >
     <!-- <br /> -->
     <div class="container mobile-container-padding p-5 w-100">
-      <div class="row justify-content-center">
-        <div
-          class="col-lg-5 col-md-6 col-xl-5 col-12 resumeNameMobile desk-herospace col-xxl-5"
-        >
-          <h1 class="text-end fs-750 resumeNameMobile">Jesutobi</h1>
-
-          <h1 class="text-center fs-750 resumeNameMobile">Joseph</h1>
-
-          <h1 class="text-start fs-750 resumeNameMobile">Jesutobi</h1>
-        </div>
-        <div class="project-text col-lg-7 col-md-6 col-xl-7 col-xxl-7">
-          <p class="fs-250 mobile-text-intro">
-            Over the course of my career, I have developed and designed multiple
-            software products that have helped to address problems in various
-            industries such as education, transportation, real estate, and
-            e-commerce.
-          </p>
-          <p class="fs-250 mobile-text-intro">
-            I have experience in revamping web applications, specifically
-            focusing on rebuilding the front-end to be scalable and optimized
-            for search engines using Nuxt js, as well as implementing features
-            such as lazy loading images to improve site speed.
-          </p>
-          <p class="fs-250 mobile-text-intro">
-            Additionally, I have built a hotel and flight booking engine called
-            Bitsin, which also handles visa applications. I was responsible for
-            the front-end development, utilizing API's and utilizing tools such
-            as Figma and Adobe to achieve the desired outcome.
-          </p>
-          <p class="fs-250 mobile-text-intro">
-            I possess a wide range of tools and skills that make me proficient
-            in handling design and engineering projects, allowing me to meet
-            targets and deadlines while achieving desired results.
-          </p>
-        </div>
-
-        <hr class="mt-5" />
-      </div>
       <div class="row py-1">
         <!-- small about -->
         <div class="col-lg-4 col-md-4 col-xl-3 col-xxl-3">
@@ -101,7 +63,7 @@
                 class="text-reset text-decoration-none mobile-text-intro"
                 target="_blank"
                 href="https://jesutobi-joseph.onrender.com/"
-                >jesutobi-joseph.onrender.com</a
+                >jesutobi-joseph.netlify.app</a
               >
             </h6>
             <!-- <h6 class="py-1">FCT, Abuja ,Nigeria</h6> -->

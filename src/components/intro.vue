@@ -43,15 +43,15 @@
                   alt=""
                 />
                 Hello there , <br />
-                i am a Front-end developer,
+                i am a Full Stack developer,
                 <!-- <img
                   src="../../src/assets/icon/minus-horizontal-straight-line.png"
                   alt=""
                 /> -->
                 <br />
-
-                skilled in utilizing the latest technologies and tools to build
-                responsive and visually appealing websites.
+                I have honed my skills in both front-end and back-end
+                development, specializing in creating robust and scalable web
+                applications.
                 <span class="not-on-mobile"
                   >I am passionate about staying up to date on industry trends
                   and best practices to ensure that my work is of the highest
@@ -116,7 +116,7 @@ export default {
       icons: skillIcon,
       typeValue: "",
       typeStatus: false,
-      typeArray: ["SOFTWARE DEVELOPER", "FRONT-END DEVELOPER"],
+      typeArray: ["SOFTWARE DEVELOPER", "FULLSTACK DEVELOPER"],
       typingSpeed: 80,
       erasingSpeed: 100,
       newTextDelay: 2000,

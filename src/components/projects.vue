@@ -127,11 +127,9 @@
                   <div class="bord-button2" @click="removeFirstCard">
                     <div class="d-flex justify-content-between mt-2">
                       <div class="">
-                        <span class="fs-450 fw-bold">House Finder</span>
+                        <span class="fs-450 fw-bold">Oja</span>
                         <br />
-                        <span class="fs-150">
-                          Real estate platform to buy,sell and rent buildings
-                        </span>
+                        <span class="fs-150"> Ecommerce platform </span>
                       </div>
                       <!-- open icon -->
                       <div class="">
@@ -151,12 +149,7 @@
                       >
                         <div>
                           <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                            >HTML</span
-                          >
-                        </div>
-                        <div>
-                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                            >CSS</span
+                            >Laravel</span
                           >
                         </div>
                         <div>
@@ -164,20 +157,16 @@
                             >Vue Js</span
                           >
                         </div>
+
                         <div>
                           <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                            >Nuxt Js</span
-                          >
-                        </div>
-                        <div>
-                          <span class="rounded-pill bggreen fs-150 p-1 mx-1"
-                            >Boostrap</span
+                            >Tailwind css</span
                           >
                         </div>
                       </div>
                     </div>
                     <!-- image of project -->
-                    <a target="_blank" href="https://housefinder.com.ng/">
+                    <a target="_blank" href="https://ojastore.com.ng/">
                       <div
                         style="width: 280px; height: 200px"
                         class="bgwhite border projectanima rounded"
@@ -187,7 +176,7 @@
                           class="d-flex justify-content-center logo-marg align-items-center py-3"
                         >
                           <img
-                            src="@/assets/images/housefinder.png"
+                            src="@/assets/images/oja.png"
                             alt=""
                             class="w-100"
                           />

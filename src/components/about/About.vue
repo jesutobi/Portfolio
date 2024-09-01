@@ -44,30 +44,19 @@
                   <p class="fs-300 mobile-text-intro">
                     Hi, my name is
                     <span class="green px-1 fw-bold"> Jesutobi J.J</span> ,over
-                    the course of my career, I have developed and designed the
-                    <span class="green px-1 fw-bold">front-end</span>
+                    the course of my career, I have developed and designed
                     multiple web applications that have helped to address
                     problems in various industries such as education,
                     transportation, real estate, and e-commerce.
                   </p>
                   <p class="fs-300 mobile-text-intro">
-                    I have a strong understanding of
-                    <span class="green px-1 fw-bold"
-                      >web performance optimization techniques,</span
-                    >
-                    such as minifying code and using the right sizes of 'image
-                    assets' to ensure fast loading times for users
-                  </p>
-                  <p class="fs-300 mobile-text-intro">
-                    Additionally I am skilled in
-                    <span class="green px-1 fw-bold">accessibility</span> best
-                    practices to ensure that my designs are inclusive for all
-                    users. I am always looking for ways to improve and
-                    <span class="green px-1 fw-bold"
-                      >optimize the user experience</span
-                    >, and I believe that a well-designed and optimized
-                    front-end is crucial for the success of any web
-                    application.".
+                    As a dedicated Full Stack Developer, I have honed my skills
+                    in both front-end and back-end development, specializing in
+                    creating robust and scalable web applications. My expertise
+                    lies in leveraging the Laravel and PHP ecosystems for
+                    server-side development, while utilizing modern JavaScript
+                    frameworks like Vue.js and Nuxt.js to build dynamic and
+                    responsive user interfaces.
                   </p>
                 </div>
                 <!-- skill i have used -->
@@ -76,9 +65,9 @@
                     I have experience using a variety of tools and technologies:
                     <br />
                     <span class=""
-                      >Technologies:
+                      >Languages:
                       <span class="green px-1 fw-bold"
-                        >HTML, CSS , Javascript , SASS</span
+                        >PHP , Javascript , MySQL</span
                       ></span
                     ><br />
                     <span
@@ -90,7 +79,7 @@
                     <span
                       >Framework/Libraries:
                       <span class="green px-1 fw-bold"
-                        >Vue Js, Nuxt Js</span
+                        >Vue Js, Nuxt Js , Laravel</span
                       ></span
                     >
                   </p>
