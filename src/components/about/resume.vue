@@ -71,13 +71,19 @@
           </div>
           <!-- proficient in -->
           <div class="mt-4 mobile-text-intro">
-            <span class="fw-bold green">skills :</span>
-            <ul class="" v-for="skillz in skill" :key="skillz" type="square">
-              <li>{{ skillz }}</li>
-            </ul>
+            <div class="">
+              <span class="fw-bold green text-decoration-underline"
+                >skills :</span
+              >
+            </div>
+            <div class="list_style">
+              <div class="p-2" v-for="(skillz, index) in skill" :key="index">
+                <span class=""> &#8226; {{ skillz }} </span>
+              </div>
+            </div>
           </div>
           <!-- certificate -->
-          <div>
+          <div class="mobile-text-intro">
             <span class="fw-bold green text-decoration-underline"
               >Certificates :</span
             >
@@ -190,6 +196,11 @@ export default {
   }
 }
 @media (max-width: 768px) {
+  .list_style {
+    display: flex !important;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+  }
   .mob-description-width {
     width: 100% !important;
   }
