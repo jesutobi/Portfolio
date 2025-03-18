@@ -1,12 +1,12 @@
 [
   {
     "image": "protraina.png",
-    "title": "Buildings and More Ng. ltd",
-    "url": "https://buildingsandmoreng.com/",
-    "propurl": "buildingsandmore.ng",
+    "title": "Protraina",
+    "url": "https://protraina.com/",
+    "propurl": "protraina.com",
     "modal": "protraina2.png",
-    "devTech": "Laravel, PHP , Digital Ocean ,MySql , Firebase ",
-    "CSSlibrary": "Bootstrap , Vue Bootstrap"
+    "devTech": "Laravel, PHP , Digital Ocean ,MySql , Firebase ,Sanctum",
+    "CSSlibrary": ""
   },
   {
     "image": "baml.png",
@@ -23,7 +23,7 @@
     "url": "https://ojastore.com.ng",
     "propurl": "ojastore.com.ng",
     "modal": "oja.png",
-    "devTech": "Laravel, vue.js, Pinia",
+    "devTech": "Laravel, vue.js, Pinia ,MySql , PHP , Sanctum",
     "CSSlibrary": "Tailwind CSS"
   },
   {
