@@ -1,5 +1,14 @@
 [
   {
+    "image": "protraina.png",
+    "title": "Buildings and More Ng. ltd",
+    "url": "https://buildingsandmoreng.com/",
+    "propurl": "buildingsandmore.ng",
+    "modal": "protraina2.png",
+    "devTech": "Laravel, PHP , Digital Ocean ,MySql , Firebase ",
+    "CSSlibrary": "Bootstrap , Vue Bootstrap"
+  },
+  {
     "image": "baml.png",
     "title": "Buildings and More Ng. ltd",
     "url": "https://buildingsandmoreng.com/",
