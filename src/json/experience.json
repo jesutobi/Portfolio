@@ -1,5 +1,24 @@
 [
   {
+    "job": "Protraina , USA ",
+    "jobDesc": "Backend Developer | Team Lead (Laravel, DigitalOcean, Firebase, FCM, MySQL, Laravel Scheduler e.t.c)",
+    "list": [
+      "- Led the backend development of a real-time booking system for trainers and trainees using Laravel.",
+      "- Designed and implemented role-based access control (RBAC) for secure authorization.",
+      "- Developed a referral and points system to incentivize user engagement and bookings.",
+      "- Implemented real-time chat functionality with Firebase cloud messaging for seamless trainer-trainee communication.",
+      "- Integrated Firebase authentication (Kreait) for secure user login and registration.",
+      "- Set up and managed a DigitalOcean droplet for server deployment, optimizing performance and security.",
+      "- Developed API endpoints for mobile (Flutter) , ensuring efficient data exchange.",
+      "- Implemented Firebase Cloud Messaging (FCM) for real-time push notifications.",
+      "- Created and optimized database schemas, caching strategies, and background jobs with Laravel Schedule",
+      "- Engineered a seamless payment infrastructure by integrating Stripe, enabling trainers to securely withdraw funds, link payment methods, and receive automated payouts, while leveraging webhooks to ensure real-time transaction updates.",
+      "- Designed and developed robust admin panel APIs, empowering administrators with full control over user management, booking workflows, financial transactions, and system configurations, ensuring operational efficiency and scalability."
+    ],
+
+    "jobdate": "March 2024 - Present"
+  },
+  {
     "job": "Buildings and More Nig.Ltd ",
     "jobDesc": "Frontend Engineer (Nuxt , Bootstrap ,Vuex ,css , Mixins)",
     "list": [
@@ -10,7 +29,7 @@
       "- Developed a document upload form that efficiently handles image uploads, enhancing user experience like vendors to upload products , professionals and handymen to upload portfolios ."
     ],
 
-    "jobdate": "Februray 2022 - Present"
+    "jobdate": "Feb 2022 - Feb 2024"
   },
   {
     "job": "Ojastore Nig.Ltd ",
@@ -20,10 +39,13 @@
       "- Designed and optimized database schemas, managed data migrations, and implemented caching strategies for improved performance .",
       "- Managed API interactions with Axios, ensuring efficient data retrieval and real-time updates on the user interface, and used slots for flexible component designs .",
       "- Developed RESTful APIs using Laravel, including authentication with Laravel Sanctum, and documented these APIs using Postman .",
-      "- Integrated third-party services and APIs, such as payment gateways like Paystack."
+      "- Integrated third-party services and APIs, such as payment gateways like Paystack.",
+      "- Developed an intuitive product search and filtering system, enabling users to easily find products based on categories, pricing, and availability",
+      "- Integrated a review and rating system, allowing customers to provide feedback on products and vendors",
+      "- Implemented role-based access control (RBAC) to manage permissions for customers, vendors, and admins."
     ],
 
-    "jobdate": "March 2024 – June 2024"
+    "jobdate": "March 2023 – June 2023"
   },
   {
     "job": "Quick Collect ,Canada ",
@@ -35,7 +57,7 @@
       "- Utilized Pinia for state management, composables for reusable logic, and a component-based architecture to ensure maintainable and scalable code."
     ],
 
-    "jobdate": "April 2023 – June 2023"
+    "jobdate": "April 2022 – June 2022"
   },
   {
     "job": "House Finder , Abuja , Nigeria",
